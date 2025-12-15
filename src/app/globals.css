@@ -1,26 +1,181 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --background: #ffffff;
+    --foreground: #171717;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%; /* 16px default */
+    scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-figtree), system-ui, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+
+/* ================================
+   Headings (EB Garamond)
+================================ */
+
+h1 {
+    font-family: var(--font-garamond), serif;
+    font-weight: 500; /* Medium */
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    font-family: var(--font-garamond), serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+}
+
+h3 {
+    font-family: var(--font-garamond), serif;
+    font-weight: 600; /* Semi-Bold */
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+}
+
+h4 {
+    font-family: var(--font-garamond), serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+}
+
+h5 {
+    font-family: var(--font-garamond), serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+}
+
+h6 {
+    font-family: var(--font-garamond), serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.005em;
+}
+
+/* ================================
+   Overlines (Figtree)
+================================ */
+
+.overline-1 {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.overline-2 {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+}
+
+.overline-3 {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/* ================================
+   Paragraphs (Figtree)
+================================ */
+
+.p-lg {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+}
+
+.p-md {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+}
+
+.p-sm {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+/* ================================
+   CTA Text (Figtree)
+================================ */
+
+.cta-primary {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+}
+
+.cta-secondary {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+}
+
+.cta-tertiary {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
 }
