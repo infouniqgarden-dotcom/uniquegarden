@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { EB_Garamond, Figtree } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 const figtree = Figtree({
     subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
             <body
                 className={`${garamond.variable} ${figtree.variable} antialiased`}
             >
+                <Navbar />
                 {children}
             </body>
         </html>

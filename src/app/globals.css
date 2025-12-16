@@ -1,36 +1,32 @@
 @import "tailwindcss";
 
 :root {
+    --brand-primary-color: #027833;
+    --brand-color-secondary: #27c669;
+    --highlight-bg: #cef17b;
+    --widget-bg: #ebf5ef;
+    --widget-secondary-bg: #f7f7f7;
+
+    --border-color: var(--brand-primary-color);
+
+    --primary-text-color: #141414;
     --background: #ffffff;
     --foreground: #171717;
 }
 
-@theme inline {
+/* @theme inline {
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --font-sans: var(--font-geist-sans);
     --font-mono: var(--font-geist-mono);
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root {
         --background: #0a0a0a;
         --foreground: #ededed;
     }
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 100%; /* 16px default */
-    scroll-behavior: smooth;
-}
+} */
 
 body {
     font-family: var(--font-figtree), system-ui, sans-serif;
@@ -45,16 +41,23 @@ body {
    Headings (EB Garamond)
 ================================ */
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-garamond), serif;
-    font-weight: 500; /* Medium */
+}
+
+h1 {
+    font-weight: 500;
     font-size: 72px;
     line-height: 76px;
     letter-spacing: -0.02em;
 }
 
 h2 {
-    font-family: var(--font-garamond), serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 60px;
@@ -62,15 +65,13 @@ h2 {
 }
 
 h3 {
-    font-family: var(--font-garamond), serif;
-    font-weight: 600; /* Semi-Bold */
+    font-weight: 600;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: -0.015em;
 }
 
 h4 {
-    font-family: var(--font-garamond), serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 40px;
@@ -78,7 +79,6 @@ h4 {
 }
 
 h5 {
-    font-family: var(--font-garamond), serif;
     font-weight: 600;
     font-size: 28px;
     line-height: 36px;
@@ -86,7 +86,6 @@ h5 {
 }
 
 h6 {
-    font-family: var(--font-garamond), serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
@@ -128,15 +127,7 @@ h6 {
    Paragraphs (Figtree)
 ================================ */
 
-.p-lg {
-    font-family: var(--font-figtree), sans-serif;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 40px;
-    letter-spacing: -0.02em;
-}
-
-.p-md {
+p {
     font-family: var(--font-figtree), sans-serif;
     font-weight: 500;
     font-size: 24px;
@@ -144,19 +135,21 @@ h6 {
     letter-spacing: -0.02em;
 }
 
+.p-lg {
+    font-size: 28px;
+    line-height: 40px;
+}
+
 .p-sm {
-    font-family: var(--font-figtree), sans-serif;
-    font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    letter-spacing: -0.02em;
 }
 
 /* ================================
    CTA Text (Figtree)
 ================================ */
 
-.cta-primary {
+.btn {
     font-family: var(--font-figtree), sans-serif;
     font-weight: 600;
     font-size: 24px;
@@ -165,17 +158,53 @@ h6 {
 }
 
 .cta-secondary {
-    font-family: var(--font-figtree), sans-serif;
-    font-weight: 600;
     font-size: 22px;
-    line-height: 28px;
-    letter-spacing: -0.02em;
 }
 
 .cta-tertiary {
-    font-family: var(--font-figtree), sans-serif;
-    font-weight: 600;
     font-size: 20px;
-    line-height: 28px;
-    letter-spacing: -0.02em;
+}
+
+.content_wrapper {
+    width: 100%;
+}
+
+.widget-wrapper {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin: clamp(25px, 3.256vw, 50px) 0;
+    padding: 0 clamp(30px, 11.72vw, 180px);
+}
+
+section.bg {
+    background: var(--widget-bg);
+}
+
+/* overline → Heading */
+
+:is(.overline-1, .overline-2, .overline-3) + :is(h1, h2, h3, h4, h5, h6) {
+    margin-top: 16px;
+}
+
+* + :is(h1, h2, h3, h4, h5, h6) {
+    margin-top: 64px;
+}
+
+/* Heading → text blocks */
+:is(h1, h2, h3, h4, h5, h6) + :is(p, ul, ol, table) {
+    margin-top: 16px;
+}
+
+/* Text blocks → text blocks */
+:is(p, ul, ol, table) + :is(p, ul, ol, table) {
+    margin-top: 16px;
+}
+
+/* Anything → Button */
+* + .btn {
+    margin-top: 16px;
 }
