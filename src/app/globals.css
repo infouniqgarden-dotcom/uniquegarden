@@ -8,10 +8,17 @@
     --widget-secondary-bg: #f7f7f7;
 
     --border-color: var(--brand-primary-color);
+    --border-radius: 16px;
 
     --primary-text-color: #141414;
     --background: #ffffff;
     --foreground: #171717;
+
+    /* navbar */
+    --nav-bg: #141414cc;
+    --nav-link-color: rgba(255, 255, 255, 0.8);
+    --nav-link-active-color: #ffffff;
+    --nav-btn-bg: #fdfdfd;
 }
 
 /* @theme inline {
@@ -37,144 +44,6 @@ body {
     color: #141414;
 }
 
-/* ================================
-   Headings (EB Garamond)
-================================ */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--font-garamond), serif;
-}
-
-h1 {
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 76px;
-    letter-spacing: -0.02em;
-}
-
-h2 {
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: -0.03em;
-}
-
-h3 {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: -0.015em;
-}
-
-h4 {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -0.015em;
-}
-
-h5 {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 36px;
-    letter-spacing: -0.015em;
-}
-
-h6 {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: -0.005em;
-}
-
-/* ================================
-   Overlines (Figtree)
-================================ */
-
-.overline-1 {
-    font-family: var(--font-figtree), sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 32px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-}
-
-.overline-2 {
-    font-family: var(--font-figtree), sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-transform: uppercase;
-}
-
-.overline-3 {
-    font-family: var(--font-figtree), sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-}
-
-/* ================================
-   Paragraphs (Figtree)
-================================ */
-
-p {
-    font-family: var(--font-figtree), sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: -0.02em;
-}
-
-.p-lg {
-    font-size: 28px;
-    line-height: 40px;
-}
-
-.p-sm {
-    font-size: 18px;
-    line-height: 24px;
-}
-
-/* ================================
-   CTA Text (Figtree)
-================================ */
-
-.btn {
-    font-family: var(--font-figtree), sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: -0.02em;
-}
-
-.cta-secondary {
-    font-size: 22px;
-}
-
-.cta-tertiary {
-    font-size: 20px;
-}
-
-.content_wrapper {
-    width: 100%;
-}
-
-.widget-wrapper {
-    max-width: 1536px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 section {
     margin: clamp(25px, 3.256vw, 50px) 0;
     padding: 0 clamp(30px, 11.72vw, 180px);
@@ -184,27 +53,12 @@ section.bg {
     background: var(--widget-bg);
 }
 
-/* overline → Heading */
-
-:is(.overline-1, .overline-2, .overline-3) + :is(h1, h2, h3, h4, h5, h6) {
-    margin-top: 16px;
+.content_wrapper {
+    width: 100%;
 }
 
-* + :is(h1, h2, h3, h4, h5, h6) {
-    margin-top: 64px;
-}
-
-/* Heading → text blocks */
-:is(h1, h2, h3, h4, h5, h6) + :is(p, ul, ol, table) {
-    margin-top: 16px;
-}
-
-/* Text blocks → text blocks */
-:is(p, ul, ol, table) + :is(p, ul, ol, table) {
-    margin-top: 16px;
-}
-
-/* Anything → Button */
-* + .btn {
-    margin-top: 16px;
+.widget-wrapper {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }

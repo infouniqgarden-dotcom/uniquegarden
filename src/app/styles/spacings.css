@@ -1,0 +1,25 @@
+/* overline → Heading */
+.text-content-wrapper
+    :is(.overline-1, .overline-2, .overline-3)
+    + :is(h1, h2, h3, h4, h5, h6) {
+    margin-top: 16px;
+}
+
+.text-content-wrapper * + :is(h1, h2, h3, h4, h5, h6) {
+    margin-top: 64px;
+}
+
+/* Heading → text blocks */
+.text-content-wrapper :is(h1, h2, h3, h4, h5, h6) + :is(p, ul, ol, table) {
+    margin-top: 16px;
+}
+
+/* Text blocks → text blocks */
+.text-content-wrapper :is(p, ul, ol, table) + :is(p, ul, ol, table) {
+    margin-top: 16px;
+}
+
+/* Anything → Button */
+.text-content-wrapper * + .btn {
+    margin-top: 16px;
+}

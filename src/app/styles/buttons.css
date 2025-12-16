@@ -1,0 +1,19 @@
+/* ================================
+   CTA Text (Figtree)
+================================ */
+
+.btn {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+}
+
+.cta-secondary {
+    font-size: 22px;
+}
+
+.cta-tertiary {
+    font-size: 20px;
+}

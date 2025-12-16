@@ -1,0 +1,107 @@
+/* ================================
+   Headings (EB Garamond)
+================================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-garamond), serif;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.005em;
+}
+
+/* ================================
+   Overlines (Figtree)
+================================ */
+
+.overline-1 {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.overline-2 {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+}
+
+.overline-3 {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/* ================================
+   Paragraphs (Figtree)
+================================ */
+
+p {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+}
+
+.p-lg {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.p-sm {
+    font-size: 18px;
+    line-height: 24px;
+}

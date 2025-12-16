@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { EB_Garamond, Figtree } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
+import "./styles/typography.css";
+import "./styles/spacings.css";
+import "./styles/components.css";
+import "./styles/buttons.css";
+import Navbar from "./components/Navbar/Navbar";
 
 const figtree = Figtree({
     subsets: ["latin"],

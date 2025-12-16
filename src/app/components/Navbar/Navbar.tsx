@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import React from "react";
+import "./navbar.css";
 
 interface NavLink {
     name: string;
@@ -23,10 +24,7 @@ export default function Navbar() {
     ];
 
     return (
-        <nav
-            className="navbar max-w-[1560px] m-auto p-6.5
-        flex items-center justify-between bg-[#141414cc] rounded-[100px]"
-        >
+        <nav className="navbar ">
             <div className="brand-logo">
                 <Link href="/">
                     <Image
@@ -39,17 +37,17 @@ export default function Navbar() {
             </div>
 
             <div className="menu-items">
-                <ul className="flex gap-12 list-none algin-center">
+                <ul className="list">
                     {links.map((link) => (
                         <li key={link.href}>
                             <Link
                                 href={link.href}
-                                className={`color-white ${
+                                className={
                                     pathname === link.href ||
                                     pathname.startsWith(link.href + "/")
                                         ? "active"
                                         : ""
-                                }`}
+                                }
                             >
                                 {link.name}
                             </Link>
@@ -57,7 +55,7 @@ export default function Navbar() {
                     ))}
                 </ul>
             </div>
-            <Link href={"/contact-us"} className={".btn"}>
+            <Link href={"/contact-us"} className={"btn"}>
                 Contact Us
             </Link>
         </nav>
