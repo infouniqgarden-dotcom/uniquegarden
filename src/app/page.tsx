@@ -1,7 +1,11 @@
 export default function Home() {
     return (
         <main>
-            <div>Hello World</div>
+            <section className="widget-wrapper">
+                <div className="text-content-wrapper">
+                    <div>Hello World</div>
+                </div>
+            </section>
         </main>
     );
 }

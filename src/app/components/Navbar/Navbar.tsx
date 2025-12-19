@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import React from "react";
-import "./navbar.css";
+import "./navbar.scss";
 
 interface NavLink {
     name: string;

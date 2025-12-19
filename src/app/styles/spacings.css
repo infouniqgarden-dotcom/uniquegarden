@@ -1,3 +1,18 @@
+.content_wrapper {
+    width: 100%;
+}
+
+.widget-wrapper {
+    display: block;
+    max-width: 1920px;
+    margin: clamp(25px, calc((50 / var(--viewport)) * 100vw), 50px) auto !important;
+    padding: 0 clamp(30px, calc((180 / var(--viewport)) * 180vw), 180px);
+}
+
+.bg {
+    background: var(--widget-bg);
+}
+
 /* overline → Heading */
 .text-content-wrapper
     :is(.overline-1, .overline-2, .overline-3)

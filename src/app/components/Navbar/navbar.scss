@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    height: 88px;
+    /* height: 88px; */
     max-width: 1560px;
     width: 100vw;
     margin: 0 auto;
@@ -19,7 +19,7 @@
 .navbar .menu-items ul {
     display: flex;
     list-style-type: none;
-    gap: 48px;
+    gap: clamp(20px, calc((48 / var(--viewport)) * 100vw), 48px);
     justify-content: center;
     align-items: center;
 }
@@ -46,4 +46,10 @@
 .navbar .btn:is(:hover, :active, :focus) {
     background: var(--brand-primary-color);
     color: var(--nav-link-color);
+}
+
+@media (max-width: 1400px) {
+    .navbar {
+        padding: 10px;
+    }
 }
