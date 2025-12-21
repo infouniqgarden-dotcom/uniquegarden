@@ -15,11 +15,26 @@
             background-color: rgba(0, 0, 0, 0.67);
             z-index: 1;
         }
+
+        img {
+            height: clamp(720px, calc((960 / var(--viewport)) * 100vw), 960px);
+        }
     }
 
-    .text-content-wrapper {
+    .text-content {
         position: absolute;
         top: 0;
         z-index: 2;
+        padding: 17.814% 0 10.73%;
+        margin: 0;
+        max-width: 1200px;
+
+        .text-content-wrapper {
+            text-align: center;
+
+            > *:not(.btn, .highlight-text) {
+                color: #fff;
+            }
+        }
     }
 }
