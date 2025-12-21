@@ -1,0 +1,50 @@
+/* ================================
+   CTA Text (Figtree)
+================================ */
+
+.btn {
+    font-family: var(--font-figtree), sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    padding: 15px 40px;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    border-radius: var(--btn-border-radius);
+    border: 1px solid var(--btn-border-color);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:is(:hover, :focus, :active) {
+        background-color: var(--btn-hover-bg-color);
+        color: var(--btn-hover-text-color);
+        border-color: var(--btn-hover-border-color);
+    }
+}
+
+.cta-secondary {
+    font-size: 22px;
+}
+
+.cta-tertiary {
+    font-size: 20px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    .btn:nth-child(2) {
+        background-color: transparent;
+        color: var(--btn-bg-color);
+
+        &:is(:hover, :focus, :active) {
+            background-color: var(--btn-hover-bg-color);
+            color: var(--btn-hover-text-color);
+        }
+    }
+}

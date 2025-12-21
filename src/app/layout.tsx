@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { EB_Garamond, Figtree } from "next/font/google";
 import "./globals.css";
 import "./styles/typography.css";
-import "./styles/spacings.css";
-import "./styles/components.css";
-import "./styles/buttons.css";
+import "./styles/spacings.scss";
+import "./styles/components/components.scss";
+import "./styles/buttons.scss";
 import Navbar from "./components/Navbar/Navbar";
 
 const figtree = Figtree({
@@ -36,7 +36,7 @@ export default function RootLayout({
             <body
                 className={`${garamond.variable} ${figtree.variable} antialiased`}
             >
-                <Navbar />
+                {/* <Navbar /> */}
                 {children}
             </body>
         </html>

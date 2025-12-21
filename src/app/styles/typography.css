@@ -105,3 +105,23 @@ p {
     font-size: 18px;
     line-height: 24px;
 }
+
+.highlight-text {
+    position: relative;
+    background-color: var(--highlight-bg);
+    padding: 8px 24px 8px 56px;
+    border-radius: 50px;
+    display: inline-block;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        background: url("/homepage-icons/highlight-icon.svg") no-repeat center /
+            cover;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

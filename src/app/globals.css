@@ -11,6 +11,15 @@
     --border-color: var(--brand-primary-color);
     --border-radius: 16px;
 
+    /* button */
+    --btn-border-radius: 16px;
+    --btn-bg-color: var(--brand-primary-color);
+    --btn-border-color: var(--brand-primary-color);
+    --btn-text-color: #ffffff;
+    --btn-hover-bg-color: #025f27;
+    --btn-hover-border-color: var(--btn-hover-bg-color);
+    --btn-hover-text-color: #ffffff;
+
     --primary-text-color: #141414;
     --background: #ffffff;
     --foreground: #171717;
@@ -20,6 +29,12 @@
     --nav-link-color: rgba(255, 255, 255, 0.8);
     --nav-link-active-color: #ffffff;
     --nav-btn-bg: #fdfdfd;
+    --nav-btn-text-color: #141414;
+    --nav-btn-border-color: var(--nav-btn-bg);
+    --nav-btn-border-radius: 16px;
+    --nav-btn-hover-bg: var(--brand-primary-color);
+    --nav-btn-hover-text-color: #ffffff;
+    --nav-btn-hover-border-color: var(--nav-btn-hover-bg);
 }
 
 /* @theme inline {
@@ -43,4 +58,8 @@ body {
     line-height: 36px;
     letter-spacing: -0.02em;
     color: #141414;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
