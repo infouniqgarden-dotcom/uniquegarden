@@ -13,43 +13,43 @@ h6 {
 
 h1 {
     font-weight: 500;
-    font-size: 72px;
-    line-height: 76px;
+    font-size: clamp(40px, calc((72 / var(--viewport)) * 100vw), 72px);
+    line-height: clamp(44px, calc((76 / var(--viewport)) * 100vw), 76px);
     letter-spacing: -0.02em;
 }
 
 h2 {
     font-weight: 500;
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: -0.03em;
+    font-size: clamp(34px, calc((48 / var(--viewport)) * 100vw), 48px);
+    line-height: clamp(40px, calc((60 / var(--viewport)) * 100vw), 60px);
+    letter-spacing: -0.02em;
 }
 
 h3 {
     font-weight: 600;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: clamp(20px, calc((36 / var(--viewport)) * 100vw), 36px);
+    line-height: clamp(24px, calc((48 / var(--viewport)) * 100vw), 48px);
     letter-spacing: -0.015em;
 }
 
 h4 {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 40px;
+    font-weight: 600;
+    font-size: clamp(24px, calc((32 / var(--viewport)) * 100vw), 32px);
+    line-height: clamp(28px, calc((40 / var(--viewport)) * 100vw), 40px);
     letter-spacing: -0.015em;
 }
 
 h5 {
     font-weight: 600;
-    font-size: 28px;
-    line-height: 36px;
+    font-size: clamp(16px, calc((28 / var(--viewport)) * 100vw), 28px);
+    line-height: clamp(20px, calc((36 / var(--viewport)) * 100vw), 36px);
     letter-spacing: -0.015em;
 }
 
 h6 {
     font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: clamp(14px, calc((24 / var(--viewport)) * 100vw), 24px);
+    line-height: clamp(20px, calc((36 / var(--viewport)) * 100vw), 36px);
     letter-spacing: -0.005em;
 }
 
