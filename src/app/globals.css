@@ -9,10 +9,10 @@
     --widget-secondary-bg: #f7f7f7;
 
     --border-color: var(--brand-primary-color);
-    --border-radius: 16px;
+    --border-radius: clamp(8px, calc((16 / var(--viewport)) * 100vw), 16px);
 
     /* button */
-    --btn-border-radius: 16px;
+    --btn-border-radius: var(--border-radius);
     --btn-bg-color: var(--brand-primary-color);
     --btn-border-color: var(--brand-primary-color);
     --btn-text-color: #ffffff;
@@ -31,7 +31,7 @@
     --nav-btn-bg: #fdfdfd;
     --nav-btn-text-color: #141414;
     --nav-btn-border-color: var(--nav-btn-bg);
-    --nav-btn-border-radius: 16px;
+    --nav-btn-border-radius: var(--border-radius);
     --nav-btn-hover-bg: var(--brand-primary-color);
     --nav-btn-hover-text-color: #ffffff;
     --nav-btn-hover-border-color: var(--nav-btn-hover-bg);
@@ -58,6 +58,10 @@ body {
     line-height: 36px;
     letter-spacing: -0.02em;
     color: #141414;
+}
+
+body.no-scroll-menu {
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar {

@@ -28,13 +28,12 @@ export default function Home() {
                             nature closer to you.
                         </p>
                         <div className="btn-group">
-                            <button className="btn">Get a quote</button>
-                            <button
-                                className="
-                            btn btn-secondary"
-                            >
+                            <a className="btn" href="#">
+                                Get a quote
+                            </a>
+                            <a className="btn btn-secondary" href="#">
                                 Explore services
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
