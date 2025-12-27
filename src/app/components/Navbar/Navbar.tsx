@@ -59,25 +59,34 @@ export default function Navbar() {
     ];
 
     useEffect(() => {
-        if (typeof document === "undefined") return;
-
         document.body.classList.toggle("no-scroll-menu", open);
 
         return () => {
-            document.body.classList.remove("no-scroll");
+            document.body.classList.remove("no-scroll-menu");
         };
     }, [open]);
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth > 767) {
+                setOpen(false);
+            }
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
 
     return (
         <nav>
             <div className={`navbar ${open ? "open" : ""}`}>
-                <div
-                    className="modal"
-                    onClick={() => setOpen((prev) => !prev)}
-                ></div>
+                <div className="modal" onClick={() => setOpen(false)}></div>
                 <div className="container">
                     <div className="brand-logo">
-                        <Link href="/" onClick={() => setOpen((prev) => !prev)}>
+                        <Link href="/" onClick={() => setOpen(false)}>
                             <Image
                                 src="/brand-name-logo.svg"
                                 alt="Brand Logo"
@@ -99,7 +108,7 @@ export default function Navbar() {
                                                 ? "active"
                                                 : ""
                                         }
-                                        onClick={() => setOpen((prev) => !prev)}
+                                        onClick={() => setOpen(false)}
                                     >
                                         {link.name}
                                     </Link>

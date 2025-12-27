@@ -9,6 +9,7 @@ h4,
 h5,
 h6 {
     font-family: var(--font-garamond), serif;
+    text-wrap: balance;
 }
 
 h1,
@@ -60,53 +61,6 @@ h6,
 }
 
 /* ================================
-   Mobile typography
-================================ */
-
-@media (max-width: 768px) {
-    h1,
-    .h1 {
-        font-size: 40px;
-        line-height: 44px;
-        letter-spacing: -0.04em;
-    }
-
-    h2,
-    .h2 {
-        font-size: 34px;
-        line-height: 40px;
-        letter-spacing: -0.025em;
-    }
-
-    .h2-v2 {
-        font-size: 28px;
-        line-height: 32px;
-        letter-spacing: -0.02em;
-    }
-
-    h3,
-    .h3 {
-        font-size: 20px;
-        line-height: 24px;
-        letter-spacing: -0.02em;
-    }
-
-    h4,
-    .h4 {
-        font-size: 24px;
-        line-height: 28px;
-        letter-spacing: 0;
-    }
-
-    .cta-secondary {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0;
-    }
-}
-
-/* ================================
    Overlines (Figtree)
 ================================ */
 
@@ -147,6 +101,7 @@ p {
     font-size: 24px;
     line-height: 36px;
     letter-spacing: -0.02em;
+    text-wrap: balance;
 }
 
 .p-lg {
@@ -190,5 +145,67 @@ p {
         width: 16px;
         height: 16px;
         left: 12px;
+    }
+}
+
+/* ================================
+   Mobile typography
+================================ */
+
+@media (max-width: 767px) {
+    h1,
+    .h1 {
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: -0.04em;
+    }
+
+    h2,
+    .h2 {
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: -0.025em;
+    }
+
+    .h2-v2 {
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+    }
+
+    h3,
+    .h3 {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+
+    h4,
+    .h4 {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0;
+    }
+
+    .cta-secondary {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .p-lg {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .p-sm {
+        font-size: 14px;
+        line-height: 20px;
     }
 }
