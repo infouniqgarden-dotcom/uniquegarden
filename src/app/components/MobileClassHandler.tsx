@@ -19,8 +19,7 @@ export default function MobileClassHandler() {
 
         if (mobileQuery.addEventListener) {
             mobileQuery.addEventListener("change", handleMobileClass);
-            return () =>
-                mobileQuery.removeEventListener("change", handleMobileClass);
+            return () => mobileQuery.removeEventListener("change", handleMobileClass);
         } else {
             // Safari < 14
             mobileQuery.addListener(handleMobileClass);

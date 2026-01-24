@@ -51,34 +51,34 @@ export default function Navbar() {
 
     const links: NavLink[] = [
         // { name: "Home", href: "/" },
-        { name: "About Us", href: "/about-us" },
-        { name: "Services", href: "/services" },
-        { name: "Projects", href: "/projects" },
-        { name: "Gallery", href: "/gallery" },
-        { name: "Careers", href: "/careers" },
+        { name: "About Us", href: "#about-us" },
+        { name: "Services", href: "#our-services" },
+        { name: "Projects", href: "#our-projects" },
+        { name: "Gallery", href: "#gallery" },
+        { name: "Careers", href: "#careers" },
     ];
 
-    useEffect(() => {
-        document.body.classList.toggle("no-scroll-menu", open);
+    // useEffect(() => {
+    //     document.body.classList.toggle("no-scroll-menu", open);
 
-        return () => {
-            document.body.classList.remove("no-scroll-menu");
-        };
-    }, [open]);
+    //     return () => {
+    //         document.body.classList.remove("no-scroll-menu");
+    //     };
+    // }, [open]);
 
-    useEffect(() => {
-        const handleResize = () => {
-            if (window.innerWidth > 767) {
-                setOpen(false);
-            }
-        };
+    // useEffect(() => {
+    //     const handleResize = () => {
+    //         if (window.innerWidth > 767) {
+    //             setOpen(false);
+    //         }
+    //     };
 
-        window.addEventListener("resize", handleResize);
+    //     window.addEventListener("resize", handleResize);
 
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener("resize", handleResize);
+    //     };
+    // }, []);
 
     return (
         <nav>
@@ -116,11 +116,11 @@ export default function Navbar() {
                             ))}
                         </ul>
 
-                        <Link href={"/contact-us"} className={"btn"}>
+                        <Link href={"tel:+919876543210"} className={"btn"}>
                             Contact Us
                         </Link>
                     </div>
-                    <Link href={"/contact-us"} className={"btn"}>
+                    <Link href={"tel:+919876543210"} className={"btn"}>
                         Contact Us
                     </Link>
 

@@ -1,11 +1,7 @@
 :root {
     --mobile-vertical-spacing: 24px;
     --widget-spacing: clamp(32px, calc((50 / var(--viewport)) * 100vw), 50px);
-    --widget-vertical-spacing: clamp(
-        60px,
-        calc((180 / var(--viewport)) * 100vw),
-        180px
-    );
+    --widget-vertical-spacing: clamp(60px, calc((180 / var(--viewport)) * 100vw), 180px);
 
     @media (max-width: 767px) {
         --widget-spacing: 25px;
@@ -23,8 +19,13 @@
     align-items: center;
     justify-content: center;
     max-width: 1920px;
-    margin: var(--widget-spacing) auto;
-    padding: 0 var(--widget-vertical-spacing);
+    margin: auto;
+    padding: var(--widget-spacing) var(--widget-vertical-spacing);
+    scroll-margin-top: 140px;
+}
+
+.mobile .widget-wrapper {
+    scroll-margin-top: 84px;
 }
 
 .widget-wrapper .widget-wrapper {
@@ -41,7 +42,8 @@
 }
 
 .widget-wrapper.bg {
-    padding: var(--widget-spacing) var(--widget-vertical-spacing);
+    padding: calc(var(--widget-spacing) * 2) var(--widget-vertical-spacing);
+    margin: var(--widget-spacing) auto;
 }
 
 .widget-wrapper .widget-wrapper.bg {
@@ -51,7 +53,6 @@
 .text-content-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     max-width: 960px;
 }
@@ -64,14 +65,12 @@
 }
 
 /* overline → Heading */
-.text-content-wrapper
-    :is(.overline-1, .overline-2, .overline-3)
-    + :is(h1, h2, h3, h4, h5, h6) {
+.text-content-wrapper :is(.overline-1, .overline-2, .overline-3) + :is(h1, h2, h3, h4, h5, h6) {
     margin-top: 16px;
 }
 
 .text-content-wrapper * + :is(h1, h2, h3, h4, h5, h6) {
-    margin-top: 64px;
+    margin-top: var(--widget-spacing);
 }
 
 .text-content-wrapper :is(.highlight-text) + :is(h1, h2, h3, h4, h5, h6) {
