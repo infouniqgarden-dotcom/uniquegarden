@@ -1,0 +1,42 @@
+.widget-wrapper.testimonials {
+    margin-bottom: 0;
+    .swiper {
+        padding-bottom: calc(var(--widget-spacing) + var(--swiper-height));
+
+        .review-card {
+            width: 100%;
+            background: var(--background);
+            padding: clamp(24px, calc((40 / var(--viewport)) * 100vw), 40px);
+            border-radius: var(--border-radius);
+            text-align: center;
+            border: 1px solid var(--border-color);
+
+            .star {
+                display: flex;
+                gap: 4px;
+                width: 100%;
+                justify-content: center;
+                margin-top: clamp(14px, calc((20 / var(--viewport)) * 100vw), 20px);
+                svg {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        &.widget-wrapper.bg {
+            padding-inline: 0;
+
+            .text-group {
+                padding-inline: var(--widget-vertical-spacing);
+            }
+
+            .swiper {
+                padding-right: 40px;
+                padding-left: 40px;
+            }
+        }
+    }
+}

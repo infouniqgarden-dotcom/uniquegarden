@@ -5,6 +5,7 @@ import "./styles/typography.css";
 import "./styles/spacings.scss";
 import "./styles/components/components.scss";
 import "./styles/buttons.scss";
+import "./styles/swiper.scss";
 import Navbar from "./components/Navbar/Navbar";
 import MobileClassHandler from "./components/MobileClassHandler";
 
@@ -41,9 +42,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${garamond.variable} ${
-                    figtree.variable
-                } antialiased ${
+                className={`${garamond.variable} ${figtree.variable} antialiased ${
                     viewportWidth && viewportWidth <= 768 ? "mobile" : ""
                 }`}
             >

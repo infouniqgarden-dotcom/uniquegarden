@@ -67,29 +67,29 @@ h6,
 .overline-1 {
     font-family: var(--font-figtree), sans-serif;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 32px;
-    letter-spacing: 0.04em;
     text-transform: uppercase;
     opacity: 0.56;
+    font-size: clamp(14px, calc((20 / var(--viewport)) * 100vw), 20px);
+    line-height: clamp(20px, calc((32 / var(--viewport)) * 100vw), 32px);
+    letter-spacing: 0.04em;
 }
 
 .overline-2 {
     font-family: var(--font-figtree), sans-serif;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0em;
     text-transform: uppercase;
+    font-size: clamp(12px, calc((20 / var(--viewport)) * 100vw), 20px);
+    line-height: clamp(16px, calc((28 / var(--viewport)) * 100vw), 28px);
+    letter-spacing: 0em;
 }
 
 .overline-3 {
     font-family: var(--font-figtree), sans-serif;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.08em;
     text-transform: uppercase;
+    font-size: clamp(12px, calc((16 / var(--viewport)) * 100vw), 16px);
+    line-height: clamp(15px, calc((24 / var(--viewport)) * 100vw), 20px);
+    letter-spacing: 0.06em;
 }
 
 /* ================================
@@ -130,8 +130,7 @@ p {
         position: absolute;
         width: 28px;
         height: 28px;
-        background: url("/homepage-icons/highlight-icon.svg") no-repeat center /
-            cover;
+        background: url("/homepage-icons/highlight-icon.svg") no-repeat center / cover;
         left: 20px;
         top: 50%;
         transform: translateY(-50%);

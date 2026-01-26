@@ -21,6 +21,7 @@
     --btn-hover-text-color: #ffffff;
 
     --primary-text-color: #141414;
+    --text-color-over-img: #ffffff;
     --background: #ffffff;
     --foreground: #171717;
 
@@ -35,6 +36,13 @@
     --nav-btn-hover-bg: var(--brand-primary-color);
     --nav-btn-hover-text-color: #ffffff;
     --nav-btn-hover-border-color: var(--nav-btn-hover-bg);
+
+    /* Card overlay colors */
+    --card-overlay-primary: #f4ba48;
+    --card-overlay-secondary: #02628c;
+    --card-overlay-accent: #5a4648;
+    --card-overlay-muted: #3e4619;
+    --card-overlay-neutral: #a27859;
 }
 
 /* @theme inline {

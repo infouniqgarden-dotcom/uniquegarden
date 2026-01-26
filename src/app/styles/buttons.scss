@@ -8,7 +8,8 @@
     font-size: clamp(15px, calc((24 / var(--viewport)) * 100vw), 24px);
     line-height: clamp(24px, calc((28 / var(--viewport)) * 100vw), 28px);
     letter-spacing: -0.02em;
-    padding: clamp(11px, calc((15 / var(--viewport)) * 100vw), 15px) clamp(24px, calc((24 / var(--viewport)) * 100vw), 40px);
+    padding: clamp(11px, calc((15 / var(--viewport)) * 100vw), 15px)
+        clamp(24px, calc((24 / var(--viewport)) * 100vw), 40px);
     background-color: var(--btn-bg-color);
     color: var(--btn-text-color);
     border-radius: var(--btn-border-radius);
@@ -55,8 +56,8 @@
 
 .mobile {
     .btn {
-        font-size: 15px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 14px;
         letter-spacing: 0.01em;
         padding: 12px 24px;
     }

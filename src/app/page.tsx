@@ -2,6 +2,7 @@ import Image from "next/image";
 import OurServices from "./components/OurServices";
 import AboutUs from "./components/Navbar/AboutUs";
 import OurProjects from "./components/OurProjects";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
     return (
@@ -40,7 +41,7 @@ export default function Home() {
             <AboutUs />
             <OurServices />
             <OurProjects />
-            <section id="testimonials">Testimoinals</section>
+            <Testimonials />
             <section id="why-choose-us">Why Choose Us</section>
         </main>
     );
