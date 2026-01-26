@@ -8,6 +8,7 @@ import "./styles/buttons.scss";
 import "./styles/swiper.scss";
 import Navbar from "./components/Navbar/Navbar";
 import MobileClassHandler from "./components/MobileClassHandler";
+import Footer from "./components/Footer/footer";
 
 const figtree = Figtree({
     subsets: ["latin"],
@@ -119,6 +120,7 @@ export default function RootLayout({
                 <MobileClassHandler />
                 <Navbar />
                 {children}
+                <Footer />
             </body>
         </html>
     );
