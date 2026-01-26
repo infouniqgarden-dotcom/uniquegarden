@@ -3,7 +3,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import React, { useEffect } from "react";
 import "./navbar.scss";
 import { useState } from "react";
 
@@ -88,7 +87,7 @@ export default function Navbar() {
                     <div className="brand-logo">
                         <Link href="/" onClick={() => setOpen(false)}>
                             <Image
-                                src="/brand-name-logo.svg"
+                                src="./brand-name-logo.svg"
                                 alt="Brand Logo"
                                 width={192}
                                 height={48}
