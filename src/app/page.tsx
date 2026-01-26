@@ -1,8 +1,10 @@
 import Image from "next/image";
 import OurServices from "./components/OurServices";
-import AboutUs from "./components/Navbar/AboutUs";
+import AboutUs from "./components/AboutUs";
 import OurProjects from "./components/OurProjects";
 import Testimonials from "./components/Testimonials";
+import WhyChooseUs from "./components/WhyChooseUs";
+import RequestAQuote from "./components/RequestAQuote";
 
 export default function Home() {
     return (
@@ -40,9 +42,10 @@ export default function Home() {
             </section>
             <AboutUs />
             <OurServices />
+            <WhyChooseUs />
             <OurProjects />
             <Testimonials />
-            <section id="why-choose-us">Why Choose Us</section>
+            <RequestAQuote />
         </main>
     );
 }

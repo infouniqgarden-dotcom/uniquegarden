@@ -22,6 +22,7 @@
     margin: auto;
     padding: var(--widget-spacing) var(--widget-vertical-spacing);
     scroll-margin-top: 140px;
+    position: relative;
 }
 
 .mobile .widget-wrapper {
@@ -50,6 +51,22 @@
 
 .widget-wrapper .widget-wrapper.bg {
     padding: var(--widget-spacing) 0;
+}
+
+.widget-wrapper.padding-top-0 {
+    padding-top: 0;
+}
+
+.widget-wrapper.bg.padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+.widget-wrapper.bg.margin-top-0 {
+    margin-top: 0;
+}
+
+.widget-wrapper.margin-bottom-0 {
+    margin-bottom: 0;
 }
 
 .text-content-wrapper {

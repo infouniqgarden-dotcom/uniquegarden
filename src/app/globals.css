@@ -19,6 +19,9 @@
     --btn-hover-bg-color: #025f27;
     --btn-hover-border-color: var(--btn-hover-bg-color);
     --btn-hover-text-color: #ffffff;
+    --btn-secondary-bg-color: #ffffff;
+    --btn-secondary-text-color: var(--brand-primary-color);
+    --btn-secondary-border-color: var(--brand-primary-color);
 
     --primary-text-color: #141414;
     --text-color-over-img: #ffffff;

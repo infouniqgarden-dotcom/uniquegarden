@@ -3,12 +3,15 @@ import ArrowButton from "./ArrowButton";
 
 export default function OurServices() {
     return (
-        <section className="widget-wrapper bg our-services" id="our-services">
+        <section className="widget-wrapper bg our-services margin-bottom-0" id="our-services">
             <div className="widget-wrapper text-group">
                 <div className="text-content-wrapper">
                     <div className="overline-1">Our Services</div>
                     <h2>Tailored Outdoor Solutions for Every Space</h2>
-                    <p>From gardens to pools, we offer end-to-end landscaping and construction services in Dubai & Sharjah.</p>
+                    <p>
+                        From gardens to pools, we offer end-to-end landscaping and construction
+                        services in Dubai & Sharjah.
+                    </p>
                     <a href="#" className="btn">
                         View all services
                     </a>
@@ -17,11 +20,28 @@ export default function OurServices() {
             <div className="widget-wrapper iamge-text-card">
                 <div className="text-content">
                     <div className="image-content-wrapper">
-                        <Image src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/service-card-1.webp" alt="Service one" width={1920} height={1080} priority />
+                        <Image
+                            src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/service-card-1.webp"
+                            alt="Service one"
+                            width={1920}
+                            height={1080}
+                            priority
+                        />
                     </div>
                     <div className="text-content-wrapper">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
-                            <foreignObject x="-13.9375" y="-21.5908" width="73.875" height="81.5264">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="46"
+                            height="46"
+                            viewBox="0 0 46 46"
+                            fill="none"
+                        >
+                            <foreignObject
+                                x="-13.9375"
+                                y="-21.5908"
+                                width="73.875"
+                                height="81.5264"
+                            >
                                 <div
                                     style={{
                                         backdropFilter: "blur(12px)",
@@ -43,7 +63,10 @@ export default function OurServices() {
                                 fill="white"
                             />
                             <defs>
-                                <clipPath id="bgblur_0_96_654_clip_path" transform="translate(13.9375 21.5908)">
+                                <clipPath
+                                    id="bgblur_0_96_654_clip_path"
+                                    transform="translate(13.9375 21.5908)"
+                                >
                                     <path d="M33.0635 12.4579C33.0635 13.1913 32.9874 13.9031 32.8354 14.5931C34.4418 16.4728 35.4758 18.7735 35.8151 21.2228C36.1544 23.672 35.7847 26.1672 34.7499 28.4128C33.715 30.6585 32.0583 32.5605 29.9759 33.8938C27.8935 35.227 25.4726 35.9356 23 35.9356C20.5274 35.9356 18.1065 35.227 16.0241 33.8938C13.9417 32.5605 12.285 30.6585 11.2501 28.4128C10.2153 26.1672 9.84559 23.672 10.1849 21.2228C10.5242 18.7735 11.5583 16.4728 13.1646 14.5931C12.8672 13.2139 12.8631 11.7877 13.1526 10.4069C13.4421 9.02608 14.0187 7.72158 14.845 6.57806C15.6714 5.43455 16.7289 4.47758 17.9491 3.76926C19.1692 3.06095 20.5246 2.61713 21.9274 2.46661C23.3302 2.31609 24.7489 2.46224 26.0916 2.89556C27.4342 3.32889 28.6707 4.0397 29.7208 4.98187C30.771 5.92404 31.6112 7.07651 32.1871 8.36446C32.7629 9.65242 33.0615 11.0471 33.0635 12.4579Z" />
                                 </clipPath>
                             </defs>
@@ -55,11 +78,28 @@ export default function OurServices() {
                 </div>
                 <div className="text-content">
                     <div className="image-content-wrapper">
-                        <Image src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/service-card-2.webp" alt="Service two" width={1920} height={1080} priority />
+                        <Image
+                            src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/service-card-2.webp"
+                            alt="Service two"
+                            width={1920}
+                            height={1080}
+                            priority
+                        />
                     </div>
                     <div className="text-content-wrapper">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
-                            <foreignObject x="-13.9375" y="-21.5908" width="73.875" height="81.5264">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="46"
+                            height="46"
+                            viewBox="0 0 46 46"
+                            fill="none"
+                        >
+                            <foreignObject
+                                x="-13.9375"
+                                y="-21.5908"
+                                width="73.875"
+                                height="81.5264"
+                            >
                                 <div
                                     style={{
                                         backdropFilter: "blur(12px)",
@@ -81,7 +121,10 @@ export default function OurServices() {
                                 fill="white"
                             />
                             <defs>
-                                <clipPath id="bgblur_0_96_654_clip_path" transform="translate(13.9375 21.5908)">
+                                <clipPath
+                                    id="bgblur_0_96_654_clip_path"
+                                    transform="translate(13.9375 21.5908)"
+                                >
                                     <path d="M33.0635 12.4579C33.0635 13.1913 32.9874 13.9031 32.8354 14.5931C34.4418 16.4728 35.4758 18.7735 35.8151 21.2228C36.1544 23.672 35.7847 26.1672 34.7499 28.4128C33.715 30.6585 32.0583 32.5605 29.9759 33.8938C27.8935 35.227 25.4726 35.9356 23 35.9356C20.5274 35.9356 18.1065 35.227 16.0241 33.8938C13.9417 32.5605 12.285 30.6585 11.2501 28.4128C10.2153 26.1672 9.84559 23.672 10.1849 21.2228C10.5242 18.7735 11.5583 16.4728 13.1646 14.5931C12.8672 13.2139 12.8631 11.7877 13.1526 10.4069C13.4421 9.02608 14.0187 7.72158 14.845 6.57806C15.6714 5.43455 16.7289 4.47758 17.9491 3.76926C19.1692 3.06095 20.5246 2.61713 21.9274 2.46661C23.3302 2.31609 24.7489 2.46224 26.0916 2.89556C27.4342 3.32889 28.6707 4.0397 29.7208 4.98187C30.771 5.92404 31.6112 7.07651 32.1871 8.36446C32.7629 9.65242 33.0615 11.0471 33.0635 12.4579Z" />
                                 </clipPath>
                             </defs>
@@ -93,11 +136,28 @@ export default function OurServices() {
                 </div>
                 <div className="text-content">
                     <div className="image-content-wrapper">
-                        <Image src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/service-card-3.webp" alt="Service three" width={1920} height={1080} priority />
+                        <Image
+                            src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/service-card-3.webp"
+                            alt="Service three"
+                            width={1920}
+                            height={1080}
+                            priority
+                        />
                     </div>
                     <div className="text-content-wrapper">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
-                            <foreignObject x="-13.9375" y="-21.5908" width="73.875" height="81.5264">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="46"
+                            height="46"
+                            viewBox="0 0 46 46"
+                            fill="none"
+                        >
+                            <foreignObject
+                                x="-13.9375"
+                                y="-21.5908"
+                                width="73.875"
+                                height="81.5264"
+                            >
                                 <div
                                     style={{
                                         backdropFilter: "blur(12px)",
@@ -119,7 +179,10 @@ export default function OurServices() {
                                 fill="white"
                             />
                             <defs>
-                                <clipPath id="bgblur_0_96_654_clip_path" transform="translate(13.9375 21.5908)">
+                                <clipPath
+                                    id="bgblur_0_96_654_clip_path"
+                                    transform="translate(13.9375 21.5908)"
+                                >
                                     <path d="M33.0635 12.4579C33.0635 13.1913 32.9874 13.9031 32.8354 14.5931C34.4418 16.4728 35.4758 18.7735 35.8151 21.2228C36.1544 23.672 35.7847 26.1672 34.7499 28.4128C33.715 30.6585 32.0583 32.5605 29.9759 33.8938C27.8935 35.227 25.4726 35.9356 23 35.9356C20.5274 35.9356 18.1065 35.227 16.0241 33.8938C13.9417 32.5605 12.285 30.6585 11.2501 28.4128C10.2153 26.1672 9.84559 23.672 10.1849 21.2228C10.5242 18.7735 11.5583 16.4728 13.1646 14.5931C12.8672 13.2139 12.8631 11.7877 13.1526 10.4069C13.4421 9.02608 14.0187 7.72158 14.845 6.57806C15.6714 5.43455 16.7289 4.47758 17.9491 3.76926C19.1692 3.06095 20.5246 2.61713 21.9274 2.46661C23.3302 2.31609 24.7489 2.46224 26.0916 2.89556C27.4342 3.32889 28.6707 4.0397 29.7208 4.98187C30.771 5.92404 31.6112 7.07651 32.1871 8.36446C32.7629 9.65242 33.0615 11.0471 33.0635 12.4579Z" />
                                 </clipPath>
                             </defs>
