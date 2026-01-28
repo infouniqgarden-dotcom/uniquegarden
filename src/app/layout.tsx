@@ -38,8 +38,7 @@ export const metadata: Metadata = {
         "Professional landscaping, irrigation, HVAC, and MEP solutions in Dubai. Serving Emirates Hills, Jumeirah, and across UAE since 2022. Expert hardscape, softscape & maintenance.",
 
     // Basic meta
-    keywords:
-        "landscaping Dubai, HVAC services UAE, irrigation systems, hardscape Dubai, landscape maintenance, vertical gardens Dubai",
+    keywords: "landscaping Dubai, HVAC services UAE, irrigation systems, hardscape Dubai, landscape maintenance, vertical gardens Dubai",
     authors: [{ name: "Unique Garden Tech Cont LLC" }],
 
     // Open Graph (Facebook, LinkedIn, WhatsApp)
@@ -66,9 +65,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "Unique Garden Tech | Landscape Services Dubai",
         description: "Professional landscaping and HVAC solutions",
-        images: [
-            "https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/brand-logo.jpg",
-        ],
+        images: ["https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/brand-logo.jpg"],
         // creator: "@yourtwitterhandle",
     },
 
@@ -99,11 +96,11 @@ export const metadata: Metadata = {
     // },
 };
 
-let viewportWidth: number | undefined = undefined;
-if (typeof window !== "undefined") {
-    viewportWidth = window.innerWidth;
-    console.log("Viewport width:", viewportWidth);
-}
+// let viewportWidth: number | undefined = undefined;
+// if (typeof window !== "undefined") {
+//     viewportWidth = window.innerWidth;
+//     console.log("Viewport width:", viewportWidth);
+// }
 
 export default function RootLayout({
     children,
@@ -112,11 +109,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body
-                className={`${garamond.variable} ${figtree.variable} antialiased ${
-                    viewportWidth && viewportWidth <= 768 ? "mobile" : ""
-                }`}
-            >
+            <body className={`${garamond.variable} ${figtree.variable} antialiased `}>
                 <MobileClassHandler />
                 <Navbar />
                 {children}
