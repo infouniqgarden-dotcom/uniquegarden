@@ -68,7 +68,7 @@ export default function Footer() {
                                         </svg>
                                     </div>
                                     <p>
-                                        <a href="info.uniqgarden@gmail.com">info.uniqgarden@gmail.com</a>
+                                        <a href="mailto:info.uniqgarden@gmail.com">info.uniqgarden@gmail.com</a>
                                     </p>
                                 </div>
                             </div>
