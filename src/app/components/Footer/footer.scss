@@ -1,0 +1,353 @@
+footer {
+    padding: clamp(48px, calc((64 / var(--viewport)) * 100vw), 64px) var(--widget-vertical-spacing) clamp(32px, calc((48 / var(--viewport)) * 100vw), 48px);
+    background: #141414;
+
+    /* Base Styles */
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    * {
+        color: #ffffff;
+    }
+
+    .overline-3 {
+        white-space: nowrap;
+    }
+
+    p,
+    li,
+    a {
+        font-size: clamp(16px, calc((18 / var(--viewport)) * 100vw), 18px);
+        line-height: clamp(22px, calc((24 / var(--viewport)) * 100vw), 24px);
+        text-wrap: unset;
+    }
+
+    /* Row One - Main Footer Content */
+    .row-one {
+        display: flex;
+
+        /* Column One - Brand & Description */
+        .column-one {
+            width: 30%;
+            padding-right: clamp(20px, calc((64 / var(--viewport)) * 100vw), 64px);
+
+            .brand-logo {
+                padding-bottom: 20px;
+            }
+
+            .description {
+                padding-top: 4px;
+            }
+
+            .address {
+                padding-top: 34px;
+            }
+        }
+
+        /* Column Two - Contact & Social */
+        .column-two {
+            width: 30%;
+            padding-right: clamp(20px, calc((64 / var(--viewport)) * 100vw), 64px);
+            display: flex;
+            flex-direction: column;
+            gap: clamp(20px, calc((60 / var(--viewport)) * 100vw), 60px);
+
+            > div {
+                display: flex;
+                flex-direction: column;
+            }
+
+            a {
+                white-space: nowrap;
+            }
+
+            .mails,
+            .phone-numbers {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding-top: 20px;
+            }
+
+            .phone-numbers {
+                padding-top: 10px;
+            }
+
+            .mail,
+            .phone-number {
+                display: flex;
+                gap: 14px;
+            }
+
+            .social-media-links {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 28px;
+                padding-top: 20px;
+
+                img {
+                    height: 28px;
+                    width: 28px;
+                    opacity: 0.8;
+                }
+            }
+        }
+
+        /* Column Three - Links & Services */
+        .column-three {
+            width: 40%;
+            display: flex;
+            gap: clamp(24px, calc((80 / var(--viewport)) * 100vw), 80px);
+            padding-left: clamp(48px, calc((91 / var(--viewport)) * 100vw), 91px);
+
+            li {
+                opacity: 0.8;
+                padding-top: 20px;
+            }
+
+            .quick-links {
+                max-width: 33%;
+            }
+
+            .our-services ul {
+                column-count: 2;
+                column-gap: 20px;
+            }
+        }
+    }
+
+    /* Row Two - Copyright & Legal */
+    .row-two {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 28px;
+        padding-top: clamp(24px, calc((32 / var(--viewport)) * 100vw), 32px);
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        margin-top: clamp(30px, calc((48 / var(--viewport)) * 100vw), 48px);
+
+        p {
+            width: max-content;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            + p {
+                opacity: 1;
+                color: rgba(255, 255, 255, 0.8);
+
+                span {
+                    color: rgba(255, 255, 255, 0.8);
+                }
+            }
+
+            span {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+
+    /* Responsive Breakpoints */
+
+    /* Large Screens */
+    @media (max-width: 1720px) {
+        .row-one .column-three {
+            gap: clamp(20px, calc((40 / var(--viewport)) * 100vw), 40px);
+        }
+    }
+
+    @media (max-width: 1537px) {
+        .row-one .column-three {
+            padding-left: 0;
+            justify-content: center;
+        }
+    }
+
+    /* Medium-Large Screens */
+    @media (max-width: 1200px) {
+        padding-inline: 40px;
+
+        .row-one .column-one,
+        .row-one .column-two {
+            padding-right: 20px;
+        }
+    }
+
+    /* Tablet */
+    @media (max-width: 1023px) {
+        .row-one {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .column-one .address {
+                padding-top: 20px;
+            }
+
+            .column-two {
+                padding-right: 0;
+                padding-left: 20px;
+
+                .phone-number p {
+                    white-space: nowrap;
+                }
+            }
+
+            .column-three {
+                width: 100%;
+                padding-top: 48px;
+                gap: 30px;
+
+                li {
+                    padding-top: 10px;
+                }
+
+                .quick-links {
+                    max-width: 40%;
+
+                    ul {
+                        column-count: 2;
+                        column-gap: 20px;
+                    }
+                }
+
+                .our-services {
+                    .overline-3 {
+                        text-align: center;
+                    }
+
+                    ul {
+                        column-count: 3;
+                    }
+                }
+            }
+        }
+
+        .row-two {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+        padding-inline: 30px;
+
+        p {
+            text-align: center;
+            text-wrap: balance;
+        }
+
+        .row-one {
+            flex-direction: column;
+
+            .column-one {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0 0 32px;
+
+                .address {
+                    padding-top: 14px;
+                }
+            }
+
+            .column-two {
+                width: 100%;
+                justify-content: center;
+                padding-left: 0;
+
+                svg {
+                    width: 16px;
+                    height: 16px;
+                }
+
+                .overline-3 {
+                    text-align: center;
+                }
+
+                .mail,
+                .phone-number {
+                    justify-content: center;
+                }
+
+                p,
+                a {
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+
+                .social-media-links {
+                    justify-content: center;
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+
+            .column-three {
+                gap: 24px;
+
+                .quick-links {
+                    max-width: 33.33%;
+
+                    ul {
+                        column-count: 1;
+                    }
+                }
+                a {
+                    font-size: 12px;
+                    line-height: 16px;
+                }
+
+                .our-services ul {
+                    column-count: 2;
+                }
+            }
+        }
+
+        .row-two {
+            p,
+            a {
+                font-size: 12px;
+                line-height: 16px;
+
+                img {
+                    width: 85px;
+                }
+            }
+
+            p:last-child {
+                span {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+    /* Small Mobile */
+    @media (max-width: 389px) {
+        .row-one .column-three {
+            flex-direction: column;
+            align-items: center;
+
+            .quick-links {
+                max-width: 100%;
+
+                ul {
+                    column-count: 2;
+                }
+
+                .overline-3 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
