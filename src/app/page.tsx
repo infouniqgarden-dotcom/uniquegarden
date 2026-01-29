@@ -5,11 +5,13 @@ import OurProjects from "./components/OurProjects";
 import Testimonials from "./components/Testimonials";
 import WhyChooseUs from "./components/WhyChooseUs";
 import RequestAQuote from "./components/RequestAQuote";
+import AboutCompany from "./components/AboutCompany";
 
 export default function Home() {
     return (
         <main>
             <HeroBanner />
+            <AboutCompany />
             <AboutUs />
             <OurServices />
             <WhyChooseUs />

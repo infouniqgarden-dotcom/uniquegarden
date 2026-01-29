@@ -1,0 +1,39 @@
+main .widget-wrapper.about-company {
+    margin-top: 0;
+    padding: var(--widget-spacing) var(--widget-vertical-spacing);
+    flex-direction: row;
+    gap: 20px 0;
+    align-items: flex-start;
+
+    @media (max-width: 767px) {
+        flex-wrap: wrap;
+    }
+
+    .text-content {
+        padding: 0 clamp(14px, calc((64 / var(--viewport)) * 100vw), 64px);
+        border-right: 2px solid rgba(20, 20, 20, 0.24);
+
+        &:last-child {
+            border: unset;
+        }
+
+        @media (max-width: 767px) {
+            width: 50%;
+
+            &:nth-child(2) {
+                border: unset;
+            }
+        }
+
+        .text-content-wrapper {
+            gap: 20px;
+            align-items: center;
+            text-align: center;
+
+            svg {
+                width: clamp(28px, calc((56 / var(--viewport)) * 100vw), 56px);
+                height: clamp(28px, calc((56 / var(--viewport)) * 100vw), 56px);
+            }
+        }
+    }
+}

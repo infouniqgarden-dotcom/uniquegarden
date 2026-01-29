@@ -163,7 +163,7 @@ export default function Footer() {
                         <span>•</span>
                         <span>
                             Developed by
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/avgowtham" target="_blank">
                                 <b>A V Gowtham</b>
                             </a>
                         </span>
