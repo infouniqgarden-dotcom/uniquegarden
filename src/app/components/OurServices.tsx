@@ -54,7 +54,7 @@ export default function OurServices() {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <div className="h4">Hard Landscaping</div>
+                        <div className="h4">Soft Landscaping</div>
                         <p className="p-sm">Gardens • Shrubs • Pathways</p>
                         <ArrowButton link={"#"} />
                     </div>
