@@ -164,7 +164,7 @@ export default function Footer() {
                         <span>
                             Developed by
                             <a href="https://www.linkedin.com/in/avgowtham" target="_blank">
-                                <b>A V Gowtham</b>
+                                <b>Gowtham A V</b>
                             </a>
                         </span>
                     </p>
