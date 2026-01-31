@@ -15,11 +15,11 @@ interface ServicesLink {
 export default function Footer() {
     const links: NavLink[] = [
         // { name: "Home", href: "/" },
-        { name: "About Us", href: "/about-us" },
-        { name: "Services", href: "/#our-services" },
-        { name: "Projects", href: "/#our-projects" },
-        { name: "Gallery", href: "/#gallery" },
-        { name: "Careers", href: "/#careers" },
+        { name: "About Us", href: "./about-us" },
+        { name: "Services", href: "./#our-services" },
+        { name: "Projects", href: "./#our-projects" },
+        { name: "Gallery", href: "./#gallery" },
+        { name: "Careers", href: "./#careers" },
     ];
 
     const serviceLinks: ServicesLink[] = [
