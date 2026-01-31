@@ -8,7 +8,7 @@ export default function RequestAQuote() {
                     <h2>Ready to Transform Your Outdoor Space</h2>
                     <p>Let’s design and build your dream garden, pool, or outdoor living area.</p>
                 </div>
-                <Link href={"tel:+919876543210"} className={"btn"}>
+                <Link href={"tel:+97165223391"} className={"btn"}>
                     Request a quote
                 </Link>
             </div>

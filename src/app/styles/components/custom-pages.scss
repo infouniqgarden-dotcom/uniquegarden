@@ -1,0 +1,22 @@
+.homepage {
+    .hero-banner {
+        margin-bottom: 0;
+    }
+
+    .testimonials + .request-a-quote {
+        margin-top: 0;
+    }
+}
+
+.about-us-page {
+    .hero-banner {
+        .image-content-wrapper img {
+            max-height: 700px;
+            object-fit: cover;
+        }
+
+        .text-content {
+            padding: 30px;
+        }
+    }
+}

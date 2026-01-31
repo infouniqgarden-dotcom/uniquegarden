@@ -9,7 +9,7 @@ import AboutCompany from "./components/AboutCompany";
 
 export default function Home() {
     return (
-        <main>
+        <main className="homepage">
             <HeroBanner />
             <AboutCompany />
             <AboutUs />

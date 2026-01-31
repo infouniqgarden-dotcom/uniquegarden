@@ -15,11 +15,11 @@ interface ServicesLink {
 export default function Footer() {
     const links: NavLink[] = [
         // { name: "Home", href: "/" },
-        { name: "About Us", href: "#about-us" },
-        { name: "Services", href: "#our-services" },
-        { name: "Projects", href: "#our-projects" },
-        { name: "Gallery", href: "#gallery" },
-        { name: "Careers", href: "#careers" },
+        { name: "About Us", href: "/about-us" },
+        { name: "Services", href: "/#our-services" },
+        { name: "Projects", href: "/#our-projects" },
+        { name: "Gallery", href: "/#gallery" },
+        { name: "Careers", href: "/#careers" },
     ];
 
     const serviceLinks: ServicesLink[] = [
@@ -152,18 +152,18 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="row-two">
-                    <p>Copyright © 2025 Unique Garden Tech Cont. LLC</p>
+                    <p>Copyright © 2026 Unique Garden Tech Cont. LLC</p>
                     <p>
                         <span>
                             Designed by
-                            <a href="#">
+                            <a href="https://www.linkedin.com/company/thegridlabs/" target="_blank" rel="noopener noreferrer">
                                 <Image src="./thegridlabs.png" alt="Brand Logo" width={130} height={21} />
                             </a>
                         </span>
                         <span>•</span>
                         <span>
                             Developed by
-                            <a href="https://www.linkedin.com/in/avgowtham" target="_blank">
+                            <a href="https://www.linkedin.com/in/avgowtham" target="_blank" rel="noopener noreferrer">
                                 <b>Gowtham A V</b>
                             </a>
                         </span>

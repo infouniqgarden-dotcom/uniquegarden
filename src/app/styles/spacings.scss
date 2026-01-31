@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: min(100vw, 1920px);
+    max-width: min(100vw, var(--widget-max-width));
     margin: auto;
     padding: var(--widget-spacing) var(--widget-vertical-spacing);
     scroll-margin-top: 140px;
@@ -73,6 +73,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+}
+
+.image-content-wrapper {
     width: 100%;
 }
 

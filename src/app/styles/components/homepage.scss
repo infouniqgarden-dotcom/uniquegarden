@@ -1,7 +1,7 @@
 // hero banner on the homepage
 .hero-banner {
-    margin-top: 0;
     padding: 0;
+    margin-bottom: var(--widget-spacing);
     position: relative;
 
     .image-content-wrapper {
@@ -509,6 +509,7 @@ main .widget-wrapper.about-company {
 }
 
 .request-a-quote {
+    margin-top: var(--widget-spacing);
     background: url(https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page//hp-cta-Section.webp) no-repeat center / cover;
 
     &::before {

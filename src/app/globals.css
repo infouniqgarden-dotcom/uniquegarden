@@ -2,6 +2,7 @@
 
 :root {
     --viewport: 1920;
+    --widget-max-width: calc(var(--viewport) * 1px);
     --brand-primary-color: #027833;
     --brand-color-secondary: #27c669;
     --highlight-bg: #cef17b;
