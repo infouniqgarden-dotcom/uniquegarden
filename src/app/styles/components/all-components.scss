@@ -545,3 +545,158 @@ main .widget-wrapper.about-company {
         }
     }
 }
+
+.mission-vision {
+    flex-direction: row;
+    gap: clamp(40px, calc((64 / var(--viewport)) * 100vw), 64px);
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    .text-content {
+        width: calc(50% - clamp(40px, calc((64 / var(--viewport)) * 100vw), 64px) / 2);
+        position: relative;
+
+        .icon-wrapper {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: clamp(48px, calc((88 / var(--viewport)) * 100vw), 88px);
+            height: clamp(48px, calc((88 / var(--viewport)) * 100vw), 88px);
+            background: var(--brand-primary-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+
+            svg {
+                width: clamp(26px, calc((48 / var(--viewport)) * 100vw), 48px);
+                height: clamp(26px, calc((48 / var(--viewport)) * 100vw), 48px);
+            }
+        }
+
+        .text-content-wrapper {
+            text-align: center;
+            padding: clamp(32px, calc((56 / var(--viewport)) * 100vw), 56px) clamp(16px, calc((43 / var(--viewport)) * 100vw), 43px)
+                clamp(32px, calc((48 / var(--viewport)) * 100vw), 48px);
+            background: #ffffff;
+            border-radius: var(--border-radius);
+        }
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+}
+
+.our-core-values {
+    flex-direction: row;
+
+    .image-content-wrapper {
+        width: 739px;
+    }
+
+    .text-content {
+        width: 821px;
+        padding-left: max(24px, 4.168vw);
+
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: clamp(24px, calc((64 / var(--viewport)) * 100vw), 64px);
+            gap: clamp(16px, calc((24 / var(--viewport)) * 100vw), 24px);
+
+            .card {
+                width: 100%;
+                background: var(--widget-secondary-bg);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: clamp(16px, calc((40 / var(--viewport)) * 100vw), 40px);
+                padding: clamp(16px, calc((24 / var(--viewport)) * 100vw), 24px);
+                border-radius: var(--border-radius);
+                transition: all 300ms ease;
+                cursor: pointer;
+
+                &:first-child {
+                    background: var(--widget-bg);
+                    .icon-wrapper {
+                        background: var(--brand-primary-color);
+
+                        svg {
+                            path {
+                                fill: #fff;
+                            }
+                        }
+                    }
+                }
+
+                .icon-wrapper {
+                    height: clamp(32px, calc((80 / var(--viewport)) * 100vw), 80px);
+                    width: clamp(32px, calc((80 / var(--viewport)) * 100vw), 80px);
+                    min-width: clamp(32px, calc((80 / var(--viewport)) * 100vw), 80px);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: white;
+                    border-radius: 60px;
+                    transition: all 300ms ease;
+
+                    svg {
+                        width: clamp(18px, calc((43 / var(--viewport)) * 100vw), 43px);
+                        height: clamp(18px, calc((43 / var(--viewport)) * 100vw), 43px);
+
+                        path {
+                            transition: all 300ms ease;
+                        }
+                    }
+                }
+
+                p:not(:first-child) {
+                    margin-top: clamp(6px, calc((8 / var(--viewport)) * 100vw), 8px);
+                }
+
+                &:hover {
+                    background: var(--widget-bg);
+
+                    .icon-wrapper {
+                        background: var(--brand-primary-color);
+
+                        svg {
+                            path {
+                                fill: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .image-content-wrapper {
+            width: 100%;
+        }
+
+        .text-content {
+            width: 100%;
+            padding: 0 0 24px;
+
+            > .text-content-wrapper {
+                text-align: center;
+                align-items: center;
+            }
+
+            .cards-container {
+                padding-top: 24px;
+
+                .card {
+                    align-items: flex-start;
+                }
+            }
+        }
+    }
+}
