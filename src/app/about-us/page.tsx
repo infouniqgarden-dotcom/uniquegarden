@@ -231,6 +231,155 @@ export default function AboutPage() {
                     </div>
                 </div>
             </section>
+            <section className="widget-wrapper bg our-trade-license">
+                <div className="text-content-wrapper">
+                    <h2>Our Trade License</h2>
+                    <p>We are a registered landscaping and construction company in Sharjah, UAE. View or download our trade license for verification.</p>
+                </div>
+                <div className="two-buttons">
+                    <a className="btn btn-secondary" href="./documents/Unique-Garden-Trading-License.pdf" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M19 13.0052V10.6606C19 9.84276 19 9.43383 18.8478 9.06613C18.6955 8.69843 18.4065 8.40927 17.8284 7.83096L13.0919 3.09236C12.593 2.59325 12.3436 2.3437 12.0345 2.19583C11.9702 2.16508 11.9044 2.13778 11.8372 2.11406C11.5141 2 11.1614 2 10.4558 2C7.21082 2 5.58831 2 4.48933 2.88646C4.26731 3.06554 4.06508 3.26787 3.88607 3.48998C3 4.58943 3 6.21265 3 9.45908V14.0052C3 17.7781 3 19.6645 4.17157 20.8366C5.11466 21.7801 6.52043 21.9641 9 22M12 2.50022V3.00043C12 5.83009 12 7.24492 12.8787 8.12398C13.7574 9.00304 15.1716 9.00304 18 9.00304H18.5"
+                                stroke="#027833"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            />
+                            <path
+                                d="M16 22C18.7614 22 21 19 21 19C21 19 18.7614 16 16 16C13.2386 16 11 19 11 19C11 19 13.2386 22 16 22Z"
+                                stroke="#027833"
+                                strokeWidth="2"
+                                strokeLinejoin="round"
+                            />
+                            <path d="M15.9902 19H15.9992" stroke="#027833" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                        View
+                    </a>
+                    <a className="btn" href="./documents/Unique-Garden-Trading-License.pdf" download="Unique-Garden-Trading-Licence.pdf">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M3.36133 6.6002C3.99836 7.25558 5.69384 9.8402 6.60133 9.8402C7.50882 9.8402 9.2043 7.25558 9.84133 6.6002M6.60133 8.7602V1.2002"
+                                stroke="white"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            />
+                            <path
+                                d="M3.36133 13.0802V14.7479C3.36133 18.2525 3.36133 20.0048 4.31828 21.1918C4.51161 21.4315 4.73002 21.6499 4.9698 21.8432C6.1567 22.8002 7.90901 22.8002 11.4136 22.8002C12.1756 22.8002 12.5566 22.8002 12.9055 22.6771C12.9781 22.6515 13.0491 22.622 13.1186 22.5888C13.4524 22.4291 13.7218 22.1598 14.2606 21.6209L19.376 16.5055C20.0003 15.8812 20.3125 15.5691 20.477 15.172C20.6413 14.7751 20.6413 14.3336 20.6413 13.4507V9.8402C20.6413 5.76726 20.6413 3.7308 19.376 2.46549C18.1108 1.2002 16.0742 1.2002 12.0013 1.2002M13.0813 22.2602V21.7202C13.0813 18.6655 13.0813 17.1382 14.0303 16.1892C14.9793 15.2402 16.5067 15.2402 19.5613 15.2402H20.1013"
+                                stroke="white"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            />
+                        </svg>
+                        Download
+                    </a>
+                </div>
+            </section>
+            <section className="widget-wrapper meet-our-team">
+                <div className="widget-wrapper text-group">
+                    <div className="text-content-wrapper">
+                        <h2>Meet Our Team</h2>
+                        <p>
+                            Behind every project is a dedicated team of designers, engineers, and craftsmen. Together, we bring expertise, creativity, and precision to every space
+                            we create.
+                        </p>
+                    </div>
+                </div>
+                <div className="widget-wrapper our-team-wrapper">
+                    <div className="text-content person">
+                        <div className="image-content-wrapper">
+                            <Image
+                                src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Person-1.webp"
+                                alt="company team"
+                                width={700}
+                                height={1080}
+                                priority
+                            />
+                        </div>
+                        <div className="text-content-wrapper">
+                            <h6>Khalid Mansoor</h6>
+                            <p className="overline-3">Operations Manager</p>
+                        </div>
+                    </div>
+                    <div className="text-content person">
+                        <div className="image-content-wrapper">
+                            <Image
+                                src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Person-2.webp"
+                                alt="company team"
+                                width={700}
+                                height={1080}
+                                priority
+                            />
+                        </div>
+                        <div className="text-content-wrapper">
+                            <h6>Ahmed Al Fardan</h6>
+                            <p className="overline-3">Project Manager</p>
+                        </div>
+                    </div>
+                    <div className="text-content person">
+                        <div className="image-content-wrapper">
+                            <Image
+                                src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Person-3.webp"
+                                alt="company team"
+                                width={700}
+                                height={1080}
+                                priority
+                            />
+                        </div>
+                        <div className="text-content-wrapper">
+                            <h6>Sara Al Zahra</h6>
+                            <p className="overline-3">Design & Client Relations</p>
+                        </div>
+                    </div>
+                    <div className="text-content person">
+                        <div className="image-content-wrapper">
+                            <Image
+                                src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Person-4.webp"
+                                alt="company team"
+                                width={700}
+                                height={1080}
+                                priority
+                            />
+                        </div>
+                        <div className="text-content-wrapper">
+                            <h6>Omar Rahman</h6>
+                            <p className="overline-3">Senior Engineer</p>
+                        </div>
+                    </div>
+                    <div className="text-content team">
+                        <div className="image-content-wrapper">
+                            <Image
+                                src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Team-Image-1.webp"
+                                alt="company team"
+                                width={1920}
+                                height={1080}
+                                priority
+                            />
+                        </div>
+                        <div className="text-content-wrapper">
+                            <h6>MEP Department</h6>
+                            <p className="overline-3">Team Members</p>
+                        </div>
+                    </div>
+                    <div className="text-content team">
+                        <div className="image-content-wrapper">
+                            <Image
+                                src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Team-Image-2.webp"
+                                alt="company team"
+                                width={1920}
+                                height={1080}
+                                priority
+                            />
+                        </div>
+                        <div className="text-content-wrapper">
+                            <h6>Civil Deparment</h6>
+                            <p className="overline-3">Team Members</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <RequestAQuote />
         </main>
     );
