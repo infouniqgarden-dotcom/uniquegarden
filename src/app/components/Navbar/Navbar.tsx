@@ -25,6 +25,17 @@ export default function Navbar() {
         { name: "Careers", href: "./#careers" },
     ];
 
+    const isActive = (href: string) => {
+        // Normalize relative path to absolute
+        const normalizedHref = href.startsWith("./") ? href.replace("./", "/") : href;
+
+        // Remove hash for comparison
+        const pathWithoutHash = normalizedHref.split("#")[0];
+
+        // Check exact match or if current path starts with link path
+        return pathname === pathWithoutHash || (pathWithoutHash !== "/" && pathname.startsWith(pathWithoutHash + "/"));
+    };
+
     return (
         <nav>
             <div className={`navbar ${open ? "open" : ""}`}>
@@ -40,11 +51,7 @@ export default function Navbar() {
                         <ul className="list">
                             {links.map((link) => (
                                 <li key={link.href}>
-                                    <Link
-                                        href={link.href}
-                                        className={pathname === link.href || pathname.startsWith(link.href + "/") ? "active" : ""}
-                                        onClick={() => setOpen(false)}
-                                    >
+                                    <Link href={link.href} className={isActive(link.href) ? "active" : ""} onClick={() => setOpen(false)}>
                                         {link.name}
                                     </Link>
                                 </li>

@@ -32,7 +32,7 @@
     /* navbar */
     --nav-bg: #141414cc;
     --nav-link-color: rgba(255, 255, 255, 0.8);
-    --nav-link-active-color: #ffffff;
+    --nav-link-active-color: var(--brand-color-secondary);
     --nav-btn-bg: #fdfdfd;
     --nav-btn-text-color: #141414;
     --nav-btn-border-color: var(--nav-btn-bg);
