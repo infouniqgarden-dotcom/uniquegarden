@@ -96,7 +96,7 @@ h6,
    Paragraphs (Figtree)
 ================================ */
 
-p {
+:is(p, li, td, th) {
     font-family: var(--font-figtree), sans-serif;
     font-weight: 500;
     font-size: clamp(16px, calc((24 / var(--viewport)) * 100vw), 24px);
@@ -196,7 +196,7 @@ p {
         letter-spacing: 0;
     }
 
-    p {
+    :is(p, li, td, th) {
         font-size: 16px;
         line-height: 24px;
         opacity: 0.64;
@@ -210,5 +210,26 @@ p {
     .p-sm {
         font-size: 14px;
         line-height: 20px;
+    }
+}
+
+ul {
+    padding: 0 20px;
+
+    li {
+        list-style-type: disc;
+
+        &::marker {
+            content: "• ";
+            color: inherit;
+        }
+    }
+}
+
+ol {
+    padding: 0 20px;
+
+    li {
+        list-style-type: decimal;
     }
 }
