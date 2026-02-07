@@ -10,6 +10,7 @@ h5,
 h6 {
     font-family: var(--font-garamond), serif;
     text-wrap: balance;
+    color: var(--primary-text-color);
 }
 
 h1,
@@ -103,7 +104,7 @@ h6,
     line-height: clamp(24px, calc((36 / var(--viewport)) * 100vw), 36px);
     letter-spacing: -0.02em;
     text-wrap: balance;
-    opacity: 0.7;
+    color: rgba(20, 20, 20, 0.7);
 }
 
 .p-lg {
@@ -214,7 +215,7 @@ h6,
 }
 
 ul {
-    padding: 0 20px;
+    padding: 0 0 0 20px;
 
     li {
         list-style-type: disc;
@@ -227,7 +228,7 @@ ul {
 }
 
 ol {
-    padding: 0 20px;
+    padding: 0 0 0 20px;
 
     li {
         list-style-type: decimal;

@@ -63,6 +63,26 @@
     }
 } */
 
+.golden-amber {
+    --color-for-widget: var(--card-overlay-primary);
+}
+
+.deep-teal-blue {
+    --color-for-widget: var(--card-overlay-secondary);
+}
+
+.muted-burgundy-brown {
+    --color-for-widget: var(--card-overlay-accent);
+}
+
+.olive-drab {
+    --color-for-widget: var(--card-overlay-muted);
+}
+
+.warm-taupe {
+    --color-for-widget: var(--card-overlay-neutral);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -73,7 +93,7 @@ body {
     font-size: 24px;
     line-height: 36px;
     letter-spacing: -0.02em;
-    color: #141414;
+    color: rgba(20, 20, 20, 0.7);
     overflow-x: hidden;
 }
 

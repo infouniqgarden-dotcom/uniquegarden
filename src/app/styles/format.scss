@@ -1,0 +1,78 @@
+.widget-wrapper.bg.our-services-multi-icon-text-slider {
+    padding-inline: unset;
+
+    .text-group {
+        padding-inline: var(--widget-vertical-spacing);
+    }
+
+    .multi-icon-text-slider {
+        padding-inline: var(--widget-vertical-spacing);
+        gap: 8px;
+
+        .swiper {
+            position: relative;
+            overflow: hidden;
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background: linear-gradient(90deg, rgba(235, 245, 239, 1) 0%, rgba(235, 245, 239, 0) 10%, rgba(235, 245, 239, 0) 90%, rgba(235, 245, 239, 1) 100%);
+                pointer-events: none;
+            }
+            .swiper-wrapper {
+                transition-timing-function: linear !important;
+
+                .swiper-slide {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: clamp(5px, calc((12 / var(--viewport)) * 100vw), 12px);
+                    background: #fff;
+                    border-radius: 50px;
+                    padding: clamp(6px, calc((16 / var(--viewport)) * 100vw), 16px) clamp(14px, calc((32 / var(--viewport)) * 100vw), 32px)
+                        clamp(6px, calc((16 / var(--viewport)) * 100vw), 16px) clamp(10px, calc((24 / var(--viewport)) * 100vw), 24px);
+                    width: fit-content !important;
+
+                    img {
+                        width: clamp(14px, calc((32 / var(--viewport)) * 100vw), 32px);
+                        flex-shrink: 0;
+                        height: auto;
+                    }
+
+                    .service-name {
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 767px) {
+            padding-inline: 0;
+        }
+
+        @media (min-width: 640px) {
+            gap: 10px;
+        }
+
+        @media (min-width: 768px) {
+            gap: 14px;
+        }
+
+        @media (min-width: 1024px) {
+            gap: 20px;
+        }
+
+        @media (min-width: 1280px) {
+            gap: 24px;
+        }
+
+        @media (min-width: 1536px) {
+            gap: 32px;
+        }
+    }
+}

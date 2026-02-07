@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ArrowButton from "./ArrowButton";
+import Link from "next/link";
 
 export default function OurServices() {
     return (
@@ -9,9 +10,9 @@ export default function OurServices() {
                     <div className="overline-1">Our Services</div>
                     <h2>Tailored Outdoor Solutions for Every Space</h2>
                     <p>From gardens to pools, we offer end-to-end landscaping and construction services in Dubai & Sharjah.</p>
-                    <a href="#" className="btn">
+                    <Link href="#" className="btn">
                         View all services
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className="widget-wrapper iamge-text-card">

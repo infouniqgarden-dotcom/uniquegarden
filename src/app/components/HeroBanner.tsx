@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ArrowButton() {
     return (
@@ -18,12 +19,12 @@ export default function ArrowButton() {
                     <h1>Transforming Outdoor Spaces into Beautiful, Functional Landscapes</h1>
                     <p>From elegant gardens to complete landscape construction, we design and build spaces that bring nature closer to you.</p>
                     <div className="btn-group">
-                        <a className="btn" href="tel:+97165223391">
+                        <Link className="btn" href="tel:+97165223391">
                             Get a quote
-                        </a>
-                        <a className="btn btn-secondary" href="#our-services">
+                        </Link>
+                        <Link className="btn btn-secondary" href="#our-services">
                             Explore services
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
