@@ -32,30 +32,23 @@ export default function Navbar() {
     }, []);
 
     const links: NavLink[] = [
-        // { name: "Home", href: "/" },
-        { name: "About Us", href: "./about-us" },
-        { name: "Services", href: "./services" },
-        { name: "Projects", href: "./projects" },
-        { name: "Gallery", href: "./#gallery" },
-        { name: "Careers", href: "./#careers" },
+        { name: "About Us", href: "/about-us" },
+        { name: "Services", href: "/services" },
+        { name: "Projects", href: "/projects" },
+        { name: "Gallery", href: "/#gallery" },
+        { name: "Careers", href: "/#careers" },
     ];
 
     const isActive = (href: string) => {
-        // Normalize relative path to absolute
-        const normalizedHref = href.startsWith("./") ? href.replace("./", "/") : href;
-
         // Check if it's a hash link
-        if (normalizedHref.includes("#")) {
-            const [path, hash] = normalizedHref.split("#");
+        if (href.includes("#")) {
+            const [path, hash] = href.split("#");
             // For hash links, check both path and hash
             return pathname === (path || "/") && activeHash === `#${hash}`;
         }
 
-        // Remove hash for comparison (for non-hash links)
-        const pathWithoutHash = normalizedHref.split("#")[0];
-
         // Check exact match or if current path starts with link path
-        return pathname === pathWithoutHash || (pathWithoutHash !== "/" && pathname.startsWith(pathWithoutHash + "/"));
+        return pathname === href || (href !== "/" && pathname.startsWith(href + "/"));
     };
 
     return (
