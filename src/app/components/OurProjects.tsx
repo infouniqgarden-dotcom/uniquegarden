@@ -17,7 +17,7 @@ export default function OurProjects() {
                     <div className="overline-1">Our Projects</div>
                     <h2>Recent Work Across Dubai & Sharjah</h2>
                     <p>Explore some of our featured landscaping, pool, and civil work projects.</p>
-                    <Link href="#" className="btn">
+                    <Link href="./projects" className="btn">
                         View all projects
                     </Link>
                 </div>
@@ -52,9 +52,7 @@ export default function OurProjects() {
                             <div className="text-content-wrapper">
                                 <div className="first-column">
                                     <h3>Landscaping</h3>
-                                    <p className="p-sm">
-                                        Hard Landscaping • Swimming Pool • Outdoor Living
-                                    </p>
+                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
                                 </div>
                                 <div className="second-column">
                                     <p className="h6">Dubai Hills, UAE</p>
@@ -78,9 +76,7 @@ export default function OurProjects() {
                             <div className="text-content-wrapper">
                                 <div className="first-column">
                                     <h3>Landscaping</h3>
-                                    <p className="p-sm">
-                                        Hard Landscaping • Swimming Pool • Outdoor Living
-                                    </p>
+                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
                                 </div>
                                 <div className="second-column">
                                     <p className="h6">Dubai Hills, UAE</p>
@@ -104,9 +100,7 @@ export default function OurProjects() {
                             <div className="text-content-wrapper">
                                 <div className="first-column">
                                     <h3>Landscaping</h3>
-                                    <p className="p-sm">
-                                        Hard Landscaping • Swimming Pool • Outdoor Living
-                                    </p>
+                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
                                 </div>
                                 <div className="second-column">
                                     <p className="h6">Dubai Hills, UAE</p>
@@ -130,9 +124,7 @@ export default function OurProjects() {
                             <div className="text-content-wrapper">
                                 <div className="first-column">
                                     <h3>Landscaping</h3>
-                                    <p className="p-sm">
-                                        Hard Landscaping • Swimming Pool • Outdoor Living
-                                    </p>
+                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
                                 </div>
                                 <div className="second-column">
                                     <p className="h6">Dubai Hills, UAE</p>
@@ -156,9 +148,7 @@ export default function OurProjects() {
                             <div className="text-content-wrapper">
                                 <div className="first-column">
                                     <h3>Landscaping</h3>
-                                    <p className="p-sm">
-                                        Hard Landscaping • Swimming Pool • Outdoor Living
-                                    </p>
+                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
                                 </div>
                                 <div className="second-column">
                                     <p className="h6">Dubai Hills, UAE</p>
@@ -182,9 +172,7 @@ export default function OurProjects() {
                             <div className="text-content-wrapper">
                                 <div className="first-column">
                                     <h3>Landscaping</h3>
-                                    <p className="p-sm">
-                                        Hard Landscaping • Swimming Pool • Outdoor Living
-                                    </p>
+                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
                                 </div>
                                 <div className="second-column">
                                     <p className="h6">Dubai Hills, UAE</p>
@@ -208,9 +196,7 @@ export default function OurProjects() {
                             <div className="text-content-wrapper">
                                 <div className="first-column">
                                     <h3>Landscaping</h3>
-                                    <p className="p-sm">
-                                        Hard Landscaping • Swimming Pool • Outdoor Living
-                                    </p>
+                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
                                 </div>
                                 <div className="second-column">
                                     <p className="h6">Dubai Hills, UAE</p>
@@ -234,9 +220,7 @@ export default function OurProjects() {
                             <div className="text-content-wrapper">
                                 <div className="first-column">
                                     <h3>Landscaping</h3>
-                                    <p className="p-sm">
-                                        Hard Landscaping • Swimming Pool • Outdoor Living
-                                    </p>
+                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
                                 </div>
                                 <div className="second-column">
                                     <p className="h6">Dubai Hills, UAE</p>
