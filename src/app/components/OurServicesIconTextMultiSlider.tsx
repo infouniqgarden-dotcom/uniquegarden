@@ -10,21 +10,21 @@ import "swiper/css";
 
 // Service categories data
 const serviceCategories = [
-    { id: 1, name: "Soft Landscaping", icon: "/services-icons/Soft-Landscaping.svg" },
-    { id: 2, name: "Hard Landscaping", icon: "/services-icons/Hard-Landscaping.svg" },
-    { id: 3, name: "Swimming Pool", icon: "/services-icons/Swimming-Pool.svg" },
-    { id: 4, name: "Irrigation System", icon: "/services-icons/Irrigation-System.svg" },
-    { id: 5, name: "Water Features", icon: "/services-icons/Water-Features.svg" },
-    { id: 6, name: "MEP Works", icon: "/services-icons/MEP-Works.svg" },
-    { id: 7, name: "Vertical Garden", icon: "/services-icons/Vertical-Garden.svg" },
-    { id: 8, name: "Garden Maintenance", icon: "/services-icons/Garden-Maintenance.svg" },
-    { id: 9, name: "Landscape Design", icon: "/services-icons/Landscape-Design.svg" },
-    { id: 10, name: "Lighting & Electrical", icon: "/services-icons/Lighting-Electrical.svg" },
-    { id: 11, name: "Outdoor Lighting", icon: "/services-icons/Outdoor-Lighting.svg" },
-    { id: 12, name: "Civil Works", icon: "/services-icons/Civil-Works.svg" },
-    { id: 13, name: "Outdoor Flooring", icon: "/services-icons/Outdoor-Flooring.svg" },
-    { id: 14, name: "Pergola", icon: "/services-icons/Pergola.svg" },
-    { id: 15, name: "Pebble Garden", icon: "/services-icons/Pebble-Garden.svg" },
+    { id: 1, name: "Soft Landscaping", icon: "./services-icons/Soft-Landscaping.svg" },
+    { id: 2, name: "Hard Landscaping", icon: "./services-icons/Hard-Landscaping.svg" },
+    { id: 3, name: "Swimming Pool", icon: "./services-icons/Swimming-Pool.svg" },
+    { id: 4, name: "Irrigation System", icon: "./services-icons/Irrigation-System.svg" },
+    { id: 5, name: "Water Features", icon: "./services-icons/Water-Features.svg" },
+    { id: 6, name: "MEP Works", icon: "./services-icons/MEP-Works.svg" },
+    { id: 7, name: "Vertical Garden", icon: "./services-icons/Vertical-Garden.svg" },
+    { id: 8, name: "Garden Maintenance", icon: "./services-icons/Garden-Maintenance.svg" },
+    { id: 9, name: "Landscape Design", icon: "./services-icons/Landscape-Design.svg" },
+    { id: 10, name: "Lighting & Electrical", icon: "./services-icons/Lighting-Electrical.svg" },
+    { id: 11, name: "Outdoor Lighting", icon: "./services-icons/Outdoor-Lighting.svg" },
+    { id: 12, name: "Civil Works", icon: "./services-icons/Civil-Works.svg" },
+    { id: 13, name: "Outdoor Flooring", icon: "./services-icons/Outdoor-Flooring.svg" },
+    { id: 14, name: "Pergola", icon: "./services-icons/Pergola.svg" },
+    { id: 15, name: "Pebble Garden", icon: "./services-icons/Pebble-Garden.svg" },
 ];
 
 export default function OurSerivesIconTextMultiSlider({ reverseDirection = false }: { reverseDirection?: boolean }) {
