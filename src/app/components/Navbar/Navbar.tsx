@@ -58,7 +58,7 @@ export default function Navbar() {
                 <div className="container">
                     <div className="brand-logo">
                         <Link href="/" onClick={() => setOpen(false)}>
-                            <img src="/brand-name-logo.svg" alt="Brand Logo" width={192} height={48} />
+                            <Image src="./brand-name-logo.svg" alt="Brand Logo" width={192} height={48} />
                         </Link>
                     </div>
 
