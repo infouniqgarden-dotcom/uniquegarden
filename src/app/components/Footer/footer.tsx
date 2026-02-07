@@ -15,11 +15,11 @@ interface ServicesLink {
 export default function Footer() {
     const links: NavLink[] = [
         // { name: "Home", href: "/" },
-        { name: "About Us", href: "./about-us" },
-        { name: "Services", href: "./services" },
-        { name: "Projects", href: "./#our-projects" },
-        { name: "Gallery", href: "./#gallery" },
-        { name: "Careers", href: "./#careers" },
+        { name: "About Us", href: "/about-us" },
+        { name: "Services", href: "/services" },
+        { name: "Projects", href: "/#our-projects" },
+        { name: "Gallery", href: "/#gallery" },
+        { name: "Careers", href: "/#careers" },
     ];
 
     const serviceLinks: ServicesLink[] = [
@@ -42,7 +42,7 @@ export default function Footer() {
                     <div className="column-one">
                         <div className="brand-logo">
                             <Link href="/">
-                                <Image src="./brand-name-logo.svg" alt="Brand Logo" width={192} height={48} />
+                                <Image src="/brand-name-logo.svg" alt="Brand Logo" width={192} height={48} />
                             </Link>
                         </div>
                         <h6>Unique Garden Tech Cont. LLC</h6>
@@ -115,13 +115,13 @@ export default function Footer() {
                             <div className="overline-3">Follow Us</div>
                             <div className="social-media-links">
                                 <a href="https://www.instagram.com/unique_garden_tech_cont/" target="_blank" rel="noopener noreferrer">
-                                    <Image src="./instagram-icon.svg" alt="Instagram" width={24} height={24} />
+                                    <Image src="/instagram-icon.svg" alt="Instagram" width={24} height={24} />
                                 </a>
                                 <a href="https://www.linkedin.com/company/unique-garden-tech-cont-llc/" target="_blank" rel="noopener noreferrer">
-                                    <Image src="./linkedin-icon.svg" alt="LinkedIn" width={24} height={24} />
+                                    <Image src="/linkedin-icon.svg" alt="LinkedIn" width={24} height={24} />
                                 </a>
                                 <a href="https://www.facebook.com/share/1BpbpvVrwk/" target="_blank" rel="noopener noreferrer">
-                                    <Image src="./facebook-icon.svg" alt="Facebook" width={24} height={24} />
+                                    <Image src="/facebook-icon.svg" alt="Facebook" width={24} height={24} />
                                 </a>
                             </div>
                         </div>
@@ -157,7 +157,7 @@ export default function Footer() {
                         <span>
                             Designed by
                             <a href="https://www.linkedin.com/company/thegridlabs/" target="_blank" rel="noopener noreferrer">
-                                <Image src="./thegridlabs.png" alt="Brand Logo" width={130} height={21} />
+                                <Image src="/thegridlabs.png" alt="Brand Logo" width={130} height={21} />
                             </a>
                         </span>
                         <span>•</span>
