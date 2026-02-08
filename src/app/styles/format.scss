@@ -1,78 +1,43 @@
-.widget-wrapper.bg.our-services-multi-icon-text-slider {
-    padding-inline: unset;
-
-    .text-group {
-        padding-inline: var(--widget-vertical-spacing);
+section.widget-wrapper.project-image-gallery {
+    .text-content-wrapper {
+        padding-bottom: clamp(30px, calc((48 / var(--viewport)) * 100vw), 48px);
     }
+    .image-content-wrapper {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: clamp(12px, calc((40 / var(--viewport)) * 100vw), 40px);
+        grid-auto-rows: 10.418vw;
 
-    .multi-icon-text-slider {
-        padding-inline: var(--widget-vertical-spacing);
-        gap: 8px;
-
-        .swiper {
-            position: relative;
-            overflow: hidden;
-
-            &::after {
-                content: "";
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                z-index: 1;
-                background: linear-gradient(90deg, rgba(235, 245, 239, 1) 0%, rgba(235, 245, 239, 0) 10%, rgba(235, 245, 239, 0) 90%, rgba(235, 245, 239, 1) 100%);
-                pointer-events: none;
-            }
-            .swiper-wrapper {
-                transition-timing-function: linear !important;
-
-                .swiper-slide {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap: clamp(5px, calc((12 / var(--viewport)) * 100vw), 12px);
-                    background: #fff;
-                    border-radius: 50px;
-                    padding: clamp(6px, calc((16 / var(--viewport)) * 100vw), 16px) clamp(14px, calc((32 / var(--viewport)) * 100vw), 32px)
-                        clamp(6px, calc((16 / var(--viewport)) * 100vw), 16px) clamp(10px, calc((24 / var(--viewport)) * 100vw), 24px);
-                    width: fit-content !important;
-
-                    img {
-                        width: clamp(14px, calc((32 / var(--viewport)) * 100vw), 32px);
-                        flex-shrink: 0;
-                        height: auto;
-                    }
-
-                    .service-name {
-                        white-space: nowrap;
-                    }
-                }
-            }
+        img {
+            border-radius: var(--border-radius);
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
         }
 
-        @media (max-width: 767px) {
-            padding-inline: 0;
+        img:nth-child(5n + 1) {
+            grid-column: 1 / -1;
+            grid-row: span 3;
         }
 
-        @media (min-width: 640px) {
-            gap: 10px;
+        img:nth-child(5n + 2) {
+            grid-column: 1 / 8;
+            grid-row: span 2;
         }
 
-        @media (min-width: 768px) {
-            gap: 14px;
+        img:nth-child(5n + 3) {
+            grid-column: 8 / -1;
+            grid-row: span 2;
         }
 
-        @media (min-width: 1024px) {
-            gap: 20px;
+        img:nth-child(5n + 4) {
+            grid-column: 1 / 6;
+            grid-row: span 2;
         }
 
-        @media (min-width: 1280px) {
-            gap: 24px;
-        }
-
-        @media (min-width: 1536px) {
-            gap: 32px;
+        img:nth-child(5n + 5) {
+            grid-column: 6 / -1;
+            grid-row: span 2;
         }
     }
 }

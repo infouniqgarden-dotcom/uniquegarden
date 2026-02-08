@@ -949,7 +949,7 @@ section.widget-wrapper.not-found {
                 color: var(--text-color-over-img);
             }
 
-            .overline-2 {
+            .overline-3 {
                 font-weight: 400;
                 text-transform: capitalize;
                 margin-top: 10px;
@@ -1052,7 +1052,7 @@ section.widget-wrapper.not-found {
                 color: var(--text-color-over-img);
             }
 
-            .overline-2 {
+            .overline-3 {
                 font-weight: 400;
                 text-transform: capitalize;
                 margin-top: 10px;
@@ -1189,6 +1189,68 @@ section.widget-wrapper.not-found {
 
         @media (min-width: 1536px) {
             gap: 32px;
+        }
+    }
+}
+
+.project-detials {
+    .text-content {
+        width: 100%;
+
+        b {
+            color: var(--primary-text-color);
+        }
+
+        p {
+            text-wrap: unset;
+        }
+
+        &:not(:first-child) {
+            padding-top: var(--widget-spacing);
+        }
+    }
+}
+
+.project-image-gallery {
+    .text-content-wrapper {
+        padding-bottom: clamp(30px, calc((48 / var(--viewport)) * 100vw), 48px);
+    }
+    .image-content-wrapper {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: clamp(12px, calc((40 / var(--viewport)) * 100vw), 40px);
+        grid-auto-rows: 10.418vw;
+
+        img {
+            border-radius: var(--border-radius);
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        img:nth-child(5n + 1) {
+            grid-column: 1 / -1;
+            grid-row: span 3;
+        }
+
+        img:nth-child(5n + 2) {
+            grid-column: 1 / 8;
+            grid-row: span 2;
+        }
+
+        img:nth-child(5n + 3) {
+            grid-column: 8 / -1;
+            grid-row: span 2;
+        }
+
+        img:nth-child(5n + 4) {
+            grid-column: 1 / 6;
+            grid-row: span 2;
+        }
+
+        img:nth-child(5n + 5) {
+            grid-column: 6 / -1;
+            grid-row: span 2;
         }
     }
 }

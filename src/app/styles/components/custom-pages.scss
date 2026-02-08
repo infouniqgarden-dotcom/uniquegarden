@@ -35,3 +35,11 @@ main.projects-page {
         margin-top: 0;
     }
 }
+
+main.project-inner-page {
+    .project-image-gallery {
+        padding-top: 0;
+    }
+
+    padding-bottom: var(--widget-spacing);
+}
