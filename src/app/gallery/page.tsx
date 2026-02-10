@@ -14,6 +14,7 @@ export default function Gallery() {
                         </Link>
                     </div>
                 </div>
+
                 <div className="widget-wrapper sliders">
                     <GallerySlider row="row1" reverseDirection={true} />
                     <GallerySlider row="row2" reverseDirection={false} />
