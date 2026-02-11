@@ -73,11 +73,11 @@ export default function Navbar() {
                             ))}
                         </ul>
 
-                        <Link href={"tel:+97165223391"} className={"btn"}>
+                        <Link href="./contact-us" className={"btn"}>
                             Contact Us
                         </Link>
                     </div>
-                    <Link href={"tel:+97165223391"} className={"btn"}>
+                    <Link href="./contact-us" className={"btn"}>
                         Contact Us
                     </Link>
 

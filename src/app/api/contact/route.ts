@@ -48,12 +48,13 @@ export async function POST(request: NextRequest) {
         <html>
           <head>
             <style>
-              body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-              .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-              .header { background-color: #2d5016; color: white; padding: 20px; text-align: center; }
+              body { font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 1.6; color: #333; }
+              .container { max-width: 600px; margin: 0 auto; padding: 20px; border-radius: 16px; }
+              .header { background-color: #027833; color: white; padding: 20px; text-align: center; }
+              .header h2 { margin: 0; }
               .content { background-color: #f9f9f9; padding: 20px; }
               .field { margin-bottom: 15px; }
-              .label { font-weight: bold; color: #2d5016; }
+              .label { font-weight: bold; color: #027833; }
               .value { margin-top: 5px; }
               .footer { margin-top: 20px; padding: 20px; text-align: center; font-size: 12px; color: #666; }
             </style>
@@ -108,9 +109,10 @@ export async function POST(request: NextRequest) {
         <html>
           <head>
             <style>
-              body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+              body { font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 1.6; color: #333; }
               .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-              .header { background-color: #2d5016; color: white; padding: 20px; text-align: center; }
+              .header { background-color: #027833; color: white; padding: 20px; text-align: center; }
+              .header h2 { margin: 0; }
               .content { background-color: #f9f9f9; padding: 30px; }
               .footer { margin-top: 20px; padding: 20px; text-align: center; font-size: 12px; color: #666; }
             </style>
@@ -122,7 +124,7 @@ export async function POST(request: NextRequest) {
               </div>
               <div class="content">
                 <p>Dear ${name},</p>
-                <p>Thank you for reaching out to Unique Garden. We have received your inquiry about <strong>${projectType}</strong> and will get back to you within 24-48 hours.</p>
+                <p>Thank you for reaching out to Unique Garden. We have received your inquiry about <strong>${projectType}</strong> and our team will get back to you within 24-48 hours.</p>
                 <p>Here's a summary of your submission:</p>
                 <ul>
                   <li><strong>Project Type:</strong> ${projectType}</li>
@@ -131,6 +133,8 @@ export async function POST(request: NextRequest) {
                   <li><strong>Contact Phone:</strong> ${phoneNumber}</li>
                 </ul>
                 <p>If you have any urgent questions, please don't hesitate to call us directly.</p>
+                <p><b>Mobile:</b> +971 58 604 4013 • +971 55 524 0544</p>
+                <p><b>Landline:</b> +971 6 522 3391</p> 
                 <p>Best regards,<br>The Unique Garden Team</p>
               </div>
               <div class="footer">
