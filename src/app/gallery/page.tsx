@@ -8,7 +8,10 @@ export default function Gallery() {
                 <div className="widget-wrapper text-group">
                     <div className="text-content-wrapper">
                         <h2>Wall of Works</h2>
-                        <p>The page couldn’t be loaded right now. Please try again later.</p>
+                        <p>
+                            Our gallery is a reflection of what we build and believe in. Each project displayed here demonstrates our expertise, style, and pursuit of excellence.
+                            Take a look around and discover how we turn vision into reality.
+                        </p>
                         <Link href="./" className="btn">
                             Go to home
                         </Link>

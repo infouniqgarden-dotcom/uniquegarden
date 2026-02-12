@@ -97,7 +97,7 @@ h6,
    Paragraphs (Figtree)
 ================================ */
 
-:is(p, li, td, th, div) {
+:is(p, li, td, th) {
     font-family: var(--font-figtree), sans-serif;
     font-weight: 500;
     font-size: clamp(16px, calc((24 / var(--viewport)) * 100vw), 24px);

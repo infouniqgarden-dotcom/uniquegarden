@@ -1365,7 +1365,7 @@ section.widget-wrapper.gallery-slider {
 
                 &::placeholder {
                     color: rgba(20, 20, 20, 0.5);
-                    font-size: clamp(14px, calc((18 / var(--viewport)) * 100vw), 18px);
+                    font-size: clamp(16px, calc((18 / var(--viewport)) * 100vw), 18px);
                     line-height: clamp(16px, calc((20 / var(--viewport)) * 100vw), 20px);
                     font-weight: 500;
                 }
@@ -1377,7 +1377,7 @@ section.widget-wrapper.gallery-slider {
                 }
 
                 @media (max-width: 767px) {
-                    font-size: 12px;
+                    font-size: 16px;
                     line-height: 20px;
                 }
             }
