@@ -36,7 +36,7 @@ export default function Navbar() {
         { name: "Services", href: "/services" },
         { name: "Projects", href: "/projects" },
         { name: "Gallery", href: "/gallery" },
-        { name: "Careers", href: "/#careers" },
+        { name: "Careers", href: "/careers" },
     ];
 
     const isActive = (href: string) => {

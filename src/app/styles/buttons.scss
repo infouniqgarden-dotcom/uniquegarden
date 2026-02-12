@@ -19,6 +19,9 @@
     height: max-content;
     cursor: pointer;
     transition: all 0.3s ease;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 
     &:is(:hover, :focus, :active) {
         background-color: var(--btn-hover-bg-color);

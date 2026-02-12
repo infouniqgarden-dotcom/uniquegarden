@@ -27,6 +27,10 @@ export default function ContactPage() {
                 <div className="widget-wrapper text-group">
                     <div className="text-content-wrapper">
                         <h2>Reach out to us!</h2>
+                        <p>
+                            Whether you have questions about our services, want to discuss your project, or need a quote, we&apos;re here to help. Contact us today and let&apos;s
+                            create something amazing together!
+                        </p>
                         {/* <div className="contact-us">
                             <div className="mails">
                                 <div className="mail">
