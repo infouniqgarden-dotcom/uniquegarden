@@ -285,7 +285,7 @@ export default function ContactForm() {
 
                 {submitStatus === "success" && (
                     <div className="alert alert-success" role="alert">
-                        Thank you! Your message has been sent successfully. We'll get back to you soon.
+                        Thank you! Your message has been sent successfully. We&apos;ll get back to you soon.
                     </div>
                 )}
 
