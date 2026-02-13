@@ -31,11 +31,13 @@ export default function Careers() {
                 </div>
                 <div className="widget-wrapper job-listing">
                     <div className="text-content">
-                        <div className="job-header">
-                            <Image src="./openings-icons/Landscape-Architect.svg" alt="Opening for Landscape Architect icon" width={64} height={64} />
-                            <div className="job-title">
-                                <h6>Landscape Architect</h6>
-                                <div className="full-time">Full Time</div>
+                        <div className="text-content-wrapper">
+                            <div className="job-header">
+                                <Image src="./openings-icons/Landscape-Architect.svg" alt="Opening for Landscape Architect icon" width={64} height={64} />
+                                <div className="job-title">
+                                    <h3>Landscape Architect</h3>
+                                    <p className="job-tag full-time">Full Time</p>
+                                </div>
                                 <Link target="_blank" href="#" className="btn">
                                     Apply Now
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -50,22 +52,36 @@ export default function Careers() {
                                     </svg>
                                 </Link>
                             </div>
-                        </div>
 
-                        <div className="job-description">
-                            <p>Experience: 3–5 years • Location: Dubai & Sharjah, UAE • Skills: CAD, 3D visualization, plant selection, outdoor design concepts</p>
-                            <p>
-                                Work with our design team to create stunning outdoor environments for villas and commercial spaces across Dubai and Sharjah. You&apos;ll be involved
-                                in concept planning, plant selection, and design execution that blend creativity with practicality.
-                            </p>
+                            <div className="job-description">
+                                <p>
+                                    <span>
+                                        <b>Experience:</b> 3–5 years
+                                    </span>{" "}
+                                    •{" "}
+                                    <span>
+                                        <b>Location:</b> Dubai & Sharjah, UAE
+                                    </span>{" "}
+                                    •{" "}
+                                    <span>
+                                        <b>Skills:</b> CAD, 3D visualization, plant selection, outdoor design concepts
+                                    </span>
+                                </p>
+                                <p>
+                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across Dubai and Sharjah. You&apos;ll be
+                                    involved in concept planning, plant selection, and design execution that blend creativity with practicality.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className="text-content">
-                        <div className="job-header">
-                            <Image src="./openings-icons/Site-Engineer-Civil-MEP.svg" alt="Opening for Landscape Architect icon" width={64} height={64} />
-                            <div className="job-title">
-                                <h6>Site Engineer – Civil & MEP</h6>
-                                <div className="full-time">Full Time</div>
+                        <div className="text-content-wrapper">
+                            <div className="job-header">
+                                <Image src="./openings-icons/Site-Engineer-Civil-MEP.svg" alt="Opening for Landscape Architect icon" width={64} height={64} />
+                                <div className="job-title">
+                                    <h3>Site Engineer – Civil & MEP</h3>
+                                    <p className="job-tag full-time">Full Time</p>
+                                </div>
                                 <Link target="_blank" href="#" className="btn">
                                     Apply Now
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -80,22 +96,36 @@ export default function Careers() {
                                     </svg>
                                 </Link>
                             </div>
-                        </div>
 
-                        <div className="job-description">
-                            <p>Experience: 3–5 years • Location: Dubai & Sharjah, UAE • Skills: Skills: Site supervision, AutoCAD, project scheduling, safety compliance</p>
-                            <p>
-                                Work with our design team to create stunning outdoor environments for villas and commercial spaces across Dubai and Sharjah. You&apos;ll be involved
-                                in concept planning, plant selection, and design execution that blend creativity with practicality.
-                            </p>
+                            <div className="job-description">
+                                <p>
+                                    <span>
+                                        <b>Experience:</b> 3–5 years
+                                    </span>{" "}
+                                    •{" "}
+                                    <span>
+                                        <b>Location:</b> Dubai & Sharjah, UAE
+                                    </span>{" "}
+                                    •{" "}
+                                    <span>
+                                        <b>Skills:</b> Skills: Site supervision, AutoCAD, project scheduling, safety compliance
+                                    </span>
+                                </p>
+                                <p>
+                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across Dubai and Sharjah. You&apos;ll be
+                                    involved in concept planning, plant selection, and design execution that blend creativity with practicality.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className="text-content">
-                        <div className="job-header">
-                            <Image src="./openings-icons/Landscape-Designer.svg" alt="Opening for Landscape-Designer icon" width={64} height={64} />
-                            <div className="job-title">
-                                <h6>Landscape Designer</h6>
-                                <div className="full-time">INTERNSHIP</div>
+                        <div className="text-content-wrapper">
+                            <div className="job-header">
+                                <Image src="./openings-icons/Landscape-Designer.svg" alt="Opening for Landscape-Designer icon" width={64} height={64} />
+                                <div className="job-title">
+                                    <h3>Landscape Designer</h3>
+                                    <p className="job-tag internship">INTERNSHIP</p>
+                                </div>
                                 <Link target="_blank" href="#" className="btn">
                                     Apply Now
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -110,14 +140,26 @@ export default function Careers() {
                                     </svg>
                                 </Link>
                             </div>
-                        </div>
 
-                        <div className="job-description">
-                            <p>Experience: Fresh graduates • Location: Dubai, UAE • Skills: Basic CAD/SketchUp, design support, willingness to learn</p>
-                            <p>
-                                Work with our design team to create stunning outdoor environments for villas and commercial spaces across Dubai and Sharjah. You&apos;ll be involved
-                                in concept planning, plant selection, and design execution that blend creativity with practicality.
-                            </p>
+                            <div className="job-description">
+                                <p>
+                                    <span>
+                                        <b>Experience:</b> Fresh graduates
+                                    </span>{" "}
+                                    •{" "}
+                                    <span>
+                                        <b>Location:</b> Dubai, UAE
+                                    </span>{" "}
+                                    •{" "}
+                                    <span>
+                                        <b>Skills:</b> Basic CAD/SketchUp, design support, willingness to learn
+                                    </span>
+                                </p>
+                                <p>
+                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across Dubai and Sharjah. You&apos;ll be
+                                    involved in concept planning, plant selection, and design execution that blend creativity with practicality.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
