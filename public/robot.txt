@@ -1,0 +1,10 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin or private pages (customize as needed)
+# Disallow: /admin
+# Disallow: /api/private
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://gowthamavtech.github.io/unique-garden/sitemap.xml
