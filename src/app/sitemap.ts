@@ -1,4 +1,6 @@
 import { MetadataRoute } from "next";
+export const dynamic = "force-static";
+export const revalidate = false;
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = "https://gowthamavtech.github.io/unique-garden/"; // Replace with your actual domain
