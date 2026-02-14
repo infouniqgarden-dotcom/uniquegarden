@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import ArrowButton from "./ArrowButton";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 
@@ -39,195 +38,227 @@ export default function OurProjects() {
                     initialSlide={0}
                 >
                     <SwiperSlide>
-                        <div className="text-content">
-                            <div className="image-content-wrapper">
-                                <Image
-                                    src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
-                                    alt="Service one"
-                                    width={1920}
-                                    height={1080}
-                                    priority
-                                />
-                            </div>
-                            <div className="text-content-wrapper">
-                                <div className="first-column">
-                                    <h3>Landscaping</h3>
-                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                        <div className="text-content deep-teal-blue">
+                            <Link href="./projects">
+                                <div className="image-content-wrapper">
+                                    <Image
+                                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        priority
+                                    />
                                 </div>
-                                <div className="second-column">
-                                    <p className="h6">Dubai Hills, UAE</p>
-                                    <p className="p-sm">August 2025</p>
+                                <div className="text-content-wrapper">
+                                    <div className="first-column">
+                                        <h3>Landscaping</h3>
+                                        <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                                    </div>
+                                    <div className="second-column">
+                                        <p className="h6">Dubai Hills, UAE</p>
+                                        <p className="p-sm">August 2025</p>
+                                    </div>
+                                    <div className="arrow">
+                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                    </div>
                                 </div>
-                                <ArrowButton link={"#"} className={"arrow-on-img"} />
-                            </div>
+                            </Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="text-content">
-                            <div className="image-content-wrapper">
-                                <Image
-                                    src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-2.webp"
-                                    alt="Service one"
-                                    width={1920}
-                                    height={1080}
-                                    priority
-                                />
-                            </div>
-                            <div className="text-content-wrapper">
-                                <div className="first-column">
-                                    <h3>Landscaping</h3>
-                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                        <div className="text-content olive-drab">
+                            <Link href="./projects">
+                                <div className="image-content-wrapper">
+                                    <Image
+                                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-2.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        priority
+                                    />
                                 </div>
-                                <div className="second-column">
-                                    <p className="h6">Dubai Hills, UAE</p>
-                                    <p className="p-sm">August 2025</p>
+                                <div className="text-content-wrapper">
+                                    <div className="first-column">
+                                        <h3>Landscaping</h3>
+                                        <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                                    </div>
+                                    <div className="second-column">
+                                        <p className="h6">Dubai Hills, UAE</p>
+                                        <p className="p-sm">August 2025</p>
+                                    </div>
+                                    <div className="arrow">
+                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                    </div>
                                 </div>
-                                <ArrowButton link={"#"} className={"arrow-on-img"} />
-                            </div>
+                            </Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="text-content">
-                            <div className="image-content-wrapper">
-                                <Image
-                                    src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-3.webp"
-                                    alt="Service one"
-                                    width={1920}
-                                    height={1080}
-                                    priority
-                                />
-                            </div>
-                            <div className="text-content-wrapper">
-                                <div className="first-column">
-                                    <h3>Landscaping</h3>
-                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                        <div className="text-content olive-drab">
+                            <Link href="./projects">
+                                <div className="image-content-wrapper">
+                                    <Image
+                                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-3.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        priority
+                                    />
                                 </div>
-                                <div className="second-column">
-                                    <p className="h6">Dubai Hills, UAE</p>
-                                    <p className="p-sm">August 2025</p>
+                                <div className="text-content-wrapper">
+                                    <div className="first-column">
+                                        <h3>Landscaping</h3>
+                                        <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                                    </div>
+                                    <div className="second-column">
+                                        <p className="h6">Dubai Hills, UAE</p>
+                                        <p className="p-sm">August 2025</p>
+                                    </div>
+                                    <div className="arrow">
+                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                    </div>
                                 </div>
-                                <ArrowButton link={"#"} className={"arrow-on-img"} />
-                            </div>
+                            </Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="text-content">
-                            <div className="image-content-wrapper">
-                                <Image
-                                    src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
-                                    alt="Service one"
-                                    width={1920}
-                                    height={1080}
-                                    priority
-                                />
-                            </div>
-                            <div className="text-content-wrapper">
-                                <div className="first-column">
-                                    <h3>Landscaping</h3>
-                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                        <div className="text-content deep-teal-blue">
+                            <Link href="./projects">
+                                <div className="image-content-wrapper">
+                                    <Image
+                                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        priority
+                                    />
                                 </div>
-                                <div className="second-column">
-                                    <p className="h6">Dubai Hills, UAE</p>
-                                    <p className="p-sm">August 2025</p>
+                                <div className="text-content-wrapper">
+                                    <div className="first-column">
+                                        <h3>Landscaping</h3>
+                                        <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                                    </div>
+                                    <div className="second-column">
+                                        <p className="h6">Dubai Hills, UAE</p>
+                                        <p className="p-sm">August 2025</p>
+                                    </div>
+                                    <div className="arrow">
+                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                    </div>
                                 </div>
-                                <ArrowButton link={"#"} className={"arrow-on-img"} />
-                            </div>
+                            </Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="text-content">
-                            <div className="image-content-wrapper">
-                                <Image
-                                    src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
-                                    alt="Service one"
-                                    width={1920}
-                                    height={1080}
-                                    priority
-                                />
-                            </div>
-                            <div className="text-content-wrapper">
-                                <div className="first-column">
-                                    <h3>Landscaping</h3>
-                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                        <div className="text-content deep-teal-blue">
+                            <Link href="./projects">
+                                <div className="image-content-wrapper">
+                                    <Image
+                                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        priority
+                                    />
                                 </div>
-                                <div className="second-column">
-                                    <p className="h6">Dubai Hills, UAE</p>
-                                    <p className="p-sm">August 2025</p>
+                                <div className="text-content-wrapper">
+                                    <div className="first-column">
+                                        <h3>Landscaping</h3>
+                                        <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                                    </div>
+                                    <div className="second-column">
+                                        <p className="h6">Dubai Hills, UAE</p>
+                                        <p className="p-sm">August 2025</p>
+                                    </div>
+                                    <div className="arrow">
+                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                    </div>
                                 </div>
-                                <ArrowButton link={"#"} className={"arrow-on-img"} />
-                            </div>
+                            </Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="text-content">
-                            <div className="image-content-wrapper">
-                                <Image
-                                    src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-2.webp"
-                                    alt="Service one"
-                                    width={1920}
-                                    height={1080}
-                                    priority
-                                />
-                            </div>
-                            <div className="text-content-wrapper">
-                                <div className="first-column">
-                                    <h3>Landscaping</h3>
-                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                        <div className="text-content olive-drab">
+                            <Link href="./projects">
+                                <div className="image-content-wrapper">
+                                    <Image
+                                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-2.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        priority
+                                    />
                                 </div>
-                                <div className="second-column">
-                                    <p className="h6">Dubai Hills, UAE</p>
-                                    <p className="p-sm">August 2025</p>
+                                <div className="text-content-wrapper">
+                                    <div className="first-column">
+                                        <h3>Landscaping</h3>
+                                        <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                                    </div>
+                                    <div className="second-column">
+                                        <p className="h6">Dubai Hills, UAE</p>
+                                        <p className="p-sm">August 2025</p>
+                                    </div>
+                                    <div className="arrow">
+                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                    </div>
                                 </div>
-                                <ArrowButton link={"#"} className={"arrow-on-img"} />
-                            </div>
+                            </Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="text-content">
-                            <div className="image-content-wrapper">
-                                <Image
-                                    src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-3.webp"
-                                    alt="Service one"
-                                    width={1920}
-                                    height={1080}
-                                    priority
-                                />
-                            </div>
-                            <div className="text-content-wrapper">
-                                <div className="first-column">
-                                    <h3>Landscaping</h3>
-                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                        <div className="text-content olive-drab">
+                            <Link href="./projects">
+                                <div className="image-content-wrapper">
+                                    <Image
+                                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-3.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        priority
+                                    />
                                 </div>
-                                <div className="second-column">
-                                    <p className="h6">Dubai Hills, UAE</p>
-                                    <p className="p-sm">August 2025</p>
+                                <div className="text-content-wrapper">
+                                    <div className="first-column">
+                                        <h3>Landscaping</h3>
+                                        <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                                    </div>
+                                    <div className="second-column">
+                                        <p className="h6">Dubai Hills, UAE</p>
+                                        <p className="p-sm">August 2025</p>
+                                    </div>
+                                    <div className="arrow">
+                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                    </div>
                                 </div>
-                                <ArrowButton link={"#"} className={"arrow-on-img"} />
-                            </div>
+                            </Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="text-content">
-                            <div className="image-content-wrapper">
-                                <Image
-                                    src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
-                                    alt="Service one"
-                                    width={1920}
-                                    height={1080}
-                                    priority
-                                />
-                            </div>
-                            <div className="text-content-wrapper">
-                                <div className="first-column">
-                                    <h3>Landscaping</h3>
-                                    <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                        <div className="text-content deep-teal-blue">
+                            <Link href="./projects">
+                                <div className="image-content-wrapper">
+                                    <Image
+                                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        priority
+                                    />
                                 </div>
-                                <div className="second-column">
-                                    <p className="h6">Dubai Hills, UAE</p>
-                                    <p className="p-sm">August 2025</p>
+                                <div className="text-content-wrapper">
+                                    <div className="first-column">
+                                        <h3>Landscaping</h3>
+                                        <p className="p-sm">Hard Landscaping • Swimming Pool • Outdoor Living</p>
+                                    </div>
+                                    <div className="second-column">
+                                        <p className="h6">Dubai Hills, UAE</p>
+                                        <p className="p-sm">August 2025</p>
+                                    </div>
+                                    <div className="arrow">
+                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                    </div>
                                 </div>
-                                <ArrowButton link={"#"} className={"arrow-on-img"} />
-                            </div>
+                            </Link>
                         </div>
                     </SwiperSlide>
                 </Swiper>

@@ -1,6 +1,48 @@
 import Image from "next/image";
 import RequestAQuote from "../components/RequestAQuote";
 import MeetOurTeam from "../components/MeetOurTeam";
+import { Metadata } from "next";
+
+const SITE_URL = "https://gowthamavtech.github.io/unique-garden/";
+
+export const metadata: Metadata = {
+    title: "About Us - Leading Landscaping Company in Dubai | Unique Garden Tech",
+    description: "Learn about Unique Garden Tech Cont LLC, a licensed Dubai landscaping company. 30+ projects across Emirates Hills, Palm Jumeirah & Dubai Hills since 2021.",
+    keywords: [
+        "about landscaping company Dubai",
+        "landscaping contractor UAE",
+        "garden design company Dubai",
+        "licensed landscaping Sharjah",
+        "landscaping company history",
+        "Dubai landscape architects",
+    ],
+    alternates: {
+        canonical: SITE_URL,
+    },
+    openGraph: {
+        type: "website",
+        locale: "en_AE",
+        url: SITE_URL,
+        title: "About Us - Leading Landscaping Company in Dubai | Unique Garden Tech",
+        description: "Learn about Unique Garden Tech Cont LLC, a licensed Dubai landscaping company with 30+ projects across Emirates Hills and Palm Jumeirah.",
+        siteName: "Unique Garden Tech Cont LLC",
+        images: [
+            {
+                url: "https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/brand-logo.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Unique Garden Tech - Premium Landscaping Services in Dubai",
+                type: "image/jpeg",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "About Us - Leading Landscaping Company in Dubai",
+        description: "Licensed Dubai landscaping company with 30+ projects across Emirates Hills, Palm Jumeirah & Dubai Hills since 2021.",
+        images: ["https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/brand-logo.jpg"],
+    },
+};
 
 export default function AboutPage() {
     return (

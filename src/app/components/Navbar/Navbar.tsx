@@ -73,7 +73,7 @@ export default function Navbar() {
                             ))}
                         </ul>
 
-                        <Link href="./contact-us" className={"btn"}>
+                        <Link href="./contact-us" className={"btn"} onClick={() => setOpen(false)}>
                             Contact Us
                         </Link>
                     </div>

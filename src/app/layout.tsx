@@ -1,3 +1,4 @@
+import Head from "next/head";
 import type { Metadata } from "next";
 import { EB_Garamond, Figtree } from "next/font/google";
 import "./globals.css";
@@ -33,22 +34,49 @@ export const viewport = {
 const SITE_URL = "https://gowthamavtech.github.io/unique-garden/";
 
 export const metadata: Metadata = {
-    title: "Unique Garden Tech | Landscape & HVAC Services in Dubai, UAE",
+    title: "Landscaping & Garden Design Dubai | Unique Garden Tech Cont",
     description:
-        "Professional landscaping, irrigation, HVAC, and MEP solutions in Dubai. Serving Emirates Hills, Jumeirah, and across UAE since 2022. Expert hardscape, softscape & maintenance.",
+        "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services in Dubai & Sharjah. Trusted by luxury villa owners. Get a free quote today!",
 
     // Basic meta
-    keywords: "landscaping Dubai, HVAC services UAE, irrigation systems, hardscape Dubai, landscape maintenance, vertical gardens Dubai",
+    keywords: [
+        "landscaping Dubai",
+        "garden design Dubai",
+        "irrigation systems UAE",
+        "HVAC services Sharjah",
+        "MEP contractor Dubai",
+        "luxury villa landscaping",
+        "hardscape softscape Dubai",
+        "green wall installation UAE",
+        "garden maintenance Dubai",
+    ],
     authors: [{ name: "Unique Garden Tech Cont LLC" }],
+    creator: "Unique Garden Tech Cont LLC",
+    publisher: "Unique Garden Tech Cont LLC",
+
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+    alternates: {
+        canonical: SITE_URL,
+    },
 
     // Open Graph (Facebook, LinkedIn, WhatsApp)
     openGraph: {
-        title: "Unique Garden Tech | Landscape & HVAC Services in Dubai",
-        description: "Transform your outdoor spaces...",
-        url: SITE_URL,
-        siteName: "Unique Garden Tech",
-        locale: "en_AE",
         type: "website",
+        locale: "en_AE",
+        url: SITE_URL,
+        title: "Landscaping & Garden Design Dubai | Unique Garden Tech Cont",
+        description: "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services in Dubai & Sharjah. Trusted by luxury villa owners.",
+        siteName: "Unique Garden Tech Cont LLC",
         images: [
             {
                 url: "https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/brand-logo.jpg",
@@ -63,8 +91,8 @@ export const metadata: Metadata = {
     // Twitter Card
     twitter: {
         card: "summary_large_image",
-        title: "Unique Garden Tech | Landscape Services Dubai",
-        description: "Professional landscaping and HVAC solutions",
+        title: "Landscaping & Garden Design Dubai | Unique Garden Tech Cont",
+        description: "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services in Dubai & Sharjah. Trusted by luxury villa owners.",
         images: ["https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/brand-logo.jpg"],
         // creator: "@yourtwitterhandle",
     },
@@ -75,32 +103,10 @@ export const metadata: Metadata = {
         shortcut: "./favicon-16x16.png",
         apple: "./favicon-16x16.png",
     },
-
-    // Canonical URL
-    alternates: {
-        canonical: "https://uniquegardentech.ae",
-    },
-
-    robots: {
-        index: true,
-        follow: true,
-        googleBot: {
-            index: true,
-            follow: true,
-            "max-image-preview": "large",
-            "max-snippet": -1,
-        },
-    },
     // verification: {
     //     google: "your-google-verification-code",
     // },
 };
-
-// let viewportWidth: number | undefined = undefined;
-// if (typeof window !== "undefined") {
-//     viewportWidth = window.innerWidth;
-//     console.log("Viewport width:", viewportWidth);
-// }
 
 export default function RootLayout({
     children,
@@ -109,6 +115,24 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <Head>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            name: "Unique Garden Tech Cont LLC",
+                            telephone: "+971-6-5222391",
+                            address: {
+                                "@type": "PostalAddress",
+                                addressLocality: "Sharjah",
+                                addressCountry: "AE",
+                            },
+                        }),
+                    }}
+                />
+            </Head>
             <body className={`${garamond.variable} ${figtree.variable} antialiased `}>
                 <MobileClassHandler />
                 <Navbar />
