@@ -69,7 +69,7 @@ h6,
     font-family: var(--font-figtree), sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    opacity: 0.56;
+    opacity: rgba(20, 20, 20, 0.56);
     font-size: clamp(14px, calc((20 / var(--viewport)) * 100vw), 20px);
     line-height: clamp(20px, calc((32 / var(--viewport)) * 100vw), 32px);
     letter-spacing: 0.04em;
