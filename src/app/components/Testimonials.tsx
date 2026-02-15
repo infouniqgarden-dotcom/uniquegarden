@@ -81,7 +81,7 @@ export default function Testimonials() {
                         <SwiperSlide key={i}>
                             <div className="review-card">
                                 <div className="text-content-wrapper">
-                                    <h6>{item.name}</h6>
+                                    <p className="h6">{item.name}</p>
                                     <p>{item.review}</p>
                                     <span className="star">
                                         {" "}
