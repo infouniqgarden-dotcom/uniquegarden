@@ -125,10 +125,9 @@ main .widget-wrapper.about-company {
     .iamge-text-card {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 32px;
+        gap: clamp(24px, (36 / var(--viewport)) * 100vw, 36px);
 
         @media (max-width: 767px) {
-            gap: 24px;
             flex-direction: column;
         }
 
@@ -137,10 +136,10 @@ main .widget-wrapper.about-company {
             display: flex;
             border-radius: var(--border-radius);
             overflow: hidden;
-            width: calc(100% / 3 - 64px / 3);
+            width: calc(100% / 3 - clamp(24px, (36 / var(--viewport)) * 100vw, 36px) * 2 / 3);
 
             @media (max-width: 1023px) {
-                width: calc(100% / 2 - 32px);
+                width: calc(100% / 2 - clamp(24px, (36 / var(--viewport)) * 100vw, 36px) / 2);
             }
 
             @media (max-width: 767px) {
@@ -981,6 +980,7 @@ section.widget-wrapper.not-found {
                 text-transform: capitalize;
                 margin-top: 10px;
                 padding-bottom: 1.043%;
+                letter-spacing: 0;
             }
 
             li {
@@ -1093,6 +1093,7 @@ section.widget-wrapper.not-found {
                 text-transform: capitalize;
                 margin-top: 10px;
                 padding-bottom: 1.043%;
+                letter-spacing: 0;
             }
 
             li {

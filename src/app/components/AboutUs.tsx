@@ -25,7 +25,7 @@ export default function AboutUs() {
             <div className="image-content-wrapper">
                 <Image
                     src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-about-us.webp"
-                    alt="company banner"
+                    alt="Unique Garden Tech Cont LLC landscaping project in Sharjah"
                     width={1920}
                     height={1080}
                     priority

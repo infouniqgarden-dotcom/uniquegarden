@@ -13,8 +13,8 @@
         justify-content: space-between;
         align-items: center;
         padding: 16px;
-        max-width: 1560px;
-        width: calc(100vw - 2 * var(--mobile-vertical-spacing));
+        max-width: 100%;
+        width: calc(100vw - 2 * var(--widget-vertical-spacing));
         margin: 0 auto;
         background: var(--nav-bg);
         border-radius: clamp(20px, calc((32 / var(--viewport)) * 100vw), 32px);
@@ -28,6 +28,7 @@
 
         ul {
             list-style: none;
+            padding: 0;
 
             li {
                 list-style: none;
@@ -99,7 +100,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .navbar {
         top: 32px;
 
@@ -116,7 +117,11 @@
                 overflow: hidden;
                 opacity: 0;
                 transform: translateY(-10px);
-                transition: max-height 500ms ease, opacity 300ms ease, transform 300ms ease, padding 500ms ease;
+                transition:
+                    max-height 500ms ease,
+                    opacity 300ms ease,
+                    transform 300ms ease,
+                    padding 500ms ease;
 
                 ul {
                     flex-direction: column;
@@ -229,7 +234,9 @@
 
 .ham .line {
     fill: none;
-    transition: stroke-dasharray 600ms, stroke-dashoffset 600ms;
+    transition:
+        stroke-dasharray 600ms,
+        stroke-dashoffset 600ms;
     stroke: #141414;
     stroke-width: 4px;
     stroke-linecap: round;

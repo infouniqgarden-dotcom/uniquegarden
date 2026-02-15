@@ -76,6 +76,8 @@ export default function ContactForm() {
             newErrors.projectDetails = "Project details are required";
         } else if (formData.projectDetails.trim().length < 20) {
             newErrors.projectDetails = "Please provide at least 20 characters";
+        } else if (formData.projectDetails.trim().length > 500) {
+            newErrors.projectDetails = "Project details must not exceed 500 characters.";
         }
 
         setErrors(newErrors);

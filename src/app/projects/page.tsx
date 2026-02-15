@@ -34,7 +34,7 @@ export default function ServicesPage() {
                     <div className="text-content-wrapper">
                         <h2>Modern Villa Backyard</h2>
                         <p className="overline-3">Dubai Hills, UAE • August 2025</p>
-                        <p>WORKS DONE:</p>
+                        <p>Work done:</p>
                         <ul>
                             <li>Soft Landscaping (lawns, flower beds, palm trees, shrubs)</li>
                             <li>Hard Landscaping (stone pathways, tiled patios, edging)</li>
@@ -65,7 +65,7 @@ export default function ServicesPage() {
                     <div className="text-content-wrapper">
                         <h2>Luxury Pool Residence</h2>
                         <p className="overline-3">Palm Jumeirah, Dubai • July 2025</p>
-                        <p>WORKS DONE:</p>
+                        <p>Work done:</p>
                         <ul>
                             <li>Swimming Pool Installation (tiling, finishing, filtration)</li>
                             <li>Water Features (fountain wall, mini waterfall)</li>
@@ -103,7 +103,7 @@ export default function ServicesPage() {
                     <div className="text-content-wrapper">
                         <h2>Corporate Landscape Plaza</h2>
                         <p className="overline-3">Sharjah Business District • June 2025</p>
-                        <p>WORKS DONE:</p>
+                        <p>Work done:</p>
                         <ul>
                             <li>Civil Paving (stone walkways, entrance plaza)</li>
                             <li>Irrigation Systems (sprinklers, underground pipes)</li>
@@ -134,7 +134,7 @@ export default function ServicesPage() {
                     <div className="text-content-wrapper">
                         <h2>Vertical Garden Villa</h2>
                         <p className="overline-3">Jumeirah Village Circle, Dubai • May 2025</p>
-                        <p>WORKS DONE:</p>
+                        <p>Work done:</p>
                         <ul>
                             <li>Vertical Gardens (living wall systems, irrigation setup)</li>
                             <li>Pebble Gardens (decorative stone areas, gravel borders)</li>
@@ -172,7 +172,7 @@ export default function ServicesPage() {
                     <div className="text-content-wrapper">
                         <h2>Luxury Poolside Landscape</h2>
                         <p className="overline-3">Palm Jumeirah, Dubai • April 2025</p>
-                        <p>WORKS DONE:</p>
+                        <p>Work done:</p>
                         <ul>
                             <li>Swimming Pool Installation (tiling & finishing)</li>
                             <li>Hard Landscaping (paved walkways & pool deck)</li>

@@ -22,6 +22,10 @@ main:not(.homepage) {
                 color: var(--text-color-over-img);
                 font-weight: 400;
             }
+
+            .text-content-wrapper {
+                width: 100%;
+            }
         }
     }
 }

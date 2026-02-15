@@ -52,36 +52,42 @@ export default function Navbar() {
     };
 
     return (
-        <nav>
+        <nav role="navigation" aria-label="Main navigation">
             <div className={`navbar ${open ? "open" : ""}`}>
-                <div className="modal" onClick={() => setOpen(false)}></div>
+                <div className="modal" onClick={() => setOpen(false)} aria-hidden="true"></div>
                 <div className="container">
                     <div className="brand-logo">
-                        <Link href="/" onClick={() => setOpen(false)}>
-                            <Image src="./brand-name-logo.svg" alt="Brand Logo" width={192} height={48} />
+                        <Link href="/" onClick={() => setOpen(false)} aria-label="Home">
+                            <Image src="./brand-name-logo.svg" alt="Unique Garden Home" width={192} height={48} />
                         </Link>
                     </div>
 
-                    <div className="menu-items">
-                        <ul className="list">
+                    <div className="menu-items" id="primary-navigation">
+                        <ul className="list" role="menubar">
                             {links.map((link) => (
-                                <li key={link.href}>
-                                    <Link href={link.href} className={isActive(link.href) ? "active" : ""} onClick={() => setOpen(false)}>
+                                <li key={link.href} role="none">
+                                    <Link
+                                        href={link.href}
+                                        className={isActive(link.href) ? "active" : ""}
+                                        onClick={() => setOpen(false)}
+                                        aria-current={isActive(link.href) ? "page" : undefined}
+                                        role="menuitem"
+                                    >
                                         {link.name}
                                     </Link>
                                 </li>
                             ))}
                         </ul>
 
-                        <Link href="./contact-us" className={"btn"} onClick={() => setOpen(false)}>
+                        <Link href="./contact-us" className={"btn"} onClick={() => setOpen(false)} aria-label="Contact Unique Garden">
                             Contact Us
                         </Link>
                     </div>
-                    <Link href="./contact-us" className={"btn"}>
+                    <Link href="./contact-us" className={"btn"} aria-label="Contact Unique Garden">
                         Contact Us
                     </Link>
 
-                    <Hamburger open={open} setOpenAction={setOpen} />
+                    <Hamburger open={open} setOpenAction={setOpen} aria-expanded={open} aria-controls="primary-navigation" aria-label="Toggle navigation menu" />
                 </div>
             </div>
         </nav>
