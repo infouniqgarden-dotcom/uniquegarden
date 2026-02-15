@@ -9,7 +9,7 @@ export default function OurServices() {
                     <p className="overline-1">Our Services</p>
                     <h2>Tailored Outdoor Solutions for Every Space</h2>
                     <p>From gardens to pools, we offer end-to-end landscaping and construction services in UAE.</p>
-                    <Link href="/services" className="btn">
+                    <Link href="/services" className="btn" aria-label="Read more services">
                         View all services
                     </Link>
                 </div>

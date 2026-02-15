@@ -16,7 +16,7 @@ export default function OurProjects() {
                     <p className="overline-1">Our Projects</p>
                     <h2>Recent Work Across Dubai & Sharjah</h2>
                     <p>Explore some of our featured landscaping, pool, and civil work projects.</p>
-                    <Link href="/projects" className="btn">
+                    <Link href="/projects" className="btn" aria-label="Read more projects">
                         View all projects
                     </Link>
                 </div>

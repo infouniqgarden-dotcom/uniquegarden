@@ -17,7 +17,7 @@ export default function AboutUs() {
                         Backed by years of industry expertise, our team ensures every project meets the highest standards of excellence. From concept to completion, we combine
                         modern techniques with trusted craftsmanship to transform ordinary outdoor spaces into green, inviting environments that thrive in the UAE’s unique climate.
                     </p>
-                    <Link href="/about-us" className="btn">
+                    <Link href="/about-us" className="btn" aria-label="Read more about us">
                         Read more
                     </Link>
                 </div>

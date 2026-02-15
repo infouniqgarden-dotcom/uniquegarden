@@ -24,7 +24,7 @@ export default function WhyChooseUs() {
                         </svg>
                     </div>
                     <div className="text-content-wrapper">
-                        <h5>End-to-End Service</h5>
+                        <p className="h5">End-to-End Service</p>
                         <p>From design to execution, we handle every stage of your project with a seamless, hassle-free process.</p>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
                         </svg>
                     </div>
                     <div className="text-content-wrapper">
-                        <h5>Client Trust</h5>
+                        <p className="h5">Client Trust</p>
                         <p>Over 100+ clients have chosen us for reliable service, transparent work, and lasting partnerships.</p>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ export default function WhyChooseUs() {
                         </svg>
                     </div>
                     <div className="text-content-wrapper">
-                        <h5>Proven Expertise</h5>
+                        <p className="h5">Proven Expertise</p>
                         <p>Backed by years of experience in Dubai & Sharjah, we deliver landscaping and construction projects with precision.</p>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ export default function WhyChooseUs() {
                         </svg>
                     </div>
                     <div className="text-content-wrapper">
-                        <h5>Innovative Solutions</h5>
+                        <p className="h5">Innovative Solutions</p>
                         <p>Blending creativity with technical know-how to deliver unique, practical outdoor designs.</p>
                     </div>
                 </div>
