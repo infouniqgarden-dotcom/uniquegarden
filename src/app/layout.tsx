@@ -31,7 +31,7 @@ export const viewport = {
     maximumScale: 5,
 };
 
-const SITE_URL = "https://gowthamavtech.github.io/unique-garden/";
+const SITE_URL = "https://unique-garden.vercel.app/";
 
 export const metadata: Metadata = {
     title: "Landscaping & Garden Design Dubai | Unique Garden Tech Cont",
