@@ -474,7 +474,7 @@ main .widget-wrapper.about-company {
 }
 
 .widget-wrapper.why-choose-us {
-    @media (min-width: 769px) {
+    @media (min-width: 767px) {
         padding-inline: clamp(var(--widget-vertical-spacing), calc((335 / var(--viewport)) * 100vw), 335px);
     }
 
