@@ -276,7 +276,7 @@ main .widget-wrapper.about-company {
         height: 100%;
         padding: 0 clamp(38px, calc((420 / var(--viewport)) * 100vw), 420px) calc(var(--widget-spacing) + var(--swiper-height));
 
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             padding: 0 9.745vw calc(var(--widget-spacing) + var(--swiper-height));
         }
     }
@@ -348,7 +348,7 @@ main .widget-wrapper.about-company {
                             }
                         }
 
-                        @media (max-width: 768px) {
+                        @media (max-width: 767px) {
                             top: 14px;
                             right: 14px;
                             width: 14px;
@@ -382,7 +382,7 @@ main .widget-wrapper.about-company {
                         transition: all 900ms ease;
                     }
 
-                    @media (max-width: 768px) {
+                    @media (max-width: 767px) {
                         h3 {
                             font-size: 12px;
                             line-height: 12px;
@@ -457,7 +457,7 @@ main .widget-wrapper.about-company {
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         &.widget-wrapper.bg {
             padding-inline: 0;
 
@@ -517,7 +517,7 @@ main .widget-wrapper.about-company {
             gap: clamp(16px, calc((24 / var(--viewport)) * 100vw), 24px);
             align-items: flex-start;
 
-            @media (max-width: 768px) {
+            @media (max-width: 767px) {
                 width: 100%;
             }
 
@@ -529,7 +529,7 @@ main .widget-wrapper.about-company {
                 width: clamp(28px, calc((48 / var(--viewport)) * 100vw), 48px);
                 height: clamp(28px, calc((48 / var(--viewport)) * 100vw), 48px);
 
-                @media (max-width: 768px) {
+                @media (max-width: 767px) {
                     height: 28px;
                     width: 28px;
                 }
@@ -559,7 +559,7 @@ main .widget-wrapper.about-company {
         width: 100%;
         gap: clamp(16px, calc((40 / var(--viewport)) * 100vw), 40px);
 
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             flex-direction: column;
             text-align: center;
             gap: 16px;
@@ -613,7 +613,7 @@ main .widget-wrapper.about-company {
             border-radius: var(--border-radius);
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             width: 100%;
         }
     }
@@ -823,7 +823,7 @@ main .widget-wrapper.about-company {
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         flex-direction: column;
         gap: 24px;
         padding-block: calc(var(--widget-spacing) * 1.5);
@@ -1222,7 +1222,7 @@ section.widget-wrapper.not-found {
             gap: 10px;
         }
 
-        @media (min-width: 768px) {
+        @media (min-width: 767px) {
             gap: 14px;
         }
 
@@ -1328,7 +1328,7 @@ section.widget-wrapper.gallery-slider {
                 padding-bottom: 16px;
             }
 
-            @media (min-width: 768px) {
+            @media (min-width: 767px) {
                 padding-bottom: 20px;
             }
 
@@ -1561,7 +1561,7 @@ section.widget-wrapper.gallery-slider {
             }
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
             .text-content {
                 .job-header {
                     .job-title {
