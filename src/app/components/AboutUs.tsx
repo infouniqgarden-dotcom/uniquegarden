@@ -18,7 +18,7 @@ export default function AboutUs() {
                         modern techniques with trusted craftsmanship to transform ordinary outdoor spaces into green, inviting environments that thrive in the UAE’s unique climate.
                     </p>
                     <Link href="/about-us" className="btn" aria-label="Read more about us">
-                        Read more
+                        Read more <span className="sr-only">about Unique Garden</span>
                     </Link>
                 </div>
             </div>
