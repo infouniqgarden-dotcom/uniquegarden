@@ -13,7 +13,7 @@ export default function OurProjects() {
         <section className="widget-wrapper our-projects-text-slider" id="our-projects">
             <div className="widget-wrapper text-group">
                 <div className="text-content-wrapper">
-                    <div className="overline-1">Our Projects</div>
+                    <p className="overline-1">Our Projects</p>
                     <h2>Recent Work Across Dubai & Sharjah</h2>
                     <p>Explore some of our featured landscaping, pool, and civil work projects.</p>
                     <Link href="/projects" className="btn">

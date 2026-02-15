@@ -4,7 +4,7 @@
     --viewport: 1920;
     --widget-max-width: calc(var(--viewport) * 1px);
     --brand-primary-color: #027833;
-    --brand-color-secondary: #27c669;
+    --brand-secondary-color: #27c669;
     --highlight-bg: #cef17b;
     --widget-bg: #ebf5ef;
     --widget-secondary-bg: #f7f7f7;
@@ -32,7 +32,7 @@
     /* navbar */
     --nav-bg: #141414cc;
     --nav-link-color: rgba(255, 255, 255, 0.8);
-    --nav-link-active-color: var(--brand-color-secondary);
+    --nav-link-active-color: var(--brand-secondary-color);
     --nav-btn-bg: #fdfdfd;
     --nav-btn-text-color: #141414;
     --nav-btn-border-color: var(--nav-btn-bg);

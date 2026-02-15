@@ -132,7 +132,6 @@ main .widget-wrapper.about-company {
         }
 
         .text-content {
-            position: relative;
             display: flex;
             border-radius: var(--border-radius);
             overflow: hidden;
@@ -147,6 +146,9 @@ main .widget-wrapper.about-company {
             }
 
             a {
+                width: 100%;
+                position: relative;
+
                 &::before {
                     content: "";
                     width: 100%;

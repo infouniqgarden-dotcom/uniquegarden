@@ -45,7 +45,8 @@ footer {
         transition: all 300ms ease;
 
         &:hover {
-            transform: scale(1.09);
+            transform: scale(1.05);
+            color: var(--brand-secondary-color);
         }
     }
 
@@ -129,6 +130,7 @@ footer {
 
             li {
                 opacity: 0.8;
+
                 padding-top: 20px;
             }
 
@@ -158,6 +160,7 @@ footer {
             display: flex;
             align-items: center;
             gap: 10px;
+            max-width: 100%;
 
             + p {
                 opacity: 1;
@@ -166,6 +169,11 @@ footer {
                 span {
                     color: rgba(255, 255, 255, 0.8);
                 }
+            }
+
+            b {
+                font: inherit;
+                color: inherit;
             }
 
             span {

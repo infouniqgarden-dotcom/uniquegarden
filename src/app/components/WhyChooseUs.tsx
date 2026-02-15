@@ -5,27 +5,15 @@ export default function WhyChooseUs() {
         <section className="widget-wrapper bg why-choose-us margin-top-0" id="why-choose-us">
             <div className="widget-wrapper text-group">
                 <div className="text-content-wrapper">
-                    <div className="overline-1">Why Choose Us</div>
+                    <p className="overline-1">Why Choose Us</p>
                     <h2>Building Outdoor Spaces That Last</h2>
                 </div>
             </div>
             <div className="widget-wrapper cards-wrapper">
                 <div className="card text-content">
                     <div className="icon-wrapper">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="48"
-                            height="48"
-                            viewBox="0 0 48 48"
-                            fill="none"
-                        >
-                            <path
-                                d="M5 19H27M35 19H43M19 43V19M19 13V5"
-                                stroke="#27C769"
-                                strokeWidth="3"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                            />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M5 19H27M35 19H43M19 43V19M19 13V5" stroke="#27C769" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                             <path
                                 d="M34 34C30 34 26 37.244 26 43H21C13.458 43 9.686 43 7.344 40.656C5.002 38.312 5 34.542 5 27V21C5 13.458 5 9.686 7.344 7.344C9.688 5.002 13.458 5 21 5H27C34.542 5 38.314 5 40.656 7.344C42.998 9.688 43 13.458 43 21V35.686C43 37.6258 42.2294 39.4861 40.8578 40.8578C39.4861 42.2294 37.6258 43 35.686 43"
                                 stroke="white"
@@ -37,21 +25,12 @@ export default function WhyChooseUs() {
                     </div>
                     <div className="text-content-wrapper">
                         <h5>End-to-End Service</h5>
-                        <p>
-                            From design to execution, we handle every stage of your project with a
-                            seamless, hassle-free process.
-                        </p>
+                        <p>From design to execution, we handle every stage of your project with a seamless, hassle-free process.</p>
                     </div>
                 </div>
                 <div className="card text-content">
                     <div className="icon-wrapper">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="48"
-                            height="48"
-                            viewBox="0 0 48 48"
-                            fill="none"
-                        >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
                             <path
                                 d="M16 42C16 39.172 16 37.758 16.88 36.88C17.756 36 19.17 36 22 36H26C28.828 36 30.242 36 31.12 36.88C32 37.758 32 39.172 32 42C32 42.5304 31.7893 43.0391 31.4142 43.4142C31.0391 43.7893 30.5304 44 30 44H18C17.4696 44 16.9609 43.7893 16.5858 43.4142C16.2107 43.0391 16 42.5304 16 42Z"
                                 stroke="white"
@@ -59,13 +38,7 @@ export default function WhyChooseUs() {
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                             />
-                            <path
-                                d="M24 26V36"
-                                stroke="#27C769"
-                                strokeWidth="3"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                            />
+                            <path d="M24 26V36" stroke="#27C769" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                             <path
                                 d="M12.0007 44.0005H36.0007M26.0747 5.7345L28.1847 9.9925C28.4727 10.5845 29.2407 11.1525 29.8887 11.2625L33.7167 11.9025C36.1647 12.3145 36.7407 14.1045 34.9767 15.8725L32.0007 18.8725C31.4967 19.3805 31.2207 20.3605 31.3767 21.0625L32.2287 24.7745C32.9007 27.7145 31.3527 28.8525 28.7727 27.3145L25.1867 25.1745C24.5387 24.7865 23.4707 24.7865 22.8107 25.1745L19.2227 27.3145C16.6547 28.8525 15.0947 27.7025 15.7667 24.7745L16.6187 21.0605C16.7747 20.3605 16.4987 19.3805 15.9947 18.8725L13.0187 15.8725C11.2667 14.1045 11.8307 12.3145 14.2787 11.9025L18.1067 11.2625C18.7427 11.1525 19.5107 10.5845 19.7987 9.9925L21.9107 5.7325C23.0627 3.4225 24.9347 3.4225 26.0747 5.7325"
                                 stroke="white"
@@ -77,28 +50,13 @@ export default function WhyChooseUs() {
                     </div>
                     <div className="text-content-wrapper">
                         <h5>Client Trust</h5>
-                        <p>
-                            Over 100+ clients have chosen us for reliable service, transparent work,
-                            and lasting partnerships.
-                        </p>
+                        <p>Over 100+ clients have chosen us for reliable service, transparent work, and lasting partnerships.</p>
                     </div>
                 </div>
                 <div className="card text-content">
                     <div className="icon-wrapper">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="48"
-                            height="48"
-                            viewBox="0 0 48 48"
-                            fill="none"
-                        >
-                            <path
-                                d="M32 30V44M16 30V44"
-                                stroke="#27C769"
-                                strokeWidth="3"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                            />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M32 30V44M16 30V44" stroke="#27C769" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                             <path
                                 d="M40 44V38C40 34.228 40 32.344 38.828 31.172C37.656 30 35.772 30 32 30H28L24 34L20 30H16C12.228 30 10.344 30 9.172 31.172C8 32.344 8 34.228 8 38V44"
                                 stroke="white"
@@ -124,21 +82,12 @@ export default function WhyChooseUs() {
                     </div>
                     <div className="text-content-wrapper">
                         <h5>Proven Expertise</h5>
-                        <p>
-                            Backed by years of experience in Dubai & Sharjah, we deliver landscaping
-                            and construction projects with precision.
-                        </p>
+                        <p>Backed by years of experience in Dubai & Sharjah, we deliver landscaping and construction projects with precision.</p>
                     </div>
                 </div>
                 <div className="card text-content">
                     <div className="icon-wrapper">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="48"
-                            height="48"
-                            viewBox="0 0 48 48"
-                            fill="none"
-                        >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
                             <path
                                 d="M38 19.24C38 24.4 35.46 28.37 31.596 30.984C30.696 31.592 30.246 31.896 30.024 32.244C29.804 32.588 29.726 33.044 29.576 33.952L29.456 34.658C29.192 36.254 29.058 37.052 28.498 37.526C27.938 38 27.13 38 25.512 38H20.288C18.67 38 17.862 38 17.302 37.526C16.742 37.052 16.61 36.254 16.342 34.658L16.226 33.952C16.074 33.046 16 32.592 15.78 32.248C15.56 31.904 15.108 31.596 14.206 30.98C10.384 28.366 8 24.398 8 19.24C8 10.826 14.716 4.00001 23 4.00001C24.0077 3.99894 25.013 4.1008 26 4.30401"
                                 stroke="white"
@@ -162,10 +111,7 @@ export default function WhyChooseUs() {
                     </div>
                     <div className="text-content-wrapper">
                         <h5>Innovative Solutions</h5>
-                        <p>
-                            Blending creativity with technical know-how to deliver unique, practical
-                            outdoor designs.
-                        </p>
+                        <p>Blending creativity with technical know-how to deliver unique, practical outdoor designs.</p>
                     </div>
                 </div>
             </div>

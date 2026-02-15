@@ -50,7 +50,7 @@ export default function Testimonials() {
         <section className="widget-wrapper bg testimonials" id="testimonials">
             <div className="widget-wrapper text-group">
                 <div className="text-content-wrapper">
-                    <div className="overline-1">What Our Clients Say</div>
+                    <p className="overline-1">What Our Clients Say</p>
                     <h2>Trusted by Villas & Corporates in UAE</h2>
                     <p>Real stories from clients who trusted us with their outdoor spaces.</p>
                 </div>

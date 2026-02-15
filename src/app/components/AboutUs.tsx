@@ -6,7 +6,7 @@ export default function AboutUs() {
         <section className="widget-wrapper about-us-ltxt-rimg" id="about-us">
             <div className="text-content">
                 <div className="text-content-wrapper">
-                    <div className="overline-1">About Us</div>
+                    <p className="overline-1">About Us</p>
                     <h2>Unique Garden Tech. Cont. LLC</h2>
                     <p>
                         Unique Garden Tech. Cont. LLC is a Sharjah-based landscaping and construction company, providing premium outdoor solutions across Dubai and Sharjah. With a
