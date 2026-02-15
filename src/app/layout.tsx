@@ -1,4 +1,3 @@
-import Head from "next/head";
 import type { Metadata } from "next";
 import { EB_Garamond, Figtree } from "next/font/google";
 import "./globals.css";
@@ -99,9 +98,9 @@ export const metadata: Metadata = {
 
     // Favicon and app icons
     icons: {
-        icon: "./favicon-16x16.png",
-        shortcut: "./favicon-16x16.png",
-        apple: "./favicon-16x16.png",
+        icon: "/favicon-16x16.png",
+        shortcut: "/favicon-16x16.png",
+        apple: "/favicon-16x16.png",
     },
     // verification: {
     //     google: "your-google-verification-code",
@@ -115,7 +114,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <Head>
+            <body className={`${garamond.variable} ${figtree.variable} antialiased `}>
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
@@ -132,8 +131,6 @@ export default function RootLayout({
                         }),
                     }}
                 />
-            </Head>
-            <body className={`${garamond.variable} ${figtree.variable} antialiased `}>
                 <MobileClassHandler />
                 <Navbar />
                 {children}
