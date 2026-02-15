@@ -479,7 +479,7 @@ main .widget-wrapper.about-company {
     }
 
     &.bg {
-        background: url(https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/why-choose-us.webp) no-repeat center / cover;
+        background: url(/images/01-home-page/why-choose-us.webp) no-repeat center / cover;
 
         &::before {
             content: "";
@@ -540,7 +540,7 @@ main .widget-wrapper.about-company {
 
 .request-a-quote {
     margin-top: var(--widget-spacing);
-    background: url(https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page//hp-cta-Section.webp) no-repeat center / cover;
+    background: url(/images/01-home-page//hp-cta-Section.webp) no-repeat center / cover;
 
     &::before {
         content: "";

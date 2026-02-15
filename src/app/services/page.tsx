@@ -31,13 +31,7 @@ export default function ServicesPage() {
         <main className="services-page">
             <section className="widget-wrapper hero-banner">
                 <div className="image-content-wrapper">
-                    <Image
-                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/03-Services-Page/Services-(Hero-Image).webp"
-                        alt="Unique Garden Hero Banner"
-                        width={1920}
-                        height={1080}
-                        priority
-                    />
+                    <Image src="/images/03-Services-Page/Services-(Hero-Image).webp" alt="Unique Garden Hero Banner" width={1920} height={1080} priority />
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">

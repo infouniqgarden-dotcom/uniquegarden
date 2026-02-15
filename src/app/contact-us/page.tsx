@@ -8,13 +8,7 @@ export default function ContactPage() {
         <main className="contact-us-page">
             <section className="widget-wrapper hero-banner">
                 <div className="image-content-wrapper">
-                    <Image
-                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/Contact-Us-(Hero-Image).webp"
-                        alt="Unique Garden Hero Banner"
-                        width={1920}
-                        height={1080}
-                        priority
-                    />
+                    <Image src="/images/Contact-Us-(Hero-Image).webp" alt="Unique Garden Hero Banner" width={1920} height={1080} priority />
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         siteName: "Unique Garden Tech Cont LLC",
         images: [
             {
-                url: "https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/brand-logo.jpg",
+                url: "/images/brand-logo.jpg",
                 width: 1200,
                 height: 630,
                 alt: "Unique Garden Tech - Premium Landscaping Services in Dubai",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "About Us - Leading Landscaping Company in Dubai",
         description: "Licensed Dubai landscaping company with 30+ projects across Emirates Hills, Palm Jumeirah & Dubai Hills since 2021.",
-        images: ["https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/brand-logo.jpg"],
+        images: ["/images/brand-logo.jpg"],
     },
 };
 
@@ -49,13 +49,7 @@ export default function AboutPage() {
         <main className="about-us-page">
             <section className="widget-wrapper hero-banner">
                 <div className="image-content-wrapper">
-                    <Image
-                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-hero-img.webp"
-                        alt="Unique Garden Hero Banner"
-                        width={1920}
-                        height={1080}
-                        priority
-                    />
+                    <Image src="/images/01-home-page/hp-hero-img.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} priority />
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">
@@ -90,13 +84,7 @@ export default function AboutPage() {
                     </div>
                 </div>
                 <div className="image-content-wrapper">
-                    <Image
-                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/About-Us-Page-Img-1.webp"
-                        alt="company banner"
-                        width={1920}
-                        height={1080}
-                        priority
-                    />
+                    <Image src="/images/02-About-Us/About-Us-Page-Img-1.webp" alt="company banner" width={1920} height={1080} priority />
                 </div>
             </section>
             <section className="widget-wrapper bg mission-vision">
@@ -173,13 +161,7 @@ export default function AboutPage() {
             </section>
             <section className="widget-wrapper our-core-values">
                 <div className="image-content-wrapper">
-                    <Image
-                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/About-Us-Page-Img-2.webp"
-                        alt="company banner"
-                        width={1920}
-                        height={1080}
-                        priority
-                    />
+                    <Image src="/images/02-About-Us/About-Us-Page-Img-2.webp" alt="company banner" width={1920} height={1080} priority />
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">

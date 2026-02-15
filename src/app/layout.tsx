@@ -78,7 +78,7 @@ export const metadata: Metadata = {
         siteName: "Unique Garden Tech Cont LLC",
         images: [
             {
-                url: "https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/brand-logo.jpg",
+                url: "/images/brand-logo.jpg",
                 width: 1200,
                 height: 630,
                 alt: "Unique Garden Tech - Premium Landscaping Services in Dubai",
@@ -92,7 +92,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "Landscaping & Garden Design Dubai | Unique Garden Tech Cont",
         description: "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services in Dubai & Sharjah. Trusted by luxury villa owners.",
-        images: ["https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/brand-logo.jpg"],
+        images: ["/images/brand-logo.jpg"],
         // creator: "@yourtwitterhandle",
     },
 

@@ -15,13 +15,7 @@ export default function MeetOurTeam() {
             <div className="widget-wrapper our-team-wrapper">
                 <div className="text-content person">
                     <div className="image-content-wrapper">
-                        <Image
-                            src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Person-1.webp"
-                            alt="company team"
-                            width={700}
-                            height={1080}
-                            priority
-                        />
+                        <Image src="/images/02-About-Us/Person-1.webp" alt="company team" width={700} height={1080} priority />
                     </div>
                     <div className="text-content-wrapper">
                         <h6>Khalid Mansoor</h6>
@@ -30,13 +24,7 @@ export default function MeetOurTeam() {
                 </div>
                 <div className="text-content person">
                     <div className="image-content-wrapper">
-                        <Image
-                            src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Person-2.webp"
-                            alt="company team"
-                            width={700}
-                            height={1080}
-                            priority
-                        />
+                        <Image src="/images/02-About-Us/Person-2.webp" alt="company team" width={700} height={1080} priority />
                     </div>
                     <div className="text-content-wrapper">
                         <h6>Ahmed Al Fardan</h6>
@@ -45,13 +33,7 @@ export default function MeetOurTeam() {
                 </div>
                 <div className="text-content person">
                     <div className="image-content-wrapper">
-                        <Image
-                            src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Person-3.webp"
-                            alt="company team"
-                            width={700}
-                            height={1080}
-                            priority
-                        />
+                        <Image src="/images/02-About-Us/Person-3.webp" alt="company team" width={700} height={1080} priority />
                     </div>
                     <div className="text-content-wrapper">
                         <h6>Sara Al Zahra</h6>
@@ -60,13 +42,7 @@ export default function MeetOurTeam() {
                 </div>
                 <div className="text-content person">
                     <div className="image-content-wrapper">
-                        <Image
-                            src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Person-4.webp"
-                            alt="company team"
-                            width={700}
-                            height={1080}
-                            priority
-                        />
+                        <Image src="/images/02-About-Us/Person-4.webp" alt="company team" width={700} height={1080} priority />
                     </div>
                     <div className="text-content-wrapper">
                         <h6>Omar Rahman</h6>
@@ -75,13 +51,7 @@ export default function MeetOurTeam() {
                 </div>
                 <div className="text-content team">
                     <div className="image-content-wrapper">
-                        <Image
-                            src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Team-Image-1.webp"
-                            alt="company team"
-                            width={1920}
-                            height={1080}
-                            priority
-                        />
+                        <Image src="/images/02-About-Us/Team-Image-1.webp" alt="company team" width={1920} height={1080} priority />
                     </div>
                     <div className="text-content-wrapper">
                         <h6>MEP Department</h6>
@@ -90,13 +60,7 @@ export default function MeetOurTeam() {
                 </div>
                 <div className="text-content team">
                     <div className="image-content-wrapper">
-                        <Image
-                            src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/02-About-Us/Team-Image-2.webp"
-                            alt="company team"
-                            width={1920}
-                            height={1080}
-                            priority
-                        />
+                        <Image src="/images/02-About-Us/Team-Image-2.webp" alt="company team" width={1920} height={1080} priority />
                     </div>
                     <div className="text-content-wrapper">
                         <h6>Civil Deparment</h6>

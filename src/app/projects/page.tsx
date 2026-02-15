@@ -8,13 +8,7 @@ export default function ServicesPage() {
         <main className="projects-page">
             <section className="widget-wrapper hero-banner">
                 <div className="image-content-wrapper">
-                    <Image
-                        src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/04-Projects-Page/Projects-Page-(Hero-Image).webp"
-                        alt="Unique Garden Hero Banner"
-                        width={1920}
-                        height={1080}
-                        priority
-                    />
+                    <Image src="/images/04-Projects-Page/Projects-Page-(Hero-Image).webp" alt="Unique Garden Hero Banner" width={1920} height={1080} priority />
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">
@@ -27,7 +21,7 @@ export default function ServicesPage() {
             </section>
             <section className="widget-wrapper project-limage-rtext muted-burgundy-brown">
                 <div className="image-content-wrapper">
-                    <Image src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/04-Projects-Page/Projects-Img-1.webp" alt="" width={1920} height={1080} />
+                    <Image src="/images/04-Projects-Page/Projects-Img-1.webp" alt="" width={1920} height={1080} />
                 </div>
 
                 <div className="text-content">
@@ -91,12 +85,12 @@ export default function ServicesPage() {
                     </div>
                 </div>
                 <div className="image-content-wrapper">
-                    <Image src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/04-Projects-Page/Projects-Img-2.webp" alt="" width={1920} height={1080} />
+                    <Image src="/images/04-Projects-Page/Projects-Img-2.webp" alt="" width={1920} height={1080} />
                 </div>
             </section>
             <section className="widget-wrapper project-limage-rtext olive-drab">
                 <div className="image-content-wrapper">
-                    <Image src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/04-Projects-Page/Projects-Img-3.webp" alt="" width={1920} height={1080} />
+                    <Image src="/images/04-Projects-Page/Projects-Img-3.webp" alt="" width={1920} height={1080} />
                 </div>
 
                 <div className="text-content">
@@ -160,12 +154,12 @@ export default function ServicesPage() {
                     </div>
                 </div>
                 <div className="image-content-wrapper">
-                    <Image src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/04-Projects-Page/Projects-Img-4.webp" alt="" width={1920} height={1080} />
+                    <Image src="/images/04-Projects-Page/Projects-Img-4.webp" alt="" width={1920} height={1080} />
                 </div>
             </section>
             <section className="widget-wrapper project-limage-rtext deep-teal-blue">
                 <div className="image-content-wrapper">
-                    <Image src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/04-Projects-Page/Projects-Img-5.webp" alt="" width={1920} height={1080} />
+                    <Image src="/images/04-Projects-Page/Projects-Img-5.webp" alt="" width={1920} height={1080} />
                 </div>
 
                 <div className="text-content">

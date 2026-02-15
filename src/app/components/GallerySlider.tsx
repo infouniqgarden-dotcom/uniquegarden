@@ -103,13 +103,7 @@ export default function GallerySlider({ row = "row1", reverseDirection = false }
             {selectedImages.map((image) => (
                 <SwiperSlide key={image.id}>
                     <div className="image-wrapper">
-                        <Image
-                            src={`https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/${image.url}`}
-                            alt={image.altTxt}
-                            width={400}
-                            height={300}
-                            className="gallery-image"
-                        />
+                        <Image src={`/images/${image.url}`} alt={image.altTxt} width={400} height={300} className="gallery-image" />
                     </div>
                 </SwiperSlide>
             ))}

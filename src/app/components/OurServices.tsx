@@ -18,13 +18,7 @@ export default function OurServices() {
                 <div className="text-content">
                     <Link href="/services">
                         <div className="image-content-wrapper">
-                            <Image
-                                src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/service-card-1.webp"
-                                alt="Service one"
-                                width={1920}
-                                height={1080}
-                                priority
-                            />
+                            <Image src="/images/01-home-page/service-card-1.webp" alt="Service one" width={1920} height={1080} priority />
                         </div>
                         <div className="text-content-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
@@ -66,13 +60,7 @@ export default function OurServices() {
                 <div className="text-content">
                     <Link href="/services">
                         <div className="image-content-wrapper">
-                            <Image
-                                src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/service-card-2.webp"
-                                alt="Service two"
-                                width={1920}
-                                height={1080}
-                                priority
-                            />
+                            <Image src="/images/01-home-page/service-card-2.webp" alt="Service two" width={1920} height={1080} priority />
                         </div>
                         <div className="text-content-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
@@ -114,13 +102,7 @@ export default function OurServices() {
                 <div className="text-content">
                     <Link href="/services">
                         <div className="image-content-wrapper">
-                            <Image
-                                src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/service-card-3.webp"
-                                alt="Service three"
-                                width={1920}
-                                height={1080}
-                                priority
-                            />
+                            <Image src="/images/01-home-page/service-card-3.webp" alt="Service three" width={1920} height={1080} priority />
                         </div>
                         <div className="text-content-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
