@@ -99,7 +99,6 @@ export const metadata: Metadata = {
     // Favicon and app icons
     icons: {
         icon: "/favicon-16x16.png",
-        shortcut: "/favicon-16x16.png",
         apple: "/favicon-16x16.png",
     },
     // verification: {
