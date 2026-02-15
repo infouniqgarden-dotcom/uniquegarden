@@ -3,7 +3,7 @@ import RequestAQuote from "../components/RequestAQuote";
 import MeetOurTeam from "../components/MeetOurTeam";
 import { Metadata } from "next";
 
-const SITE_URL = "https://unique-garden.vercel.app/";
+const SITE_URL = "https://uniquegarden.vercel.app/";
 
 export const metadata: Metadata = {
     title: "About Us - Leading Landscaping Company in Dubai | Unique Garden Tech",
