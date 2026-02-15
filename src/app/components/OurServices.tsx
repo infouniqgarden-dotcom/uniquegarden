@@ -18,7 +18,7 @@ export default function OurServices() {
                 <div className="text-content">
                     <Link href="/services">
                         <div className="image-content-wrapper">
-                            <Image src="/images/01-home-page/service-card-1.webp" alt="Service one" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 800px" />
+                            <Image src="/images/01-home-page/service-card-1.webp" alt="Service one" width={768} height={432} sizes="(max-width: 768px) 100vw, 500px" />
                         </div>
                         <div className="text-content-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
@@ -60,7 +60,7 @@ export default function OurServices() {
                 <div className="text-content">
                     <Link href="/services">
                         <div className="image-content-wrapper">
-                            <Image src="/images/01-home-page/service-card-2.webp" alt="Service two" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 800px" />
+                            <Image src="/images/01-home-page/service-card-2.webp" alt="Service two" width={768} height={432} sizes="(max-width: 768px) 100vw, 500px" />
                         </div>
                         <div className="text-content-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
@@ -102,7 +102,7 @@ export default function OurServices() {
                 <div className="text-content">
                     <Link href="/services">
                         <div className="image-content-wrapper">
-                            <Image src="/images/01-home-page/service-card-3.webp" alt="Service three" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 800px" />
+                            <Image src="/images/01-home-page/service-card-3.webp" alt="Service three" width={768} height={432} sizes="(max-width: 768px) 100vw, 500px" />
                         </div>
                         <div className="text-content-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
