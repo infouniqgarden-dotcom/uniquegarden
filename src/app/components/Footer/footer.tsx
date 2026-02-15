@@ -45,7 +45,7 @@ export default function Footer() {
                                 <Image src="/brand-name-logo.svg" alt="Brand Logo" width={192} height={48} />
                             </Link>
                         </div>
-                        <h6>Unique Garden Tech Cont. LLC</h6>
+                        <p className="h6">Unique Garden Tech Cont. LLC</p>
                         <p className="description">Providing landscaping, pool, and construction services in Dubai & Sharjah.</p>
                         <p className="address">Po Box:- 27960, No - 02, Building No: 3610, Muweilah, Sharjah, United Arab Emirates.</p>
                     </div>
