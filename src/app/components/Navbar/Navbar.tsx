@@ -58,7 +58,7 @@ export default function Navbar() {
                 <div className="container">
                     <div className="brand-logo">
                         <Link href="/" onClick={() => setOpen(false)} aria-label="Home">
-                            <Image src="/brand-name-logo.svg" alt="Unique Garden Home" width={192} height={48} />
+                            <Image src="/brand-name-logo.svg" alt="Unique Garden Home" width={192} height={48} priority loading="eager" fetchPriority="high" />
                         </Link>
                     </div>
 

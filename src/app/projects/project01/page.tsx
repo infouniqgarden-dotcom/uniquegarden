@@ -5,7 +5,17 @@ export default function Project01() {
         <main className="project-inner-page">
             <section className="widget-wrapper hero-banner">
                 <div className="image-content-wrapper">
-                    <Image src="/images/05-Project-Images/Project-Details-Page-(Hero-Image).webp" alt="Unique Garden Hero Banner" width={1920} height={1080} priority />
+                    <Image
+                        src="/images/05-Project-Images/Project-Details-Page-(Hero-Image).webp"
+                        alt="Unique Garden Hero Banner"
+                        width={1920}
+                        height={1080}
+                        priority
+                        loading="eager"
+                        fetchPriority="high"
+                        sizes="100vw"
+                        quality={85}
+                    />
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">
@@ -52,11 +62,11 @@ export default function Project01() {
                     <h2>Gallery</h2>
                 </div>
                 <div className="image-content-wrapper">
-                    <Image src="/images/05-Project-Images/Proj-Images-1.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} priority />
-                    <Image src="/images/05-Project-Images/Proj-Images-2.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} priority />
-                    <Image src="/images/05-Project-Images/Proj-Images-3.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} priority />
-                    <Image src="/images/05-Project-Images/Proj-Images-4.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} priority />
-                    <Image src="/images/05-Project-Images/Proj-Images-5.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} priority />
+                    <Image src="/images/05-Project-Images/Proj-Images-1.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-2.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-3.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-4.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-5.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
                 </div>
             </section>
             <section className="widget-wrapper">
@@ -94,12 +104,12 @@ export default function Project01() {
                         </div>
                     </div>
                     <div className="image-content-wrapper">
-                        <Image src="/images/04-Projects-Page/Projects-Img-4.webp" alt="" width={1920} height={1080} />
+                        <Image src="/images/04-Projects-Page/Projects-Img-4.webp" alt="" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                     </div>
                 </section>
                 <section className="widget-wrapper project-limage-rtext deep-teal-blue">
                     <div className="image-content-wrapper">
-                        <Image src="/images/04-Projects-Page/Projects-Img-5.webp" alt="" width={1920} height={1080} />
+                        <Image src="/images/04-Projects-Page/Projects-Img-5.webp" alt="" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                     </div>
 
                     <div className="text-content">

@@ -23,7 +23,13 @@ export default function AboutUs() {
                 </div>
             </div>
             <div className="image-content-wrapper">
-                <Image src="/images/01-home-page/hp-about-us.webp" alt="Unique Garden Tech Cont LLC landscaping project in Sharjah" width={1920} height={1080} priority />
+                <Image
+                    src="/images/01-home-page/hp-about-us.webp"
+                    alt="Unique Garden Tech Cont LLC landscaping project in Sharjah"
+                    width={1920}
+                    height={1080}
+                    sizes="(max-width: 768px) 100vw, 1080px"
+                />
             </div>
         </section>
     );

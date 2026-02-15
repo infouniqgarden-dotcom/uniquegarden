@@ -49,7 +49,17 @@ export default function AboutPage() {
         <main className="about-us-page">
             <section className="widget-wrapper hero-banner">
                 <div className="image-content-wrapper">
-                    <Image src="/images/01-home-page/hp-hero-img.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} priority />
+                    <Image
+                        src="/images/01-home-page/hp-hero-img.webp"
+                        alt="Unique Garden Hero Banner"
+                        width={1920}
+                        height={1080}
+                        priority
+                        loading="eager"
+                        fetchPriority="high"
+                        sizes="100vw"
+                        quality={85}
+                    />
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">
@@ -84,7 +94,7 @@ export default function AboutPage() {
                     </div>
                 </div>
                 <div className="image-content-wrapper">
-                    <Image src="/images/02-About-Us/About-Us-Page-Img-1.webp" alt="company banner" width={1920} height={1080} priority />
+                    <Image src="/images/02-About-Us/About-Us-Page-Img-1.webp" alt="company banner" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                 </div>
             </section>
             <section className="widget-wrapper bg mission-vision">
@@ -161,7 +171,7 @@ export default function AboutPage() {
             </section>
             <section className="widget-wrapper our-core-values">
                 <div className="image-content-wrapper">
-                    <Image src="/images/02-About-Us/About-Us-Page-Img-2.webp" alt="company banner" width={1920} height={1080} priority />
+                    <Image src="/images/02-About-Us/About-Us-Page-Img-2.webp" alt="company banner" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">

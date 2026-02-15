@@ -44,7 +44,7 @@ export default function ServicesSlider({ images }: ServicesSliderProps) {
 function ImageCreation({ imagePath, imageAlt }: { imagePath: string; imageAlt: string }) {
     return (
         <div className="image-content-wrapper">
-            <Image src={`/images/${imagePath}`} alt={imageAlt} width={1920} height={1080} />
+            <Image src={`/images/${imagePath}`} alt={imageAlt} width={1920} height={1080} sizes="(max-width: 768px) 100vw, 800px" />
         </div>
     );
 }

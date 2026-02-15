@@ -7,7 +7,7 @@ export default function NotFound() {
         <main className="404 not-found">
             <section className="widget-wrapper not-found">
                 <div className="image-content-wrapper">
-                    <Image src="/images/404-Image.webp" alt="404 construction image" width={1920} height={1080} />
+                    <Image src="/images/404-Image.webp" alt="404 construction image" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                 </div>
                 <div className="text-content-wrapper">
                     <h1>Something went wrong!</h1>

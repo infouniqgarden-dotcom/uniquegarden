@@ -41,7 +41,7 @@ export default function OurProjects() {
                         <div className="text-content deep-teal-blue">
                             <Link href="/projects">
                                 <div className="image-content-wrapper">
-                                    <Image src="/images/01-home-page/hp-project-card.webp" alt="Service one" width={1920} height={1080} priority />
+                                    <Image src="/images/01-home-page/hp-project-card.webp" alt="Service one" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                                 </div>
                                 <div className="text-content-wrapper">
                                     <div className="first-column">
@@ -63,7 +63,13 @@ export default function OurProjects() {
                         <div className="text-content olive-drab">
                             <Link href="/projects">
                                 <div className="image-content-wrapper">
-                                    <Image src="/images/01-home-page/hp-project-card-2.webp" alt="Service one" width={1920} height={1080} priority />
+                                    <Image
+                                        src="/images/01-home-page/hp-project-card-2.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        sizes="(max-width: 768px) 100vw, 1080px"
+                                    />
                                 </div>
                                 <div className="text-content-wrapper">
                                     <div className="first-column">
@@ -85,7 +91,13 @@ export default function OurProjects() {
                         <div className="text-content olive-drab">
                             <Link href="/projects">
                                 <div className="image-content-wrapper">
-                                    <Image src="/images/01-home-page/hp-project-card-3.webp" alt="Service one" width={1920} height={1080} priority />
+                                    <Image
+                                        src="/images/01-home-page/hp-project-card-3.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        sizes="(max-width: 768px) 100vw, 1080px"
+                                    />
                                 </div>
                                 <div className="text-content-wrapper">
                                     <div className="first-column">
@@ -107,7 +119,7 @@ export default function OurProjects() {
                         <div className="text-content deep-teal-blue">
                             <Link href="/projects">
                                 <div className="image-content-wrapper">
-                                    <Image src="/images/01-home-page/hp-project-card.webp" alt="Service one" width={1920} height={1080} priority />
+                                    <Image src="/images/01-home-page/hp-project-card.webp" alt="Service one" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                                 </div>
                                 <div className="text-content-wrapper">
                                     <div className="first-column">
@@ -129,7 +141,7 @@ export default function OurProjects() {
                         <div className="text-content deep-teal-blue">
                             <Link href="/projects">
                                 <div className="image-content-wrapper">
-                                    <Image src="/images/01-home-page/hp-project-card.webp" alt="Service one" width={1920} height={1080} priority />
+                                    <Image src="/images/01-home-page/hp-project-card.webp" alt="Service one" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                                 </div>
                                 <div className="text-content-wrapper">
                                     <div className="first-column">
@@ -151,7 +163,13 @@ export default function OurProjects() {
                         <div className="text-content olive-drab">
                             <Link href="/projects">
                                 <div className="image-content-wrapper">
-                                    <Image src="/images/01-home-page/hp-project-card-2.webp" alt="Service one" width={1920} height={1080} priority />
+                                    <Image
+                                        src="/images/01-home-page/hp-project-card-2.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        sizes="(max-width: 768px) 100vw, 1080px"
+                                    />
                                 </div>
                                 <div className="text-content-wrapper">
                                     <div className="first-column">
@@ -173,7 +191,13 @@ export default function OurProjects() {
                         <div className="text-content olive-drab">
                             <Link href="/projects">
                                 <div className="image-content-wrapper">
-                                    <Image src="/images/01-home-page/hp-project-card-3.webp" alt="Service one" width={1920} height={1080} priority />
+                                    <Image
+                                        src="/images/01-home-page/hp-project-card-3.webp"
+                                        alt="Service one"
+                                        width={1920}
+                                        height={1080}
+                                        sizes="(max-width: 768px) 100vw, 1080px"
+                                    />
                                 </div>
                                 <div className="text-content-wrapper">
                                     <div className="first-column">
@@ -195,7 +219,7 @@ export default function OurProjects() {
                         <div className="text-content deep-teal-blue">
                             <Link href="/projects">
                                 <div className="image-content-wrapper">
-                                    <Image src="/images/01-home-page/hp-project-card.webp" alt="Service one" width={1920} height={1080} priority />
+                                    <Image src="/images/01-home-page/hp-project-card.webp" alt="Service one" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                                 </div>
                                 <div className="text-content-wrapper">
                                     <div className="first-column">

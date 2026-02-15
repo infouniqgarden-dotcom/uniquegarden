@@ -103,7 +103,7 @@ export default function GallerySlider({ row = "row1", reverseDirection = false }
             {selectedImages.map((image) => (
                 <SwiperSlide key={image.id}>
                     <div className="image-wrapper">
-                        <Image src={`/images/${image.url}`} alt={image.altTxt} width={400} height={300} className="gallery-image" />
+                        <Image src={`/images/${image.url}`} alt={image.altTxt} width={400} height={300} sizes="(max-width: 768px) 50vw, 400px" className="gallery-image" />
                     </div>
                 </SwiperSlide>
             ))}
