@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+export const dynamic = "force-dynamic";
 
 interface ContactFormData {
     name: string;
@@ -12,9 +13,9 @@ interface ContactFormData {
 
 export async function POST(request: NextRequest) {
     try {
+        // Validate the data
         const body: ContactFormData = await request.json();
 
-        // Validate the data
         const { name, email, phoneNumber, location, projectType, projectDetails } = body;
 
         if (!name || !email || !phoneNumber || !location || !projectType || !projectDetails) {
@@ -31,11 +32,12 @@ export async function POST(request: NextRequest) {
         const transporter = nodemailer.createTransport({
             host: process.env.SMTP_HOST,
             port: parseInt(process.env.SMTP_PORT || "587"),
-            secure: process.env.SMTP_SECURE === "true", // true for 465, false for other ports
+            secure: process.env.SMTP_SECURE === "true",
             auth: {
                 user: process.env.SMTP_USER,
                 pass: process.env.SMTP_PASSWORD,
             },
+            connectionTimeout: 10000,
         });
 
         // Email to admin/company
@@ -44,7 +46,7 @@ export async function POST(request: NextRequest) {
             to: process.env.ADMIN_EMAIL,
             subject: `New Contact Form Submission - ${projectType}`,
             html: `
-        <!DOCTYPE html>
+                 <!DOCTYPE html>
         <html>
           <head>
             <style>
@@ -96,7 +98,7 @@ export async function POST(request: NextRequest) {
             </div>
           </body>
         </html>
-      `,
+            `,
         };
 
         // Confirmation email to customer
@@ -104,8 +106,7 @@ export async function POST(request: NextRequest) {
             from: process.env.SMTP_FROM_EMAIL,
             to: email,
             subject: "Thank you for contacting Unique Garden",
-            html: `
-        <!DOCTYPE html>
+            html: `<!DOCTYPE html>
         <html>
           <head>
             <style>
@@ -142,13 +143,11 @@ export async function POST(request: NextRequest) {
               </div>
             </div>
           </body>
-        </html>
-      `,
+        </html>`,
         };
 
         // Send both emails
-        await transporter.sendMail(adminMailOptions);
-        await transporter.sendMail(customerMailOptions);
+        await Promise.all([transporter.sendMail(adminMailOptions), transporter.sendMail(customerMailOptions)]);
 
         return NextResponse.json(
             {
@@ -158,16 +157,25 @@ export async function POST(request: NextRequest) {
             { status: 200 },
         );
     } catch (error) {
-        console.error("Contact form error:", error);
+        // Use an instance check to safely access the message property
+        const errorMessage = error instanceof Error ? error.message : "An unknown error occurred";
+
+        console.error("Detailed Contact Error:", errorMessage);
+
         return NextResponse.json(
             {
-                error: "Failed to send message. Please try again later.",
+                error: "Failed to send message.",
+                details: process.env.NODE_ENV === "development" ? errorMessage : undefined,
             },
             { status: 500 },
         );
     }
 }
 
+// 6. Added GET handler for easy testing
 export async function GET() {
-    return NextResponse.json({ message: "API route is active!" });
+    return NextResponse.json({
+        status: "active",
+        timestamp: new Date().toISOString(),
+    });
 }
