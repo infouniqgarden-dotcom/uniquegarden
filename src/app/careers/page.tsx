@@ -33,7 +33,7 @@ export default function Careers() {
                     <div className="text-content">
                         <div className="text-content-wrapper">
                             <div className="job-header">
-                                <Image src="./openings-icons/Landscape-Architect.svg" alt="Opening for Landscape Architect icon" width={64} height={64} />
+                                <Image src="/openings-icons/Landscape-Architect.svg" alt="Opening for Landscape Architect icon" width={64} height={64} />
                                 <div className="job-title">
                                     <h3>Landscape Architect</h3>
                                     <p className="job-tag full-time">Full Time</p>
@@ -77,7 +77,7 @@ export default function Careers() {
                     <div className="text-content">
                         <div className="text-content-wrapper">
                             <div className="job-header">
-                                <Image src="./openings-icons/Site-Engineer-Civil-MEP.svg" alt="Opening for Landscape Architect icon" width={64} height={64} />
+                                <Image src="/openings-icons/Site-Engineer-Civil-MEP.svg" alt="Opening for Landscape Architect icon" width={64} height={64} />
                                 <div className="job-title">
                                     <h3>Site Engineer – Civil & MEP</h3>
                                     <p className="job-tag full-time">Full Time</p>
@@ -121,7 +121,7 @@ export default function Careers() {
                     <div className="text-content">
                         <div className="text-content-wrapper">
                             <div className="job-header">
-                                <Image src="./openings-icons/Landscape-Designer.svg" alt="Opening for Landscape-Designer icon" width={64} height={64} />
+                                <Image src="/openings-icons/Landscape-Designer.svg" alt="Opening for Landscape-Designer icon" width={64} height={64} />
                                 <div className="job-title">
                                     <h3>Landscape Designer</h3>
                                     <p className="job-tag internship">INTERNSHIP</p>

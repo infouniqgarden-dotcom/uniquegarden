@@ -11,7 +11,7 @@ export default function NotFound() {
                 <div className="text-content-wrapper">
                     <h1>Something went wrong!</h1>
                     <p>The page couldn’t be loaded right now. Please try again later.</p>
-                    <a href="./" className="btn">
+                    <a href="/" className="btn">
                         Go to home
                     </a>
                 </div>

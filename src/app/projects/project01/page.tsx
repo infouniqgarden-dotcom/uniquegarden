@@ -112,7 +112,7 @@ export default function Project01() {
                                 <li>Irrigation Systems (drip irrigation for vertical gardens)</li>
                                 <li>Lawn Restoration (re-turfing, soil preparation)</li>
                             </ul>
-                            <Link className="btn btn-secondary" href="./projects/project01">
+                            <Link className="btn btn-secondary" href="/projects/project01">
                                 View Details
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g opacity="0.8">
@@ -160,7 +160,7 @@ export default function Project01() {
                                 <li>Irrigation Systems (sprinklers & drip lines)</li>
                                 <li>Outdoor Lighting (poolside & garden fixtures)</li>
                             </ul>
-                            <Link className="btn btn-secondary" href="./projects/project01">
+                            <Link className="btn btn-secondary" href="/projects/project01">
                                 View Details
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g opacity="0.8">

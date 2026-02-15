@@ -9,7 +9,7 @@ export default function OurServices() {
                     <div className="overline-1">Our Services</div>
                     <h2>Tailored Outdoor Solutions for Every Space</h2>
                     <p>From gardens to pools, we offer end-to-end landscaping and construction services in Dubai & Sharjah.</p>
-                    <Link href="./services" className="btn">
+                    <Link href="/services" className="btn">
                         View all services
                     </Link>
                 </div>
@@ -58,7 +58,7 @@ export default function OurServices() {
                             <div className="h4">Soft Landscaping</div>
                             <p className="p-sm">Gardens • Shrubs • Pathways</p>
                             <div className="arrow">
-                                <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                             </div>
                         </div>
                     </Link>
@@ -106,7 +106,7 @@ export default function OurServices() {
                             <div className="h4">Irrigation Systems</div>
                             <p className="p-sm">Gardens • Shrubs • Pathways</p>
                             <div className="arrow">
-                                <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                             </div>
                         </div>
                     </Link>
@@ -154,7 +154,7 @@ export default function OurServices() {
                             <div className="h4">Hard Landscaping</div>
                             <p className="p-sm">Gardens • Shrubs • Pathways</p>
                             <div className="arrow">
-                                <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                             </div>
                         </div>
                     </Link>

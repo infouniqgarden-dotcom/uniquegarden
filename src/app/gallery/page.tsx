@@ -12,7 +12,7 @@ export default function Gallery() {
                             Our gallery is a reflection of what we build and believe in. Each project displayed here demonstrates our expertise, style, and pursuit of excellence.
                             Take a look around and discover how we turn vision into reality.
                         </p>
-                        <Link href="./" className="btn">
+                        <Link href="/" className="btn">
                             Go to home
                         </Link>
                     </div>

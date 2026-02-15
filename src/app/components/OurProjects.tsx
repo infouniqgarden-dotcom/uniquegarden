@@ -16,7 +16,7 @@ export default function OurProjects() {
                     <div className="overline-1">Our Projects</div>
                     <h2>Recent Work Across Dubai & Sharjah</h2>
                     <p>Explore some of our featured landscaping, pool, and civil work projects.</p>
-                    <Link href="./projects" className="btn">
+                    <Link href="/projects" className="btn">
                         View all projects
                     </Link>
                 </div>
@@ -39,7 +39,7 @@ export default function OurProjects() {
                 >
                     <SwiperSlide>
                         <div className="text-content deep-teal-blue">
-                            <Link href="./projects">
+                            <Link href="/projects">
                                 <div className="image-content-wrapper">
                                     <Image
                                         src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
@@ -59,7 +59,7 @@ export default function OurProjects() {
                                         <p className="p-sm">August 2025</p>
                                     </div>
                                     <div className="arrow">
-                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                        <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                                     </div>
                                 </div>
                             </Link>
@@ -67,7 +67,7 @@ export default function OurProjects() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="text-content olive-drab">
-                            <Link href="./projects">
+                            <Link href="/projects">
                                 <div className="image-content-wrapper">
                                     <Image
                                         src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-2.webp"
@@ -87,7 +87,7 @@ export default function OurProjects() {
                                         <p className="p-sm">August 2025</p>
                                     </div>
                                     <div className="arrow">
-                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                        <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                                     </div>
                                 </div>
                             </Link>
@@ -95,7 +95,7 @@ export default function OurProjects() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="text-content olive-drab">
-                            <Link href="./projects">
+                            <Link href="/projects">
                                 <div className="image-content-wrapper">
                                     <Image
                                         src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-3.webp"
@@ -115,7 +115,7 @@ export default function OurProjects() {
                                         <p className="p-sm">August 2025</p>
                                     </div>
                                     <div className="arrow">
-                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                        <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                                     </div>
                                 </div>
                             </Link>
@@ -123,7 +123,7 @@ export default function OurProjects() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="text-content deep-teal-blue">
-                            <Link href="./projects">
+                            <Link href="/projects">
                                 <div className="image-content-wrapper">
                                     <Image
                                         src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
@@ -143,7 +143,7 @@ export default function OurProjects() {
                                         <p className="p-sm">August 2025</p>
                                     </div>
                                     <div className="arrow">
-                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                        <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                                     </div>
                                 </div>
                             </Link>
@@ -151,7 +151,7 @@ export default function OurProjects() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="text-content deep-teal-blue">
-                            <Link href="./projects">
+                            <Link href="/projects">
                                 <div className="image-content-wrapper">
                                     <Image
                                         src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
@@ -171,7 +171,7 @@ export default function OurProjects() {
                                         <p className="p-sm">August 2025</p>
                                     </div>
                                     <div className="arrow">
-                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                        <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                                     </div>
                                 </div>
                             </Link>
@@ -179,7 +179,7 @@ export default function OurProjects() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="text-content olive-drab">
-                            <Link href="./projects">
+                            <Link href="/projects">
                                 <div className="image-content-wrapper">
                                     <Image
                                         src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-2.webp"
@@ -199,7 +199,7 @@ export default function OurProjects() {
                                         <p className="p-sm">August 2025</p>
                                     </div>
                                     <div className="arrow">
-                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                        <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                                     </div>
                                 </div>
                             </Link>
@@ -207,7 +207,7 @@ export default function OurProjects() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="text-content olive-drab">
-                            <Link href="./projects">
+                            <Link href="/projects">
                                 <div className="image-content-wrapper">
                                     <Image
                                         src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card-3.webp"
@@ -227,7 +227,7 @@ export default function OurProjects() {
                                         <p className="p-sm">August 2025</p>
                                     </div>
                                     <div className="arrow">
-                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                        <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                                     </div>
                                 </div>
                             </Link>
@@ -235,7 +235,7 @@ export default function OurProjects() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="text-content deep-teal-blue">
-                            <Link href="./projects">
+                            <Link href="/projects">
                                 <div className="image-content-wrapper">
                                     <Image
                                         src="https://raw.githubusercontent.com/gowthamavtech/unique-garden-img/main/01-home-page/hp-project-card.webp"
@@ -255,7 +255,7 @@ export default function OurProjects() {
                                         <p className="p-sm">August 2025</p>
                                     </div>
                                     <div className="arrow">
-                                        <Image src="./arrow.svg" alt="arrow" width={27} height={27} priority />
+                                        <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                                     </div>
                                 </div>
                             </Link>
