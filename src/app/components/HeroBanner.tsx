@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ArrowButton() {
+export default function HeroBanner() {
     return (
         <section className="widget-wrapper hero-banner">
             <div className="image-content-wrapper">

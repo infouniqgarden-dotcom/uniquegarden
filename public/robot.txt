@@ -7,4 +7,4 @@ Allow: /
 # Disallow: /api/private
 
 # Sitemap location (update with your actual domain)
-Sitemap: https://gowthamavtech.github.io/unique-garden/sitemap.xml
+Sitemap: https://uniquegarden.vercel.app/sitemap.xml
