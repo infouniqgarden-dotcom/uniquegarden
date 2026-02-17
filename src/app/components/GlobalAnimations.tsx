@@ -18,7 +18,7 @@ export default function GlobalAnimations() {
             gsap.utils.toArray<HTMLElement>("main > .widget-wrapper:not(.hero-banner) .text-content-wrapper").forEach((el) => {
                 gsap.fromTo(
                     el,
-                    { opacity: 0, y: 40 },
+                    { opacity: 0.01, y: 40 },
                     {
                         opacity: 1,
                         y: 0,
@@ -26,7 +26,8 @@ export default function GlobalAnimations() {
                         ease: "power3.out",
                         scrollTrigger: {
                             trigger: el,
-                            start: "top 90%",
+                            start: "top 86%",
+                            toggleActions: "play none none reverse",
                         },
                     },
                 );
