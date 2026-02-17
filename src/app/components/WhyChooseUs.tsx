@@ -1,5 +1,3 @@
-"use client";
-
 export default function WhyChooseUs() {
     return (
         <section className="widget-wrapper bg why-choose-us margin-top-0" id="why-choose-us">
