@@ -1,47 +1,47 @@
-/* ========================= */
-/* Navbar Animation */
-/* ========================= */
+// /* ========================= */
+// /* Navbar Animation */
+// /* ========================= */
 
-.navbar .container {
-    opacity: 0;
-    transform: scale(0.96);
-    animation: navbarEnter 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s forwards;
-}
+// .navbar .container {
+//     opacity: 0;
+//     transform: scale(0.96);
+//     animation: navbarEnter 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s forwards;
+// }
 
-@keyframes navbarEnter {
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
+// @keyframes navbarEnter {
+//     to {
+//         opacity: 1;
+//         transform: scale(1);
+//     }
+// }
 
-/* ========================= */
-/* Hero Text Animation */
-/* ========================= */
+// /* ========================= */
+// /* Hero Text Animation */
+// /* ========================= */
 
-.hero-banner .text-content-wrapper > * {
-    opacity: 0;
-    transform: translateY(40px);
-    animation: revealAnimation 2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
+// .hero-banner .text-content-wrapper > * {
+//     opacity: 0;
+//     transform: translateY(40px);
+//     animation: revealAnimation 2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+// }
 
-/* Stagger */
-.hero-banner .text-content-wrapper > *:nth-child(1) {
-    animation-delay: 0.2s;
-}
-.hero-banner .text-content-wrapper > *:nth-child(2) {
-    animation-delay: 0.4s;
-}
-.hero-banner .text-content-wrapper > *:nth-child(3) {
-    animation-delay: 0.6s;
-}
-.hero-banner .text-content-wrapper > *:nth-child(4) {
-    animation-delay: 0.8s;
-}
+// /* Stagger */
+// .hero-banner .text-content-wrapper > *:nth-child(1) {
+//     animation-delay: 0.2s;
+// }
+// .hero-banner .text-content-wrapper > *:nth-child(2) {
+//     animation-delay: 0.4s;
+// }
+// .hero-banner .text-content-wrapper > *:nth-child(3) {
+//     animation-delay: 0.6s;
+// }
+// .hero-banner .text-content-wrapper > *:nth-child(4) {
+//     animation-delay: 0.8s;
+// }
 
-@keyframes revealAnimation {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+// @keyframes revealAnimation {
+//     to {
+//         opacity: 1;
+//         transform: translateY(0);
+//     }
+// }
