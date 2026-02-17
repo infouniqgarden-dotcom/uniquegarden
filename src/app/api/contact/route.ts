@@ -9,15 +9,68 @@ interface ContactFormData {
     location: string;
     projectType: string;
     projectDetails: string;
+    recaptchaToken: string;
+    companyName?: string;
+    faxNumber?: string;
+}
+
+// Verify reCAPTCHA token
+async function verifyRecaptcha(token: string): Promise<{ success: boolean; score: number }> {
+    const secretKey = process.env.RECAPTCHA_SECRET_KEY;
+
+    const verifyResponse = await fetch("https://www.google.com/recaptcha/api/siteverify", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: `secret=${secretKey}&response=${token}`,
+    });
+
+    const data = await verifyResponse.json();
+    return {
+        success: data.success,
+        score: data.score || 0,
+    };
 }
 
 export async function POST(request: NextRequest) {
     try {
-        // Validate the data
+        // Parse request body
         const body: ContactFormData = await request.json();
 
-        const { name, email, phoneNumber, location, projectType, projectDetails } = body;
+        const { name, email, phoneNumber, location, projectType, projectDetails, recaptchaToken, companyName, faxNumber } = body;
 
+        if (companyName || faxNumber) {
+            console.log("Bot detected via honeypot field (companyName filled or faxNumber filled)");
+            // Return fake success to fool the bot
+            return NextResponse.json(
+                {
+                    success: true,
+                    message: "Your message has been sent successfully!",
+                },
+                { status: 200 },
+            );
+        }
+
+        // Verify reCAPTCHA first
+        if (!recaptchaToken) {
+            return NextResponse.json({ error: "reCAPTCHA token is missing" }, { status: 400 });
+        }
+
+        const recaptchaResult = await verifyRecaptcha(recaptchaToken);
+
+        // Check reCAPTCHA score (0.0 = bot, 1.0 = human)
+        // Score of 0.5 is recommended balance
+        if (!recaptchaResult.success || recaptchaResult.score < 0.5) {
+            console.log(`reCAPTCHA failed. Score: ${recaptchaResult.score}`);
+            return NextResponse.json(
+                {
+                    error: "Security verification failed. Please try again.",
+                    ...(process.env.NODE_ENV === "development" && { score: recaptchaResult.score }),
+                },
+                { status: 403 },
+            );
+        }
+
+        // Validate form data
         if (!name || !email || !phoneNumber || !location || !projectType || !projectDetails) {
             return NextResponse.json({ error: "All fields are required" }, { status: 400 });
         }
@@ -59,6 +112,7 @@ export async function POST(request: NextRequest) {
               .label { font-weight: bold; color: #027833; }
               .value { margin-top: 5px; }
               .footer { margin-top: 20px; padding: 20px; text-align: center; font-size: 12px; color: #666; }
+              .security { background-color: #e8f5e9; padding: 10px; margin-top: 10px; border-left: 4px solid #027833; }
             </style>
           </head>
           <body>
@@ -90,6 +144,10 @@ export async function POST(request: NextRequest) {
                 <div class="field">
                   <div class="label">Project Details:</div>
                   <div class="value">${projectDetails}</div>
+                </div>
+                <div class="security">
+                  <small>✓ Verified by reCAPTCHA (Score: ${recaptchaResult.score.toFixed(2)})</small>
+                  <small>✓ Honeypot check passed</small>
                 </div>
               </div>
               <div class="footer">
@@ -149,6 +207,9 @@ export async function POST(request: NextRequest) {
         // Send both emails
         await Promise.all([transporter.sendMail(adminMailOptions), transporter.sendMail(customerMailOptions)]);
 
+        // Log successful submission with reCAPTCHA score
+        console.log(`Form submitted successfully. reCAPTCHA score: ${recaptchaResult.score}`);
+
         return NextResponse.json(
             {
                 success: true,
@@ -157,7 +218,6 @@ export async function POST(request: NextRequest) {
             { status: 200 },
         );
     } catch (error) {
-        // Use an instance check to safely access the message property
         const errorMessage = error instanceof Error ? error.message : "An unknown error occurred";
 
         console.error("Detailed Contact Error:", errorMessage);
@@ -172,7 +232,7 @@ export async function POST(request: NextRequest) {
     }
 }
 
-// 6. Added GET handler for easy testing
+// GET handler for easy testing
 export async function GET() {
     return NextResponse.json({
         status: "active",

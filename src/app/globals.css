@@ -109,3 +109,11 @@ body main {
 ::-webkit-scrollbar {
     display: none;
 }
+
+/* reCaptcha badge */
+.grecaptcha-badge {
+    /* visibility: visible !important; */
+    visibility: hidden !important;
+    bottom: 14px !important;
+    right: 14px !important;
+}

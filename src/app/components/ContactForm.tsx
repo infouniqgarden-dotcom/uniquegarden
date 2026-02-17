@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, FormEvent, ChangeEvent } from "react";
+import { GoogleReCaptchaProvider, useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 interface FormData {
     name: string;
@@ -9,13 +10,17 @@ interface FormData {
     location: string;
     projectType: string;
     projectDetails: string;
+    companyName: string;
+    faxNumber: string;
 }
 
 interface FormErrors {
     [key: string]: string;
 }
 
-export default function ContactForm() {
+function ContactFormContent() {
+    const { executeRecaptcha } = useGoogleReCaptcha();
+
     const [formData, setFormData] = useState<FormData>({
         name: "",
         email: "",
@@ -23,11 +28,14 @@ export default function ContactForm() {
         location: "",
         projectType: "",
         projectDetails: "",
+        companyName: "",
+        faxNumber: "",
     });
 
     const [errors, setErrors] = useState<FormErrors>({});
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
+    const [errorMessage, setErrorMessage] = useState<string>("");
 
     const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
         const { name, value } = e.target;
@@ -36,7 +44,6 @@ export default function ContactForm() {
             [name]: value,
         }));
 
-        // Clear error for this field when user starts typing
         if (errors[name]) {
             setErrors((prev) => ({
                 ...prev,
@@ -87,25 +94,53 @@ export default function ContactForm() {
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
+        if (formData.companyName || formData.faxNumber) {
+            setIsSubmitting(true);
+            setTimeout(() => {
+                setIsSubmitting(false);
+                setSubmitStatus("success"); // Fake success
+            }, 2000);
+            return;
+        }
+
         if (!validateForm()) {
+            return;
+        }
+
+        if (!executeRecaptcha) {
+            setErrorMessage("reCAPTCHA not ready. Please try again.");
+            setSubmitStatus("error");
             return;
         }
 
         setIsSubmitting(true);
         setSubmitStatus("idle");
+        setErrorMessage("");
 
         try {
-            // Replace this with your actual API endpoint
+            // Get reCAPTCHA token
+            const recaptchaToken = await executeRecaptcha("contact_form");
+
             const response = await fetch("/api/contact", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify(formData),
+                body: JSON.stringify({
+                    ...formData,
+                    recaptchaToken,
+                }),
             });
 
+            const data = await response.json();
+
             if (!response.ok) {
-                throw new Error("Submission failed");
+                if (response.status === 403) {
+                    setErrorMessage("Security verification failed. Please try again.");
+                } else {
+                    setErrorMessage(data.error || "Submission failed");
+                }
+                throw new Error(data.error || "Submission failed");
             }
 
             setSubmitStatus("success");
@@ -118,6 +153,8 @@ export default function ContactForm() {
                 location: "",
                 projectType: "",
                 projectDetails: "",
+                companyName: "",
+                faxNumber: "",
             });
 
             // Clear success message after 5 seconds
@@ -133,6 +170,30 @@ export default function ContactForm() {
     return (
         <div className="widget-wrapper form-wrapper">
             <form className="contact-form" onSubmit={handleSubmit} noValidate>
+                <div
+                    style={{
+                        position: "absolute",
+                        left: "-9999px",
+                        width: "1px",
+                        height: "1px",
+                        overflow: "hidden",
+                    }}
+                    aria-hidden="true"
+                >
+                    <label htmlFor="company-name">Company Name</label>
+                    <input
+                        type="text"
+                        id="company-name"
+                        name="companyName"
+                        value={formData.companyName}
+                        maxLength={100}
+                        onChange={handleChange}
+                        tabIndex={-1}
+                        autoComplete="off"
+                        placeholder="Enter your company name"
+                    />
+                </div>
+
                 <div className="form-grid">
                     <div className="form-group">
                         <label htmlFor="name">
@@ -279,6 +340,30 @@ export default function ContactForm() {
                     )}
                 </div>
 
+                <div
+                    style={{
+                        position: "absolute",
+                        left: "-9999px",
+                        width: "1px",
+                        height: "1px",
+                        overflow: "hidden",
+                    }}
+                    aria-hidden="true"
+                >
+                    <label htmlFor="fax-number">Fax Number</label>
+                    <input
+                        type="text"
+                        id="fax-number"
+                        name="faxNumber"
+                        maxLength={100}
+                        value={formData.faxNumber}
+                        onChange={handleChange}
+                        tabIndex={-1}
+                        autoComplete="off"
+                        placeholder="Enter your fax number if applicable"
+                    />
+                </div>
+
                 <div className="form-actions">
                     <button type="submit" className="btn btn-submit" disabled={isSubmitting}>
                         {isSubmitting ? "Sending..." : "Submit"}
@@ -293,10 +378,18 @@ export default function ContactForm() {
 
                 {submitStatus === "error" && (
                     <div className="alert alert-error" role="alert">
-                        Something went wrong. Please try again or contact us directly.
+                        {errorMessage || "Something went wrong. Please try again or contact us directly."}
                     </div>
                 )}
             </form>
         </div>
+    );
+}
+
+export default function ContactForm() {
+    return (
+        <GoogleReCaptchaProvider reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}>
+            <ContactFormContent />
+        </GoogleReCaptchaProvider>
     );
 }
