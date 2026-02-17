@@ -600,6 +600,7 @@ main .widget-wrapper.about-company {
             justify-content: center;
             align-items: center;
             border-radius: 50px;
+            z-index: 2;
 
             svg {
                 width: clamp(26px, calc((48 / var(--viewport)) * 100vw), 48px);

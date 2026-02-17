@@ -9,6 +9,7 @@ import "./styles/swiper.scss";
 import Navbar from "./components/Navbar/Navbar";
 import MobileClassHandler from "./components/MobileClassHandler";
 import Footer from "./components/Footer/footer";
+import GlobalAnimations from "./components/GlobalAnimations";
 
 const figtree = Figtree({
     subsets: ["latin"],
@@ -134,6 +135,7 @@ export default function RootLayout({
                 <MobileClassHandler />
                 <Navbar />
                 {children}
+                <GlobalAnimations />
                 <Footer />
             </body>
         </html>

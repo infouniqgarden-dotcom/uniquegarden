@@ -1,4 +1,4 @@
-footer {
+#footer {
     padding: clamp(48px, calc((64 / var(--viewport)) * 100vw), 64px) var(--widget-vertical-spacing) clamp(32px, calc((48 / var(--viewport)) * 100vw), 48px);
     background: #141414;
     max-width: var(--widget-max-width);
