@@ -106,10 +106,6 @@ body main {
     overflow-x: auto;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 /* reCaptcha badge */
 .grecaptcha-badge {
     /* visibility: visible !important; */

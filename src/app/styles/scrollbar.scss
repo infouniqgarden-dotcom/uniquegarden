@@ -1,0 +1,46 @@
+/* ============================================================
+   GLOBAL CUSTOM SCROLLBAR STYLES
+   ============================================================ */
+
+:root {
+    --sb-size: 9px; /* scrollbar width/height */
+    --sb-radius: 0px; /* track roundness */
+    --sb-track-bg: #1e1e2e; /* track background color */
+    --sb-thumb-bg: var(--brand-primary-color); /* thumb color */
+    --sb-thumb-radius: 9px; /* thumb roundness */
+    --sb-thumb-hover: var(--brand-secondary-color); /* thumb hover color */
+    --sb-thumb-active: var(--brand-secondary-color); /* thumb click/active color */
+    --sb-thumb-border: 2px solid #1e1e2e; /* creates padding effect */
+}
+
+/* Webkit — Chrome, Edge, Safari, Opera */
+::-webkit-scrollbar {
+    width: var(--sb-size);
+    height: var(--sb-size);
+}
+::-webkit-scrollbar-track {
+    background: var(--sb-track-bg);
+    border-radius: var(--sb-radius);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-bg);
+    border-radius: var(--sb-thumb-radius);
+    border: var(--sb-thumb-border);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--sb-thumb-hover);
+}
+::-webkit-scrollbar-thumb:active {
+    background: var(--sb-thumb-active);
+}
+::-webkit-scrollbar-corner {
+    background: var(--sb-track-bg);
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+    * {
+        scrollbar-width: auto;
+        scrollbar-color: var(--sb-thumb-bg) var(--sb-track-bg);
+    }
+}

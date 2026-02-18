@@ -6,10 +6,12 @@ import "./styles/spacings.scss";
 import "./styles/components/components.scss";
 import "./styles/buttons.scss";
 import "./styles/swiper.scss";
+import "./styles/scrollbar.scss";
 import Navbar from "./components/Navbar/Navbar";
 import MobileClassHandler from "./components/MobileClassHandler";
 import Footer from "./components/Footer/footer";
 import GlobalAnimations from "./components/GlobalAnimations";
+import { ReactLenis, useLenis } from "lenis/react";
 
 const figtree = Figtree({
     subsets: ["latin"],
@@ -136,6 +138,7 @@ export default function RootLayout({
                 <Navbar />
                 {children}
                 <GlobalAnimations />
+                <ReactLenis root />
                 <Footer />
             </body>
         </html>
