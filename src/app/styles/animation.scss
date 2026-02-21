@@ -49,7 +49,20 @@
     }
 }
 
-main > .widget-wrapper:not(.hero-banner) .text-content-wrapper {
-    opacity: 0.01;
-    transform: translateY(40px);
+// main > .widget-wrapper:not(.hero-banner) .text-content-wrapper {
+//     opacity: 0.01;
+//     transform: translateY(40px);
+// }
+
+// li {
+//     list-style-position: inside;
+// }
+
+.line {
+    overflow: hidden;
+}
+
+.line-inner {
+    transform: translate(0px, 100%);
+    display: inline-block;
 }

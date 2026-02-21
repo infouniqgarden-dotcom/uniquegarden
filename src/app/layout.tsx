@@ -12,6 +12,7 @@ import MobileClassHandler from "./components/MobileClassHandler";
 import Footer from "./components/Footer/footer";
 import GlobalAnimations from "./components/GlobalAnimations";
 import { ReactLenis, useLenis } from "lenis/react";
+import GlobalTextReveal from "./components/TextRevealAnimation";
 
 const figtree = Figtree({
     subsets: ["latin"],
@@ -137,7 +138,8 @@ export default function RootLayout({
                 <MobileClassHandler />
                 <Navbar />
                 {children}
-                <GlobalAnimations />
+                {/* <GlobalAnimations /> */}
+                <GlobalTextReveal />
                 <ReactLenis root />
                 <Footer />
             </body>

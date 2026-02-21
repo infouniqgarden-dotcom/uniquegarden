@@ -14,7 +14,7 @@ export default function OurServices() {
                     </Link>
                 </div>
             </div>
-            <div className="widget-wrapper iamge-text-card">
+            <div className="widget-wrapper image-text-card">
                 <div className="text-content">
                     <Link href="/services">
                         <div className="image-content-wrapper">

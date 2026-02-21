@@ -122,7 +122,7 @@ main .widget-wrapper.about-company {
 }
 
 .our-services {
-    .iamge-text-card {
+    .image-text-card {
         flex-direction: row;
         flex-wrap: wrap;
         gap: clamp(24px, (36 / var(--viewport)) * 100vw, 36px);
