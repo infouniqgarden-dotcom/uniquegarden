@@ -138,8 +138,8 @@ export default function RootLayout({
                 <MobileClassHandler />
                 <Navbar />
                 {children}
-                {/* <GlobalAnimations /> */}
-                <GlobalTextReveal />
+                <GlobalAnimations />
+                {/* <GlobalTextReveal /> */}
                 <ReactLenis root />
                 <Footer />
             </body>

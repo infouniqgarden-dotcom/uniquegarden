@@ -49,15 +49,46 @@
     }
 }
 
-// main > .widget-wrapper:not(.hero-banner) .text-content-wrapper {
-//     opacity: 0.01;
-//     transform: translateY(40px);
-// }
+main .widget-wrapper.about-company .text-content,
+.about-us-ltxt-rimg .text-content .text-content-wrapper > *,
+.about-us-ltxt-rimg .image-content-wrapper,
+.text-group .text-content-wrapper > *,
+.our-services .image-text-card .text-content,
+.widget-wrapper.why-choose-us .cards-wrapper .card.text-content,
+.our-projects-text-slider .slider,
+.widget-wrapper.testimonials .review-cards,
+.request-a-quote .text-content-wrapper > *,
+#footer .row-one .column-one > *,
+#footer .row-one .column-two > div > *,
+#footer .row-one .column-three .quick-links .overline-3,
+#footer .row-one .column-three .quick-links ul li,
+#footer .row-one .column-three .our-services .overline-3,
+#footer .row-one .column-three .our-services ul li,
+.mission-vision .text-content,
+.our-core-values .text-content > .text-content-wrapper > *,
+.our-core-values .text-content .cards-container .card,
+.widget-wrapper.bg.our-trade-license > *,
+.meet-our-team .our-team-wrapper .text-content,
+.services-lslider-rtext .image-slider,
+.services-lslider-rtext .text-content-wrapper > *,
+.services-ltext-rslider .image-slider,
+.services-ltext-rslider .text-content-wrapper > *,
+.project-limage-rtext,
+.project-ltext-rimage,
+.project-detials .text-content-wrapper > *,
+.project-image-gallery .text-content-wrapper > *,
+.project-image-gallery .image-content-wrapper img,
+section.widget-wrapper.gallery-slider .sliders .swiper,
+.careers-job-openings .job-listing .text-content,
+.contact-form-section .contact-form .form-group {
+    opacity: 0.01;
+    transform: translateY(20px);
+}
 
-// li {
-//     list-style-position: inside;
-// }
-
+/* li {
+    list-style-position: inside;
+}
+    
 .line {
     overflow: hidden;
 }
@@ -65,4 +96,4 @@
 .line-inner {
     transform: translate(0px, 100%);
     display: inline-block;
-}
+}*/

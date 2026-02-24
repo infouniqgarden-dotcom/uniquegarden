@@ -1308,6 +1308,11 @@ section.widget-wrapper.not-found {
 section.widget-wrapper.gallery-slider {
     padding: clamp(150px, 10.418vw, 200px) 0 var(--widget-spacing);
     background: var(--widget-bg);
+
+    .text-group {
+        padding: 0 var(--widget-vertical-spacing);
+    }
+
     .sliders {
         padding-top: var(--widget-spacing);
 

@@ -198,7 +198,7 @@ h6,
         letter-spacing: 0;
     }
 
-    :is(p, li, td, th, div) {
+    :is(p, li, td, th) {
         font-size: 16px;
         line-height: 24px;
     }
