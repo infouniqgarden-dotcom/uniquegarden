@@ -51,7 +51,7 @@ export default function Footer() {
                     </div>
                     <div className="column-two">
                         <div className="contact-us">
-                            <div className="overline-3">Contact Us</div>
+                            <p className="overline-3">Contact Us</p>
                             <div className="mails">
                                 <div className="mail">
                                     <div className="icon">
@@ -112,7 +112,7 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className="follow-us">
-                            <div className="overline-3">Follow Us</div>
+                            <p className="overline-3">Follow Us</p>
                             <div className="social-media-links">
                                 <a href="https://www.instagram.com/unique_garden_tech_cont/" target="_blank" rel="noopener noreferrer">
                                     <Image src="/instagram-icon.svg" alt="Instagram" width={24} height={24} />
@@ -128,7 +128,7 @@ export default function Footer() {
                     </div>
                     <div className="column-three">
                         <div className="quick-links">
-                            <div className="overline-3">Quick links</div>
+                            <p className="overline-3">Quick links</p>
                             <div className="menu-items">
                                 <ul className="list">
                                     {links.map((link) => (
@@ -140,7 +140,7 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className="our-services">
-                            <div className="overline-3">Our Services</div>
+                            <p className="overline-3">Our Services</p>
                             <ul className="list">
                                 {serviceLinks.map((link) => (
                                     <li key={link.name}>
