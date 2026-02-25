@@ -79,10 +79,11 @@ main .widget-wrapper.about-company .text-content,
 .project-image-gallery .text-content-wrapper > *,
 .project-image-gallery .image-content-wrapper img,
 section.widget-wrapper.gallery-slider .sliders .swiper,
+.our-core-values .image-content-wrapper,
 .careers-job-openings .job-listing .text-content,
 .contact-form-section .contact-form .form-group {
     opacity: 0.01;
-    transform: translateY(20px);
+    transform: translateY(30px);
 }
 
 /* li {

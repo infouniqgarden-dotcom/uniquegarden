@@ -39,16 +39,18 @@ const soloElements = [
     ".services-ltext-rslider .image-slider",
     ".project-limage-rtext",
     ".project-ltext-rimage",
+    ".our-core-values .image-content-wrapper",
     "section.widget-wrapper.gallery-slider .sliders .swiper",
     ".careers-job-openings .job-listing .text-content",
     ".widget-wrapper.bg.our-services-multi-icon-text-slider .multi-icon-text-slider .swiper",
 ];
 
-const FROM = { opacity: 0.01, y: 20 };
+const FROM = { opacity: 0.01, y: 30 };
 const TO = {
     opacity: 1,
     y: 0,
-    duration: 1,
+    duration: 2,
+    delay: 0.2,
     ease: "power4.out",
 };
 
@@ -91,7 +93,7 @@ export default function GlobalAnimations() {
                             ...TO,
                             scrollTrigger: {
                                 trigger: el,
-                                start: "top 85%",
+                                start: "top 90%",
                                 toggleActions: "play none none none",
                                 once: true,
                             },
@@ -100,7 +102,9 @@ export default function GlobalAnimations() {
                 });
             });
 
-            ScrollTrigger.refresh();
+            setTimeout(() => {
+                ScrollTrigger.refresh();
+            }, 500);
         };
 
         initAnimations();
