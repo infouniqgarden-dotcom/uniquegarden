@@ -114,11 +114,13 @@ export default function GlobalAnimations() {
         };
     }, [pathname]);
 
-    setTimeout(() => {
-        window.addEventListener("load", () => {
-            ScrollTrigger.refresh();
-        });
-    }, 500);
+    useEffect(() => {
+        setTimeout(() => {
+            window.addEventListener("load", () => {
+                ScrollTrigger.refresh();
+            });
+        }, 500);
+    }, []);
 
     return null;
 }

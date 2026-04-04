@@ -51,43 +51,6 @@ export default function Navbar() {
         return pathname === href || (href !== "/" && pathname.startsWith(href + "/"));
     };
 
-    // useEffect(() => {
-    //     console.log("useEffect running"); // Check if useEffect runs
-
-    //     const initAnimation = async () => {
-    //         console.log("initAnimation called"); // Check if function is called
-    //         const { gsap } = await import("gsap");
-    //         console.log("GSAP loaded:", gsap); // Check if GSAP loads
-
-    //         const element = document.querySelector(".navbar .container");
-    //         console.log("Element found:", element); // Check if element exists
-
-    //         gsap.to(".navbar .container", {
-    //             opacity: 1,
-    //             scale: 1,
-    //             duration: 0.6,
-    //             ease: "back.out(1.2)",
-    //             delay: 0.1,
-    //             onStart: () => console.log("Animation started"),
-    //             onComplete: () => console.log("Animation completed"),
-    //         });
-    //     };
-
-    //     // Only animate on initial load
-    //     if (typeof window !== "undefined" && window.sessionStorage.getItem("navAnimated") !== "true") {
-    //         console.log("First load - animating");
-    //         initAnimation();
-    //         window.sessionStorage.setItem("navAnimated", "true");
-    //     } else {
-    //         console.log("Already animated - showing instantly");
-    //         const showNav = async () => {
-    //             const { gsap } = await import("gsap");
-    //             gsap.set(".navbar .container", { opacity: 1, scale: 1 });
-    //         };
-    //         showNav();
-    //     }
-    // }, []);
-
     return (
         <nav role="navigation" aria-label="Main navigation">
             <div className={`navbar ${open ? "open" : ""}`}>
