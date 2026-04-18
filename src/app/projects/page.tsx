@@ -36,7 +36,7 @@ export default function ServicesPage() {
 
                 <div className="text-content">
                     <div className="text-content-wrapper">
-                        <h2>Modern Villa Backyard</h2>
+                        <h2>Al Tawr Villa</h2>
                         <p className="overline-3">Dubai Hills, UAE • August 2025</p>
                         <p>Work done:</p>
                         <ul>
