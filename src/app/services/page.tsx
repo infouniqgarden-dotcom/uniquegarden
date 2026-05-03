@@ -4,28 +4,76 @@ import Testimonials from "../components/Testimonials";
 import ServicesSlider from "../components/ServicesSlider";
 
 export default function ServicesPage() {
-    const landscapingImages = [
-        { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "Landscaping service example 1" },
-        { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Landscaping service example 2" },
-        { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "Landscaping service example 3" },
-    ];
-
-    const SoftLandscapingImages = [
+    const softscapeImages = [
         { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Soft Landscaping example 1" },
         { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "Soft Landscaping example 2" },
         { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "Soft Landscaping example 3" },
     ];
 
-    const PergolasOutdoorLiving = [
+    const hardscapeImages = [
+        { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "Hardscape example 1" },
+        { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Hardscape example 2" },
+        { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "Hardscape example 3" },
+    ];
+
+    const pergolasGazebosImages = [
         { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "Pergolas & Outdoor Living example 1" },
         { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Pergolas & Outdoor Living example 2" },
         { imagePath: "03-Services-Page/Services-4.webp", imageAlt: "Pergolas & Outdoor Living example 3" },
     ];
 
-    const CivilWorks = [
+    const civilWorksImages = [
         { imagePath: "03-Services-Page/Services-4.webp", imageAlt: "Civil Works example 1" },
         { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Civil Works example 2" },
         { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "Civil Works example 3" },
+    ];
+
+    const lightingImages = [
+        { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "Lighting example 1" },
+        { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Lighting example 2" },
+        { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "Lighting example 3" },
+    ];
+
+    const maintenanceImages = [
+        { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "Maintenance example 1" },
+        { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Maintenance example 2" },
+        { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "Maintenance example 3" },
+    ];
+
+    const pebbleGardensImages = [
+        { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "Pebble Gardens example 1" },
+        { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Pebble Gardens example 2" },
+        { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "Pebble Gardens example 3" },
+    ];
+
+    const irrigationSystemsImages = [
+        { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "Irrigation Systems example 1" },
+        { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Irrigation Systems example 2" },
+        { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "Irrigation Systems example 3" },
+    ];
+
+    const verticalGardensImages = [
+        { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "Vertical Gardens example 1" },
+        { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Vertical Gardens example 2" },
+        { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "Vertical Gardens example 3" },
+    ];
+
+    const mepWorksImages = [
+        { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "MEP Works example 1" },
+        { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "MEP Works example 2" },
+        { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "MEP Works example 3" },
+    ];
+
+    const waterFeaturesImages = [
+        { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "Water Features example 1" },
+        { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Water Features example 2" },
+        { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "Water Features example 3" },
+    ];
+
+    const swimmingPoolsImages = [
+        { imagePath: "03-Services-Page/Services-1.webp", imageAlt: "Swimming Pools example 1" },
+        { imagePath: "03-Services-Page/Services-2.webp", imageAlt: "Swimming Pools example 2" },
+        { imagePath: "03-Services-Page/Services-3.webp", imageAlt: "Swimming Pools example 3" },
     ];
     return (
         <main className="services-page">
@@ -52,26 +100,11 @@ export default function ServicesPage() {
             </section>
             <section className="widget-wrapper services-lslider-rtext">
                 <div className="image-slider">
-                    <ServicesSlider images={landscapingImages} />
+                    <ServicesSlider images={softscapeImages} />
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">
-                        <h2>Landscaping</h2>
-                        <p>Designing and building outdoor spaces that blend beauty, function, and durability.</p>
-                        <ul>
-                            <li>Soft Landscaping (lawns, plants, flowers, trees)</li>
-                            <li>Hard Landscaping (pathways, patios, stonework)</li>
-                            <li>Vertical Gardens</li>
-                            <li>Pebble Gardens</li>
-                            <li>Irrigation Systems</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section className="widget-wrapper bg services-ltext-rslider">
-                <div className="text-content">
-                    <div className="text-content-wrapper">
-                        <h2>Soft Landscaping</h2>
+                        <h2>Softscape</h2>
                         <p>Bringing outdoor spaces to life with greenery and natural beauty.</p>
                         <ul>
                             <li>Lawn installation & turfing</li>
@@ -82,20 +115,71 @@ export default function ServicesPage() {
                         </ul>
                     </div>
                 </div>
+            </section>
+            <section className="widget-wrapper bg services-ltext-rslider">
+                <div className="text-content">
+                    <div className="text-content-wrapper">
+                        <h2>Hardscape</h2>
+                        <p>Creating durable and functional outdoor structures that define and support the landscape design.</p>
+                        <ul>
+                            <li>Pathways & Walkways</li>
+                            <li>Patios & Outdoor Flooring</li>
+                            <li>Retaining Walls & Stonework</li>
+                            <li>Driveways & Paving</li>
+                            <li>Water Features & Edging</li>
+                        </ul>
+                    </div>
+                </div>
                 <div className="image-slider">
-                    <ServicesSlider images={SoftLandscapingImages} />
+                    <ServicesSlider images={hardscapeImages} />
                 </div>
             </section>
             <section className="widget-wrapper services-lslider-rtext">
                 <div className="image-slider">
-                    <ServicesSlider images={PergolasOutdoorLiving} />
+                    <ServicesSlider images={lightingImages} />
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">
-                        <h2>Pergolas & Outdoor Living</h2>
-                        <p>Enhancing comfort with stylish shaded and lifestyle structures.</p>
+                        <h2>Lighting</h2>
+                        <p>Enhancing ambiance and safety with well-planned outdoor lighting.</p>
                         <ul>
-                            <li>Wooden pergolas</li>
+                            <li>Garden lighting</li>
+                            <li>Pathway & driveway lights</li>
+                            <li>Accent & feature lighting</li>
+                            <li>Decorative fixtures</li>
+                            <li>Energy-efficient solutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section className="widget-wrapper bg services-ltext-rslider">
+                <div className="text-content">
+                    <div className="text-content-wrapper">
+                        <h2>Maintenance</h2>
+                        <p>Keeping landscapes healthy, clean, and visually appealing year-round.</p>
+                        <ul>
+                            <li>Lawn mowing & trimming</li>
+                            <li>Pruning & plant care</li>
+                            <li>Fertilization & pest control</li>
+                            <li>Irrigation system checks</li>
+                            <li>General upkeep</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="image-slider">
+                    <ServicesSlider images={maintenanceImages} />
+                </div>
+            </section>
+            <section className="widget-wrapper services-lslider-rtext">
+                <div className="image-slider">
+                    <ServicesSlider images={pergolasGazebosImages} />
+                </div>
+                <div className="text-content">
+                    <div className="text-content-wrapper">
+                        <h2>Pergolas & Gazebos</h2>
+                        <p>Creating stylish outdoor structures for shade, comfort, and relaxation.</p>
+                        <ul>
+                            <li>Wooden & metal pergolas</li>
                             <li>Gazebos & cabanas</li>
                             <li>Outdoor seating areas</li>
                             <li>Decking & flooring</li>
@@ -107,19 +191,127 @@ export default function ServicesPage() {
             <section className="widget-wrapper bg services-ltext-rslider">
                 <div className="text-content">
                     <div className="text-content-wrapper">
-                        <h2>Civil Works</h2>
-                        <p>Comprehensive civil works to support landscaping and outdoor projects.</p>
+                        <h2>Pebble Gardens</h2>
+                        <p>Designing decorative, low-maintenance landscapes using natural stones.</p>
                         <ul>
-                            <li>Paving & flooring</li>
-                            <li>Concreting</li>
-                            <li>Carpentry & fit-outs</li>
-                            <li>Retaining structures</li>
-                            <li>Site preparation</li>
+                            <li>Decorative pebble layouts</li>
+                            <li>Zen garden designs</li>
+                            <li>Pathway enhancements</li>
+                            <li>Ground cover solutions</li>
+                            <li>Drainage-friendly designs</li>
                         </ul>
                     </div>
                 </div>
                 <div className="image-slider">
-                    <ServicesSlider images={CivilWorks} />
+                    <ServicesSlider images={pebbleGardensImages} />
+                </div>
+            </section>
+            <section className="widget-wrapper services-lslider-rtext">
+                <div className="image-slider">
+                    <ServicesSlider images={pebbleGardensImages} />
+                </div>
+                <div className="text-content">
+                    <div className="text-content-wrapper">
+                        <h2>Irrigation Systems</h2>
+                        <p>Providing efficient watering solutions for healthy and sustainable landscapes.</p>
+                        <ul>
+                            <li>Drip irrigation systems</li>
+                            <li>Sprinkler systems</li>
+                            <li>Automated controllers</li>
+                            <li>Water-saving solutions</li>
+                            <li>System maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section className="widget-wrapper bg services-ltext-rslider">
+                <div className="text-content">
+                    <div className="text-content-wrapper">
+                        <h2>Vertical Gardens</h2>
+                        <p>Transforming walls into vibrant green spaces with modern solutions.</p>
+                        <ul>
+                            <li>Green wall installation</li>
+                            <li>Modular vertical systems</li>
+                            <li>Indoor & outdoor gardens</li>
+                            <li>Integrated irrigation</li>
+                            <li>Maintenance services</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="image-slider">
+                    <ServicesSlider images={verticalGardensImages} />
+                </div>
+            </section>
+            <section className="widget-wrapper services-lslider-rtext">
+                <div className="image-slider">
+                    <ServicesSlider images={civilWorksImages} />
+                </div>
+                <div className="text-content">
+                    <div className="text-content-wrapper">
+                        <h2>Civil Works</h2>
+                        <p>Providing foundational and structural support for landscaping projects.</p>
+                        <ul>
+                            <li>Land leveling & excavation</li>
+                            <li>Drainage systems</li>
+                            <li>Concrete & masonry work</li>
+                            <li>Site preparation</li>
+                            <li>Structural development</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section className="widget-wrapper bg services-ltext-rslider">
+                <div className="text-content">
+                    <div className="text-content-wrapper">
+                        <h2>MEP Works</h2>
+                        <p>Delivering integrated mechanical, electrical, and plumbing solutions.</p>
+                        <ul>
+                            <li>Electrical installations</li>
+                            <li>Plumbing & pipelines</li>
+                            <li>Pump & motor systems</li>
+                            <li>Utility connections</li>
+                            <li>System maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="image-slider">
+                    <ServicesSlider images={mepWorksImages} />
+                </div>
+            </section>
+            <section className="widget-wrapper services-lslider-rtext">
+                <div className="image-slider">
+                    <ServicesSlider images={waterFeaturesImages} />
+                </div>
+                <div className="text-content">
+                    <div className="text-content-wrapper">
+                        <h2>Water Features</h2>
+                        <p>Enhancing landscapes with elegant and calming water elements.</p>
+                        <ul>
+                            <li>Fountains & waterfalls</li>
+                            <li>Ponds & reflecting pools</li>
+                            <li>Cascade features</li>
+                            <li>Filtration systems</li>
+                            <li>Water circulation setup</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section className="widget-wrapper bg services-ltext-rslider">
+                <div className="text-content">
+                    <div className="text-content-wrapper">
+                        <h2>Swimming Pools</h2>
+                        <p>Designing and building custom pools for luxury and recreation.</p>
+                        <ul>
+                            <li>Pool design & construction</li>
+                            <li>Tiling & finishing</li>
+                            <li>Filtration systems</li>
+                            <li>Poolside decking</li>
+                            <li>Maintenance services</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="image-slider">
+                    <ServicesSlider images={swimmingPoolsImages} />
                 </div>
             </section>
             <OurProjects />

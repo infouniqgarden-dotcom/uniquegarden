@@ -27,7 +27,7 @@ export default function AboutCompany() {
                             strokeLinejoin="round"
                         />
                     </svg>
-                    <p className="overline-2">3+ Years of Experience</p>
+                    <p className="overline-2">5+ Years of Experience</p>
                 </div>
             </div>
             <div className="text-content">
@@ -66,7 +66,7 @@ export default function AboutCompany() {
                             fill="#141414"
                         />
                     </svg>
-                    <p className="overline-2">100+ Projects Completed</p>
+                    <p className="overline-2">50+ Projects Completed</p>
                 </div>
             </div>
             <div className="text-content">
@@ -82,7 +82,7 @@ export default function AboutCompany() {
                             fill="#141414"
                         />
                     </svg>
-                    <p className="overline-2">85+ Successful Clients</p>
+                    <p className="overline-2">35+ Successful Clients</p>
                 </div>
             </div>
             <div className="text-content">
@@ -102,7 +102,7 @@ export default function AboutCompany() {
                             fill="#141414"
                         />
                     </svg>
-                    <p className="overline-2">25+ Service Offerings</p>
+                    <p className="overline-2">10+ Service Offerings</p>
                 </div>
             </div>
         </section>

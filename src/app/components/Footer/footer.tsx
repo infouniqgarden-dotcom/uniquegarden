@@ -23,8 +23,10 @@ export default function Footer() {
     ];
 
     const serviceLinks: ServicesLink[] = [
-        { name: "Soft Landscaping", href: "#" },
-        { name: "Hard Landscaping", href: "#" },
+        { name: "Softscape", href: "#" },
+        { name: "Hardscape", href: "#" },
+        { name: "Lighting", href: "#" },
+        { name: "Maintenance", href: "#" },
         { name: "Pergolas & Gazebos", href: "#" },
         { name: "Pebble Gardens", href: "#" },
         { name: "Irrigation Systems", href: "#" },

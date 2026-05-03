@@ -49,8 +49,8 @@ export default function OurServices() {
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <p className="h4">Soft Landscaping</p>
-                            <p className="p-sm">Gardens • Shrubs • Pathways</p>
+                            <p className="h4">Softscape</p>
+                            <p className="p-sm">Plants • Lawns • Planting Design</p>
                             <div className="arrow">
                                 <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                             </div>
@@ -92,7 +92,7 @@ export default function OurServices() {
                                 </defs>
                             </svg>
                             <p className="h4">Irrigation Systems</p>
-                            <p className="p-sm">Gardens • Shrubs • Pathways</p>
+                            <p className="p-sm">Drip Systems • Sprinklers • Automation</p>
                             <div className="arrow">
                                 <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                             </div>
@@ -133,8 +133,8 @@ export default function OurServices() {
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <p className="h4">Hard Landscaping</p>
-                            <p className="p-sm">Gardens • Shrubs • Pathways</p>
+                            <p className="h4">Hardscape</p>
+                            <p className="p-sm">Paving • Patios • Retaining Walls</p>
                             <div className="arrow">
                                 <Image src="/arrow.svg" alt="arrow" width={27} height={27} priority />
                             </div>

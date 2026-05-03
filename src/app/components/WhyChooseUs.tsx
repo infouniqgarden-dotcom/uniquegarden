@@ -48,7 +48,7 @@ export default function WhyChooseUs() {
                     </div>
                     <div className="text-content-wrapper">
                         <p className="h5">Client Trust</p>
-                        <p>Over 100+ clients have chosen us for reliable service, transparent work, and lasting partnerships.</p>
+                        <p>Over 50+ clients have chosen us for reliable service, transparent work, and lasting partnerships.</p>
                     </div>
                 </div>
                 <div className="card text-content">
