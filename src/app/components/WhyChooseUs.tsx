@@ -80,7 +80,7 @@ export default function WhyChooseUs() {
                     </div>
                     <div className="text-content-wrapper">
                         <p className="h5">Proven Expertise</p>
-                        <p>Backed by years of experience in Dubai & Sharjah, we deliver landscaping and construction projects with precision.</p>
+                        <p>Backed by years of experience across the UAE, we deliver landscaping and construction projects with precision.</p>
                     </div>
                 </div>
                 <div className="card text-content">

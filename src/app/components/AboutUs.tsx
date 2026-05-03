@@ -9,7 +9,7 @@ export default function AboutUs() {
                     <p className="overline-1">About Us</p>
                     <h2>Unique Garden Tech. Cont. LLC</h2>
                     <p>
-                        Unique Garden Tech. Cont. LLC is a Sharjah-based landscaping and construction company, providing premium outdoor solutions across Dubai and Sharjah. With a
+                        Unique Garden Tech. Cont. LLC is a UAE-based landscaping and construction company, providing premium outdoor solutions across the UAE. With a
                         strong focus on quality, creativity, and sustainability, we deliver tailored designs that enhance the beauty and functionality of every space — from villas
                         to commercial properties.
                     </p>

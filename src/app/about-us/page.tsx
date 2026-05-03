@@ -64,7 +64,7 @@ export default function AboutPage() {
                 <div className="text-content">
                     <div className="text-content-wrapper">
                         <h1>About us</h1>
-                        <p>Trusted Landscaping & Construction Experts in Dubai & Sharjah</p>
+                        <p>Trusted Landscaping & Construction Experts Across the UAE</p>
                     </div>
                 </div>
             </section>
@@ -73,7 +73,7 @@ export default function AboutPage() {
                     <div className="text-content-wrapper">
                         <h2>Introduction</h2>
                         <p>
-                            Unique Garden Tech. Cont. LLC is a Sharjah-based landscaping and construction company serving clients across Dubai and Sharjah. We specialize in
+                            Unique Garden Tech. Cont. LLC is a UAE-based landscaping and construction company serving clients across the UAE. We specialize in
                             creating outdoor spaces that combine functionality, sustainability, and elegance — from residential gardens and swimming pools to large-scale civil and
                             MEP works.
                         </p>
@@ -88,7 +88,7 @@ export default function AboutPage() {
                             partner for all outdoor needs.
                         </p>
                         <p>
-                            Today, our portfolio includes villas, residential communities, and corporate projects across Dubai and Sharjah, each built with the same commitment to
+                            Today, our portfolio includes villas, residential communities, and corporate projects across the UAE, each built with the same commitment to
                             excellence.
                         </p>
                     </div>

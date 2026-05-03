@@ -14,7 +14,7 @@ export default function OurProjects() {
             <div className="widget-wrapper text-group">
                 <div className="text-content-wrapper">
                     <p className="overline-1">Our Projects</p>
-                    <h2>Recent Work Across Dubai & Sharjah</h2>
+                    <h2>Recent Work Across the UAE</h2>
                     <p>Explore some of our featured landscaping, pool, and civil work projects.</p>
                     <Link href="/projects" className="btn" aria-label="Read more projects">
                         View all projects

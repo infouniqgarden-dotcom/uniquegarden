@@ -206,7 +206,7 @@ export default function ServicesPage() {
                 <div className="widget-wrapper text-group">
                     <div className="text-content-wrapper">
                         <h2>Our Services</h2>
-                        <p>From gardens to pools, we offer end-to-end landscaping and construction services in Dubai & Sharjah.</p>
+                        <p>From gardens to pools, we offer end-to-end landscaping and construction services across the UAE.</p>
                         <Link href="/services" className="btn">
                             Explore services
                         </Link>

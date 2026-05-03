@@ -39,7 +39,7 @@ const SITE_URL = "https://uniquegarden.vercel.app";
 export const metadata: Metadata = {
     title: "Landscaping & Garden Design Dubai | Unique Garden Tech Cont",
     description:
-        "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services in Dubai & Sharjah. Trusted by luxury villa owners. Get a free quote today!",
+        "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services across the UAE. Trusted by luxury villa owners. Get a free quote today!",
 
     // Basic meta
     keywords: [
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
         locale: "en_AE",
         url: SITE_URL,
         title: "Landscaping & Garden Design Dubai | Unique Garden Tech Cont",
-        description: "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services in Dubai & Sharjah. Trusted by luxury villa owners.",
+        description: "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services across the UAE. Trusted by luxury villa owners.",
         siteName: "Unique Garden Tech Cont LLC",
         images: [
             {
@@ -95,7 +95,7 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Landscaping & Garden Design Dubai | Unique Garden Tech Cont",
-        description: "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services in Dubai & Sharjah. Trusted by luxury villa owners.",
+        description: "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services across the UAE. Trusted by luxury villa owners.",
         images: ["/images/brand-logo.jpg"],
         // creator: "@yourtwitterhandle",
     },

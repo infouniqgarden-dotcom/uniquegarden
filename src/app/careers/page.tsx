@@ -64,7 +64,7 @@ export default function Careers() {
                                     </span>{" "}
                                     •{" "}
                                     <span>
-                                        <b>Location:</b> Dubai & Sharjah, UAE
+                                        <b>Location:</b> UAE
                                     </span>{" "}
                                     •{" "}
                                     <span>
@@ -72,7 +72,7 @@ export default function Careers() {
                                     </span>
                                 </p>
                                 <p>
-                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across Dubai and Sharjah. You&apos;ll be
+                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across the UAE. You&apos;ll be
                                     involved in concept planning, plant selection, and design execution that blend creativity with practicality.
                                 </p>
                             </div>
@@ -108,7 +108,7 @@ export default function Careers() {
                                     </span>{" "}
                                     •{" "}
                                     <span>
-                                        <b>Location:</b> Dubai & Sharjah, UAE
+                                        <b>Location:</b> UAE
                                     </span>{" "}
                                     •{" "}
                                     <span>
@@ -116,7 +116,7 @@ export default function Careers() {
                                     </span>
                                 </p>
                                 <p>
-                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across Dubai and Sharjah. You&apos;ll be
+                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across the UAE. You&apos;ll be
                                     involved in concept planning, plant selection, and design execution that blend creativity with practicality.
                                 </p>
                             </div>
@@ -160,7 +160,7 @@ export default function Careers() {
                                     </span>
                                 </p>
                                 <p>
-                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across Dubai and Sharjah. You&apos;ll be
+                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across the UAE. You&apos;ll be
                                     involved in concept planning, plant selection, and design execution that blend creativity with practicality.
                                 </p>
                             </div>

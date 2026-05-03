@@ -46,7 +46,7 @@ export default function Footer() {
                             </Link>
                         </div>
                         <p className="h6">Unique Garden Tech Cont. LLC</p>
-                        <p className="description">Providing landscaping, pool, and construction services in Dubai & Sharjah.</p>
+                        <p className="description">Providing landscaping, pool, and construction services across the UAE.</p>
                         <p className="address">Po Box:- 27960, No - 02, Building No: 3610, Muweilah, Sharjah, United Arab Emirates.</p>
                     </div>
                     <div className="column-two">

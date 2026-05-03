@@ -19,7 +19,7 @@ export default function HeroBanner() {
             </div>
             <div className="text-content">
                 <div className="text-content-wrapper">
-                    <p className="highlight-text">Dubai & Sharjah’s Trusted Landscaping Partner</p>
+                    <p className="highlight-text">UAE’s Trusted Landscaping Partner</p>
                     <h1>Transforming Outdoor Spaces into Beautiful, Functional Landscapes</h1>
                     <p>From elegant gardens to complete landscape construction, we design and build spaces that bring nature closer to you.</p>
                     <div className="btn-group">
