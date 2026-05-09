@@ -100,6 +100,14 @@ export const metadata: Metadata = {
         description: "Premium landscaping, irrigation, HVAC & MEP services across the UAE. Get a free quote today!",
         images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
     },
+
+    icons: {
+        icon: [
+            { url: "/favicon.ico", sizes: "any" },
+            { url: "/icon.png", type: "image/png", sizes: "32x32" },
+        ],
+        apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+    },
 };
 
 export default function RootLayout({
