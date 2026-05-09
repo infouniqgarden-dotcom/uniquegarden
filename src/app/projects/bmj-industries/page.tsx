@@ -1,13 +1,47 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-export default function Project01() {
+
+const SITE_URL = "https://uniquegarden.ae/projects/bmj-industries";
+
+export const metadata: Metadata = {
+    title: "BMJ Industries | Industrial Landscaping Ras Al Khaimah | Unique Garden Tech",
+    description: "Industrial landscape development project in Ras Al Khaimah — 750m linear landscape, softscape plantation, and irrigation system installation by Unique Garden Tech.",
+    keywords: [
+        "industrial landscaping UAE",
+        "landscaping Ras Al Khaimah",
+        "industrial softscape UAE",
+        "irrigation system RAK",
+        "linear landscape development UAE",
+        "commercial landscaping UAE",
+        "landscape contractor Ras Al Khaimah",
+    ],
+    alternates: { canonical: SITE_URL },
+    openGraph: {
+        type: "website",
+        locale: "en_AE",
+        url: SITE_URL,
+        title: "BMJ Industries | Industrial Landscaping Ras Al Khaimah",
+        description: "750m linear landscape development with softscape and irrigation in Ras Al Khaimah by Unique Garden Tech.",
+        siteName: "Unique Garden Tech Cont LLC",
+        images: [{ url: "https://uniquegarden.ae/images/brand-logo.jpg", width: 1200, height: 630, alt: "BMJ Industries Industrial Landscaping Ras Al Khaimah", type: "image/jpeg" }],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "BMJ Industries | Industrial Landscaping Ras Al Khaimah",
+        description: "750m linear landscape with softscape and irrigation in Ras Al Khaimah.",
+        images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
+    },
+};
+
+export default function BMJIndustries() {
     return (
         <main className="project-inner-page">
             <section className="widget-wrapper hero-banner">
                 <div className="image-content-wrapper">
                     <Image
                         src="/images/05-Project-Images/Project-Details-Page-(Hero-Image).webp"
-                        alt="Unique Garden Hero Banner"
+                        alt="BMJ Industries industrial landscaping project hero"
                         width={1920}
                         height={1080}
                         priority
@@ -64,11 +98,11 @@ export default function Project01() {
                     <h2>Gallery</h2>
                 </div>
                 <div className="image-content-wrapper">
-                    <Image src="/images/05-Project-Images/Proj-Images-1.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-2.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-3.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-4.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-5.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-1.webp" alt="BMJ Industries landscape development" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-2.webp" alt="BMJ Industries softscape plantation" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-3.webp" alt="BMJ Industries irrigation system" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-4.webp" alt="BMJ Industries linear landscape" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-5.webp" alt="BMJ Industries shrub plantation" width={1920} height={1080} />
                 </div>
             </section>
             <section className="widget-wrapper">

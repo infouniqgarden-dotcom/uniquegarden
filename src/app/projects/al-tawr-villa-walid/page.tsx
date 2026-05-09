@@ -1,13 +1,48 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-export default function Project01() {
+
+const SITE_URL = "https://uniquegarden.ae/projects/al-tawr-villa-walid";
+
+export const metadata: Metadata = {
+    title: "Al Tawr Villa – Walid | Villa Landscaping Dubai | Unique Garden Tech",
+    description: "Complete outdoor transformation at Al Twar 2, Dubai — hardscape, softscape, pergola, irrigation, outdoor lighting, pavement & lawn development by Unique Garden Tech.",
+    keywords: [
+        "villa landscaping Dubai",
+        "Al Twar villa garden",
+        "hardscape softscape Dubai villa",
+        "pergola installation Dubai",
+        "outdoor lighting Dubai villa",
+        "irrigation system villa Dubai",
+        "pavement works Dubai",
+        "lawn development UAE",
+    ],
+    alternates: { canonical: SITE_URL },
+    openGraph: {
+        type: "website",
+        locale: "en_AE",
+        url: SITE_URL,
+        title: "Al Tawr Villa – Walid | Villa Landscaping Dubai",
+        description: "Complete outdoor transformation with hardscape, softscape, pergola, irrigation & outdoor lighting in Al Twar 2, Dubai.",
+        siteName: "Unique Garden Tech Cont LLC",
+        images: [{ url: "https://uniquegarden.ae/images/brand-logo.jpg", width: 1200, height: 630, alt: "Al Tawr Villa Walid - Landscaping Project Dubai", type: "image/jpeg" }],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Al Tawr Villa – Walid | Landscaping Dubai",
+        description: "Complete villa outdoor transformation with hardscape, softscape, pergola & irrigation in Al Twar 2, Dubai.",
+        images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
+    },
+};
+
+export default function AlTawrVillaWalid() {
     return (
         <main className="project-inner-page">
             <section className="widget-wrapper hero-banner">
                 <div className="image-content-wrapper">
                     <Image
                         src="/images/05-Project-Images/Project-Details-Page-(Hero-Image).webp"
-                        alt="Unique Garden Hero Banner"
+                        alt="Al Tawr Villa Walid landscaping project hero"
                         width={1920}
                         height={1080}
                         priority
@@ -61,11 +96,11 @@ export default function Project01() {
                     <h2>Gallery</h2>
                 </div>
                 <div className="image-content-wrapper">
-                    <Image src="/images/05-Project-Images/Proj-Images-1.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-2.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-3.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-4.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-5.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-1.webp" alt="Al Tawr Villa Walid outdoor landscape" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-2.webp" alt="Al Tawr Villa Walid hardscape pathways" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-3.webp" alt="Al Tawr Villa Walid pergola" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-4.webp" alt="Al Tawr Villa Walid softscape planting" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-5.webp" alt="Al Tawr Villa Walid lawn area" width={1920} height={1080} />
                 </div>
             </section>
             <section className="widget-wrapper">
@@ -83,7 +118,7 @@ export default function Project01() {
                                 <li>Irrigation System Installation</li>
                                 <li>750m Linear Landscape Development</li>
                             </ul>
-                            <Link className="btn btn-secondary" href="/projects/project01">
+                            <Link className="btn btn-secondary" href="/projects/bmj-industries">
                                 View Details
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g opacity="0.8">

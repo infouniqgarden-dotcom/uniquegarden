@@ -1,5 +1,39 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+const SITE_URL = "https://uniquegarden.ae/projects/al-tawr-villa-sulthan-shamshi";
+
+export const metadata: Metadata = {
+    title: "Al Tawr Villa – Sulthan Shamshi | Villa Landscaping Dubai | Unique Garden Tech",
+    description: "Complete villa landscaping project in Al Twar 2, Dubai — hardscape, softscape, pergola, irrigation system, outdoor lighting & BOQ by Unique Garden Tech.",
+    keywords: [
+        "villa landscaping Dubai",
+        "Al Twar villa garden",
+        "hardscape softscape Dubai villa",
+        "pergola installation Dubai",
+        "outdoor lighting Dubai villa",
+        "irrigation system villa Dubai",
+        "villa garden design UAE",
+    ],
+    alternates: { canonical: SITE_URL },
+    openGraph: {
+        type: "website",
+        locale: "en_AE",
+        url: SITE_URL,
+        title: "Al Tawr Villa – Sulthan Shamshi | Villa Landscaping Dubai",
+        description: "Complete villa landscaping with hardscape, softscape, pergola, irrigation & outdoor lighting in Al Twar 2, Dubai.",
+        siteName: "Unique Garden Tech Cont LLC",
+        images: [{ url: "https://uniquegarden.ae/images/brand-logo.jpg", width: 1200, height: 630, alt: "Al Tawr Villa Sulthan Shamshi - Landscaping Project Dubai", type: "image/jpeg" }],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Al Tawr Villa – Sulthan Shamshi | Landscaping Dubai",
+        description: "Complete villa landscaping with hardscape, softscape, pergola & irrigation in Al Twar 2, Dubai.",
+        images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
+    },
+};
+
 export default function Project01() {
     return (
         <main className="project-inner-page">
@@ -86,7 +120,7 @@ export default function Project01() {
                                 <li>Irrigation System Installation</li>
                                 <li>750m Linear Landscape Development</li>
                             </ul>
-                            <Link className="btn btn-secondary" href="/projects/project01">
+                            <Link className="btn btn-secondary" href="/projects/bmj-industries">
                                 View Details
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g opacity="0.8">
@@ -127,7 +161,7 @@ export default function Project01() {
                                 <li>Pavement Works</li>
                                 <li>Lawn Area Development</li>
                             </ul>
-                            <Link className="btn btn-secondary" href="/projects/project01">
+                            <Link className="btn btn-secondary" href="/projects/al-tawr-villa-walid">
                                 View Details
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g opacity="0.8">

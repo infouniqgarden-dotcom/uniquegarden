@@ -1,7 +1,39 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import RequestAQuote from "../components/RequestAQuote";
 import MeetOurTeam from "../components/MeetOurTeam";
+
+const SITE_URL = "https://uniquegarden.ae/careers";
+
+export const metadata: Metadata = {
+    title: "Careers | Join Our Team | Unique Garden Tech UAE",
+    description: "Join Unique Garden Tech Cont LLC — hiring landscape architects, site engineers & designers across the UAE. Build your career in premium outdoor construction.",
+    keywords: [
+        "landscaping jobs UAE",
+        "landscape architect jobs Dubai",
+        "site engineer jobs UAE",
+        "garden design jobs UAE",
+        "outdoor construction careers UAE",
+        "MEP jobs UAE",
+    ],
+    alternates: { canonical: SITE_URL },
+    openGraph: {
+        type: "website",
+        locale: "en_AE",
+        url: SITE_URL,
+        title: "Careers at Unique Garden Tech | Landscaping Jobs UAE",
+        description: "We're hiring landscape architects, site engineers, and designers across the UAE. Join Unique Garden Tech.",
+        siteName: "Unique Garden Tech Cont LLC",
+        images: [{ url: "https://uniquegarden.ae/images/brand-logo.jpg", width: 1200, height: 630, alt: "Careers at Unique Garden Tech UAE", type: "image/jpeg" }],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Careers at Unique Garden Tech | Landscaping Jobs UAE",
+        description: "We're hiring landscape architects, site engineers, and designers across the UAE.",
+        images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
+    },
+};
 
 export default function Careers() {
     return (

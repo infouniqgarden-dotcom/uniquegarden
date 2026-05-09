@@ -3,18 +3,20 @@ import RequestAQuote from "../components/RequestAQuote";
 import MeetOurTeam from "../components/MeetOurTeam";
 import { Metadata } from "next";
 
-const SITE_URL = "https://uniquegarden.vercel.app/about-us";
+const SITE_URL = "https://uniquegarden.ae/about-us";
 
 export const metadata: Metadata = {
-    title: "About Us - Leading Landscaping Company in Dubai | Unique Garden Tech",
-    description: "Learn about Unique Garden Tech Cont LLC, a licensed Dubai landscaping company. 30+ projects across Emirates Hills, Palm Jumeirah & Dubai Hills since 2021.",
+    title: "About Us | UAE Landscaping & Construction Company | Unique Garden Tech",
+    description: "Unique Garden Tech Cont LLC is a UAE-based landscaping and construction company with 30+ completed projects across Dubai, Abu Dhabi & Ras Al Khaimah. Learn our story.",
     keywords: [
-        "about landscaping company Dubai",
-        "landscaping contractor UAE",
+        "about Unique Garden Tech",
+        "landscaping company UAE",
         "garden design company Dubai",
-        "licensed landscaping Sharjah",
-        "landscaping company history",
+        "landscaping contractor UAE",
+        "outdoor construction company UAE",
+        "licensed landscaping UAE",
         "Dubai landscape architects",
+        "MEP company UAE",
     ],
     alternates: {
         canonical: SITE_URL,
@@ -23,24 +25,24 @@ export const metadata: Metadata = {
         type: "website",
         locale: "en_AE",
         url: SITE_URL,
-        title: "About Us - Leading Landscaping Company in Dubai | Unique Garden Tech",
-        description: "Learn about Unique Garden Tech Cont LLC, a licensed Dubai landscaping company with 30+ projects across Emirates Hills and Palm Jumeirah.",
+        title: "About Us | UAE Landscaping & Construction Company | Unique Garden Tech",
+        description: "UAE-based landscaping and construction company with 30+ projects across Dubai, Abu Dhabi & Ras Al Khaimah.",
         siteName: "Unique Garden Tech Cont LLC",
         images: [
             {
-                url: "/images/brand-logo.jpg",
+                url: "https://uniquegarden.ae/images/brand-logo.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Unique Garden Tech - Premium Landscaping Services in Dubai",
+                alt: "Unique Garden Tech - UAE Landscaping & Construction Company",
                 type: "image/jpeg",
             },
         ],
     },
     twitter: {
         card: "summary_large_image",
-        title: "About Us - Leading Landscaping Company in Dubai",
-        description: "Licensed Dubai landscaping company with 30+ projects across Emirates Hills, Palm Jumeirah & Dubai Hills since 2021.",
-        images: ["/images/brand-logo.jpg"],
+        title: "About Unique Garden Tech | UAE Landscaping Company",
+        description: "UAE-based landscaping and construction company with 30+ projects across Dubai, Abu Dhabi & Ras Al Khaimah.",
+        images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
     },
 };
 

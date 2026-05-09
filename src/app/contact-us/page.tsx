@@ -1,7 +1,39 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Testimonials from "../components/Testimonials";
 import RequestAQuote from "../components/RequestAQuote";
 import ContactForm from "../components/ContactForm";
+
+const SITE_URL = "https://uniquegarden.ae/contact-us";
+
+export const metadata: Metadata = {
+    title: "Contact Us | Get a Free Quote | Unique Garden Tech UAE",
+    description: "Contact Unique Garden Tech Cont LLC for landscaping, garden design, irrigation, and outdoor construction services across the UAE. Get a free project quote today.",
+    keywords: [
+        "contact landscaping company UAE",
+        "landscaping quote UAE",
+        "garden design quote Dubai",
+        "free landscaping quote UAE",
+        "outdoor construction quote UAE",
+        "Unique Garden Tech contact",
+    ],
+    alternates: { canonical: SITE_URL },
+    openGraph: {
+        type: "website",
+        locale: "en_AE",
+        url: SITE_URL,
+        title: "Contact Unique Garden Tech | Free Landscaping Quote UAE",
+        description: "Get in touch with Unique Garden Tech for expert landscaping and outdoor construction services across the UAE.",
+        siteName: "Unique Garden Tech Cont LLC",
+        images: [{ url: "https://uniquegarden.ae/images/brand-logo.jpg", width: 1200, height: 630, alt: "Contact Unique Garden Tech UAE", type: "image/jpeg" }],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Contact Unique Garden Tech | Free Landscaping Quote UAE",
+        description: "Get in touch for expert landscaping and outdoor construction services across the UAE.",
+        images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
+    },
+};
 
 export default function ContactPage() {
     return (

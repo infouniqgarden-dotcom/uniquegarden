@@ -1,5 +1,37 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import GallerySlider from "../components/GallerySlider";
+
+const SITE_URL = "https://uniquegarden.ae/gallery";
+
+export const metadata: Metadata = {
+    title: "Landscaping Gallery UAE | Our Work | Unique Garden Tech",
+    description: "View Unique Garden Tech's gallery of completed landscaping, garden design, hardscape, and outdoor construction projects across the UAE.",
+    keywords: [
+        "landscaping gallery UAE",
+        "garden design gallery Dubai",
+        "outdoor construction gallery UAE",
+        "villa landscaping photos UAE",
+        "hardscape gallery UAE",
+        "landscaping portfolio UAE",
+    ],
+    alternates: { canonical: SITE_URL },
+    openGraph: {
+        type: "website",
+        locale: "en_AE",
+        url: SITE_URL,
+        title: "Landscaping Gallery UAE | Our Work | Unique Garden Tech",
+        description: "View our gallery of completed landscaping and outdoor construction projects across the UAE.",
+        siteName: "Unique Garden Tech Cont LLC",
+        images: [{ url: "https://uniquegarden.ae/images/brand-logo.jpg", width: 1200, height: 630, alt: "Unique Garden Tech Gallery UAE", type: "image/jpeg" }],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Landscaping Gallery UAE | Unique Garden Tech",
+        description: "View our gallery of completed landscaping and outdoor construction projects across the UAE.",
+        images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
+    },
+};
 
 export default function Gallery() {
     return (

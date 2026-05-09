@@ -1,7 +1,40 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import OurSerivesIconTextMultiSlider from "../components/OurServicesIconTextMultiSlider";
 import RequestAQuote from "../components/RequestAQuote";
+
+const SITE_URL = "https://uniquegarden.ae/projects";
+
+export const metadata: Metadata = {
+    title: "Landscaping Projects UAE | Portfolio | Unique Garden Tech",
+    description: "Browse Unique Garden Tech's project portfolio — villa gardens, commercial landscapes, irrigation systems, and outdoor constructions across Dubai, Abu Dhabi, Ras Al Khaimah & UAE.",
+    keywords: [
+        "landscaping projects UAE",
+        "garden design portfolio Dubai",
+        "villa landscaping UAE",
+        "outdoor construction projects UAE",
+        "hardscape projects UAE",
+        "irrigation projects Dubai",
+        "landscaping portfolio UAE",
+    ],
+    alternates: { canonical: SITE_URL },
+    openGraph: {
+        type: "website",
+        locale: "en_AE",
+        url: SITE_URL,
+        title: "Landscaping Projects UAE | Portfolio | Unique Garden Tech",
+        description: "Browse our completed landscaping, irrigation, and outdoor construction projects across Dubai, Abu Dhabi, Ras Al Khaimah & the UAE.",
+        siteName: "Unique Garden Tech Cont LLC",
+        images: [{ url: "https://uniquegarden.ae/images/brand-logo.jpg", width: 1200, height: 630, alt: "Unique Garden Tech Projects UAE", type: "image/jpeg" }],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Landscaping Projects UAE | Unique Garden Tech",
+        description: "Browse our completed landscaping, irrigation, and outdoor construction projects across the UAE.",
+        images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
+    },
+};
 
 export default function ServicesPage() {
     return (

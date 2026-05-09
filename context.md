@@ -3,7 +3,7 @@
 ## Business Overview
 
 **Client:** Unique Garden Tech Cont. LLC
-**Website:** https://uniquegarden.vercel.app
+**Website:** https://uniquegarden-phi.vercel.app
 **Region:** Dubai & Sharjah, United Arab Emirates
 
 Unique Garden is a professional contracting company specializing in outdoor and indoor environment services. The business targets residential and commercial clients across the UAE who need high-quality landscaping, garden design, or MEP (Mechanical, Electrical, Plumbing) solutions.
@@ -27,6 +27,7 @@ Unique Garden is a professional contracting company specializing in outdoor and 
 - **Tertiary:** Real estate developers with large outdoor areas needing full design-to-maintenance service
 
 The audience values:
+
 - Quality and visual appeal over price alone
 - Trust signals (license, certifications, past projects)
 - Local expertise (UAE climate, desert-adapted plants, local regulations)
@@ -44,16 +45,16 @@ The audience values:
 
 ## Pages & Their Purpose
 
-| Page | Purpose |
-|---|---|
-| `/` (Home) | First impression — hero, services overview, projects, testimonials, CTA |
-| `/about-us` | Company story, team, stats, credibility |
-| `/services` | Full service listings with descriptions |
-| `/projects` | Portfolio of completed projects (visual gallery) |
-| `/projects/project01` | Deep dive into a featured project (Al Tawr Villa) |
-| `/gallery` | Image gallery showcasing work |
-| `/careers` | Job listings (future hiring) |
-| `/contact-us` | Contact form + location/phone details |
+| Page                  | Purpose                                                                 |
+| --------------------- | ----------------------------------------------------------------------- |
+| `/` (Home)            | First impression — hero, services overview, projects, testimonials, CTA |
+| `/about-us`           | Company story, team, stats, credibility                                 |
+| `/services`           | Full service listings with descriptions                                 |
+| `/projects`           | Portfolio of completed projects (visual gallery)                        |
+| `/projects/project01` | Deep dive into a featured project (Al Tawr Villa)                       |
+| `/gallery`            | Image gallery showcasing work                                           |
+| `/careers`            | Job listings (future hiring)                                            |
+| `/contact-us`         | Contact form + location/phone details                                   |
 
 ---
 
@@ -71,15 +72,15 @@ The audience values:
 
 ### Stack Rationale
 
-| Choice | Reason |
-|---|---|
-| Next.js App Router | SEO-friendly SSR, fast page loads, image optimization |
-| Tailwind CSS v4 | Rapid utility-first styling without naming overhead |
-| GSAP | Industry-standard for high-quality scroll animations |
-| Lenis | Smooth scrolling that works across browsers without jank |
-| Swiper | Accessible, touch-friendly carousels |
-| Nodemailer | Direct SMTP control for form emails without third-party SaaS lock-in |
-| reCAPTCHA v3 | Invisible bot detection without friction for real users |
+| Choice             | Reason                                                               |
+| ------------------ | -------------------------------------------------------------------- |
+| Next.js App Router | SEO-friendly SSR, fast page loads, image optimization                |
+| Tailwind CSS v4    | Rapid utility-first styling without naming overhead                  |
+| GSAP               | Industry-standard for high-quality scroll animations                 |
+| Lenis              | Smooth scrolling that works across browsers without jank             |
+| Swiper             | Accessible, touch-friendly carousels                                 |
+| Nodemailer         | Direct SMTP control for form emails without third-party SaaS lock-in |
+| reCAPTCHA v3       | Invisible bot detection without friction for real users              |
 
 ### Known Constraints
 
@@ -92,13 +93,13 @@ The audience values:
 
 ## Development History (Recent)
 
-| Date (approx) | Change |
-|---|---|
-| May 2026 | Renamed "Modern Villa" to "Al Tawr Villa" |
-| April 2026 | Updated animation system |
-| March 2026 | Firebox (Firefox) bug fix |
-| Feb–Mar 2026 | Animation refinements |
-| Earlier | Tag and metadata updates |
+| Date (approx) | Change                                    |
+| ------------- | ----------------------------------------- |
+| May 2026      | Renamed "Modern Villa" to "Al Tawr Villa" |
+| April 2026    | Updated animation system                  |
+| March 2026    | Firebox (Firefox) bug fix                 |
+| Feb–Mar 2026  | Animation refinements                     |
+| Earlier       | Tag and metadata updates                  |
 
 ---
 
@@ -107,16 +108,16 @@ The audience values:
 1. Clone the repo
 2. Run `npm install`
 3. Create `.env.local` with the following:
-   ```
-   SMTP_HOST=
-   SMTP_PORT=
-   SMTP_USER=
-   SMTP_PASS=
-   ADMIN_EMAIL=
-   REPLY_TO_EMAIL=
-   NEXT_PUBLIC_RECAPTCHA_SITE_KEY=
-   RECAPTCHA_SECRET_KEY=
-   ```
+    ```
+    SMTP_HOST=
+    SMTP_PORT=
+    SMTP_USER=
+    SMTP_PASS=
+    ADMIN_EMAIL=
+    REPLY_TO_EMAIL=
+    NEXT_PUBLIC_RECAPTCHA_SITE_KEY=
+    RECAPTCHA_SECRET_KEY=
+    ```
 4. Run `npm run dev`
 
 The Vercel deployment auto-deploys on push to `main`. Environment variables must be set in the Vercel dashboard.
@@ -125,7 +126,7 @@ The Vercel deployment auto-deploys on push to `main`. Environment variables must
 
 ## Repository
 
-- **Remote:** `git@github-second-alias:gowthamavtech/unique-garden.git`
+- **Remote:** `git@github-second-alias:infouniqgarden-dotcom/uniquegarden.git`
 - **Main branch:** `main`
 - **CI/CD:** GitHub Actions → Vercel (also configured for GitHub Pages static export)
 - **Git user:** gowtham-av
@@ -134,5 +135,5 @@ The Vercel deployment auto-deploys on push to `main`. Environment variables must
 
 ## Contact
 
-- **Admin Email:** gowtham.av.dev@gmail.com
-- **Deployment URL:** https://uniquegarden.vercel.app
+- **Admin Email:** info@uniquegarden.ae
+- **Deployment URL:** https://uniquegarden-phi.vercel.app

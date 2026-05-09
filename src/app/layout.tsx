@@ -11,8 +11,7 @@ import Navbar from "./components/Navbar/Navbar";
 import MobileClassHandler from "./components/MobileClassHandler";
 import Footer from "./components/Footer/footer";
 import GlobalAnimations from "./components/GlobalAnimations";
-import { ReactLenis, useLenis } from "lenis/react";
-import GlobalTextReveal from "./components/TextRevealAnimation";
+import { ReactLenis } from "lenis/react";
 
 const figtree = Figtree({
     subsets: ["latin"],
@@ -34,24 +33,29 @@ export const viewport = {
     maximumScale: 5,
 };
 
-const SITE_URL = "https://uniquegarden.vercel.app";
+const SITE_URL = "https://uniquegarden.ae";
 
 export const metadata: Metadata = {
-    title: "Landscaping & Garden Design Dubai | Unique Garden Tech Cont",
+    title: "Landscaping & Garden Design UAE | Unique Garden Tech Cont",
     description:
-        "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services across the UAE. Trusted by luxury villa owners. Get a free quote today!",
+        "Premium landscaping, irrigation, HVAC & MEP services across the UAE. Unique Garden Tech transforms villas and commercial properties with expert outdoor design. Get a free quote today!",
 
-    // Basic meta
     keywords: [
+        "landscaping UAE",
         "landscaping Dubai",
+        "garden design UAE",
         "garden design Dubai",
         "irrigation systems UAE",
-        "HVAC services Sharjah",
-        "MEP contractor Dubai",
-        "luxury villa landscaping",
+        "HVAC services UAE",
+        "MEP contractor UAE",
+        "luxury villa landscaping UAE",
         "hardscape softscape Dubai",
-        "green wall installation UAE",
-        "garden maintenance Dubai",
+        "pergola installation UAE",
+        "outdoor lighting UAE",
+        "vertical garden UAE",
+        "pebble garden design UAE",
+        "softscape contractor UAE",
+        "garden maintenance UAE",
     ],
     authors: [{ name: "Unique Garden Tech Cont LLC" }],
     creator: "Unique Garden Tech Cont LLC",
@@ -72,43 +76,30 @@ export const metadata: Metadata = {
         canonical: SITE_URL,
     },
 
-    // Open Graph (Facebook, LinkedIn, WhatsApp)
     openGraph: {
         type: "website",
         locale: "en_AE",
         url: SITE_URL,
-        title: "Landscaping & Garden Design Dubai | Unique Garden Tech Cont",
-        description: "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services across the UAE. Trusted by luxury villa owners.",
+        title: "Landscaping & Garden Design UAE | Unique Garden Tech Cont",
+        description: "Premium landscaping, irrigation, HVAC & MEP services across the UAE. Transforming villas and commercial properties with expert outdoor design.",
         siteName: "Unique Garden Tech Cont LLC",
         images: [
             {
-                url: "/images/brand-logo.jpg",
+                url: "https://uniquegarden.ae/images/brand-logo.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Unique Garden Tech - Premium Landscaping Services in Dubai",
+                alt: "Unique Garden Tech - Premium Landscaping Services UAE",
                 type: "image/jpeg",
             },
         ],
     },
 
-    // Twitter Card
     twitter: {
         card: "summary_large_image",
-        title: "Landscaping & Garden Design Dubai | Unique Garden Tech Cont",
-        description: "Transform your outdoor space with expert landscaping, irrigation, HVAC & MEP services across the UAE. Trusted by luxury villa owners.",
-        images: ["/images/brand-logo.jpg"],
-        // creator: "@yourtwitterhandle",
+        title: "Landscaping & Garden Design UAE | Unique Garden Tech Cont",
+        description: "Premium landscaping, irrigation, HVAC & MEP services across the UAE. Get a free quote today!",
+        images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
     },
-
-    // Favicon and app icons
-    // icons: {
-    //     icon: "/favicon-16x16.png",
-    //     shortcut: "/favicon-16x16.png",
-    //     apple: "/favicon-16x16.png",
-    // },
-    // verification: {
-    //     google: "your-google-verification-code",
-    // },
 };
 
 export default function RootLayout({
@@ -126,12 +117,34 @@ export default function RootLayout({
                             "@context": "https://schema.org",
                             "@type": "LocalBusiness",
                             name: "Unique Garden Tech Cont LLC",
+                            url: "https://uniquegarden.ae",
                             telephone: "+971-6-5222391",
+                            description: "Premium landscaping, garden design, irrigation, HVAC and MEP services across the UAE.",
+                            image: "https://uniquegarden.ae/images/brand-logo.jpg",
                             address: {
                                 "@type": "PostalAddress",
+                                streetAddress: "No - 02, Building No: 3610, Muweilah",
                                 addressLocality: "Sharjah",
+                                postalCode: "27960",
                                 addressCountry: "AE",
                             },
+                            areaServed: {
+                                "@type": "Country",
+                                name: "United Arab Emirates",
+                            },
+                            priceRange: "$$",
+                            knowsAbout: [
+                                "Landscaping",
+                                "Garden Design",
+                                "Irrigation Systems",
+                                "HVAC",
+                                "MEP",
+                                "Hardscape",
+                                "Softscape",
+                                "Pergola Construction",
+                                "Outdoor Lighting",
+                                "Vertical Gardens",
+                            ],
                         }),
                     }}
                 />

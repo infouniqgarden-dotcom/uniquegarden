@@ -1,7 +1,45 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import OurProjects from "../components/OurProjects";
 import Testimonials from "../components/Testimonials";
 import ServicesSlider from "../components/ServicesSlider";
+
+const SITE_URL = "https://uniquegarden.ae/services";
+
+export const metadata: Metadata = {
+    title: "Landscaping Services UAE | Softscape, Hardscape, Irrigation & More | Unique Garden Tech",
+    description: "Expert landscaping services across the UAE — softscape, hardscape, pergolas, irrigation systems, outdoor lighting, vertical gardens, pools, HVAC & MEP works. Get a free quote.",
+    keywords: [
+        "landscaping services UAE",
+        "softscape services Dubai",
+        "hardscape contractor UAE",
+        "irrigation system installation UAE",
+        "pergola construction Dubai",
+        "outdoor lighting UAE",
+        "vertical garden installation UAE",
+        "pebble garden design UAE",
+        "garden maintenance UAE",
+        "pool construction UAE",
+        "MEP contractor UAE",
+        "civil works UAE",
+    ],
+    alternates: { canonical: SITE_URL },
+    openGraph: {
+        type: "website",
+        locale: "en_AE",
+        url: SITE_URL,
+        title: "Landscaping Services UAE | Softscape, Hardscape, Irrigation & More",
+        description: "From softscape and hardscape to irrigation, pergolas, and MEP works — discover Unique Garden Tech's full range of outdoor services across the UAE.",
+        siteName: "Unique Garden Tech Cont LLC",
+        images: [{ url: "https://uniquegarden.ae/images/brand-logo.jpg", width: 1200, height: 630, alt: "Unique Garden Tech Services UAE", type: "image/jpeg" }],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Landscaping Services UAE | Unique Garden Tech",
+        description: "Softscape, hardscape, irrigation, pergolas, outdoor lighting & MEP works across the UAE.",
+        images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
+    },
+};
 
 export default function ServicesPage() {
     const softscapeImages = [

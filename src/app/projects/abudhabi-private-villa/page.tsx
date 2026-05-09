@@ -1,13 +1,47 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-export default function Project01() {
+
+const SITE_URL = "https://uniquegarden.ae/projects/abudhabi-private-villa";
+
+export const metadata: Metadata = {
+    title: "Abu Dhabi Private Villa | Tropical Villa Landscaping | Unique Garden Tech",
+    description: "Resort-style tropical landscape for a private villa in Abu Dhabi — palms, tropical planting, soil preparation and irrigation system by Unique Garden Tech.",
+    keywords: [
+        "villa landscaping Abu Dhabi",
+        "tropical garden design UAE",
+        "palm tree planting Abu Dhabi",
+        "resort style landscape UAE",
+        "irrigation system Abu Dhabi",
+        "softscape Abu Dhabi villa",
+        "private villa garden UAE",
+    ],
+    alternates: { canonical: SITE_URL },
+    openGraph: {
+        type: "website",
+        locale: "en_AE",
+        url: SITE_URL,
+        title: "Abu Dhabi Private Villa | Tropical Villa Landscaping",
+        description: "Resort-style tropical villa landscape with palms, coastal planting and irrigation in Abu Dhabi.",
+        siteName: "Unique Garden Tech Cont LLC",
+        images: [{ url: "https://uniquegarden.ae/images/brand-logo.jpg", width: 1200, height: 630, alt: "Abu Dhabi Private Villa Tropical Landscaping", type: "image/jpeg" }],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Abu Dhabi Private Villa | Tropical Landscaping UAE",
+        description: "Resort-style tropical villa landscape with palms and irrigation in Abu Dhabi.",
+        images: ["https://uniquegarden.ae/images/brand-logo.jpg"],
+    },
+};
+
+export default function AbuDhabiPrivateVilla() {
     return (
         <main className="project-inner-page">
             <section className="widget-wrapper hero-banner">
                 <div className="image-content-wrapper">
                     <Image
                         src="/images/05-Project-Images/Project-Details-Page-(Hero-Image).webp"
-                        alt="Unique Garden Hero Banner"
+                        alt="Abu Dhabi Private Villa tropical landscaping hero"
                         width={1920}
                         height={1080}
                         priority
@@ -64,11 +98,11 @@ export default function Project01() {
                     <h2>Gallery</h2>
                 </div>
                 <div className="image-content-wrapper">
-                    <Image src="/images/05-Project-Images/Proj-Images-1.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-2.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-3.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-4.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
-                    <Image src="/images/05-Project-Images/Proj-Images-5.webp" alt="Unique Garden Hero Banner" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-1.webp" alt="Abu Dhabi villa tropical garden" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-2.webp" alt="Abu Dhabi villa palm planting" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-3.webp" alt="Abu Dhabi villa irrigation system" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-4.webp" alt="Abu Dhabi villa softscape" width={1920} height={1080} />
+                    <Image src="/images/05-Project-Images/Proj-Images-5.webp" alt="Abu Dhabi villa resort landscape" width={1920} height={1080} />
                 </div>
             </section>
             <section className="widget-wrapper">
@@ -86,7 +120,7 @@ export default function Project01() {
                                 <li>Irrigation System Installation</li>
                                 <li>750m Linear Landscape Development</li>
                             </ul>
-                            <Link className="btn btn-secondary" href="/projects/project01">
+                            <Link className="btn btn-secondary" href="/projects/bmj-industries">
                                 View Details
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g opacity="0.8">
@@ -127,7 +161,7 @@ export default function Project01() {
                                 <li>Pavement Works</li>
                                 <li>Lawn Area Development</li>
                             </ul>
-                            <Link className="btn btn-secondary" href="/projects/project01">
+                            <Link className="btn btn-secondary" href="/projects/al-tawr-villa-walid">
                                 View Details
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <g opacity="0.8">
