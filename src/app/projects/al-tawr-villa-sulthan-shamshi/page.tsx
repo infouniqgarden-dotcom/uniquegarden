@@ -19,8 +19,11 @@ export default function Project01() {
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">
-                        <h1>Luxury Pool Residence</h1>
-                        <p>A complete villa backyard transformation at Dubai Hills featuring lush landscaping, modern hardscaping, and outdoor living spaces. </p>
+                        <h1>Al Tawr Villa - Sulthan Shamshi</h1>
+                        <p>
+                            A thoughtfully designed residential landscape in Al Twar, Dubai, combining softscape, hardscape, pergolas, and plantation works to create a functional
+                            and visually appealing outdoor environment.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -29,16 +32,16 @@ export default function Project01() {
                     <div className="text-content-wrapper">
                         <h2>Project Details</h2>
                         <p>
-                            <b>Location:</b> Dubai Hills, UAE
+                            <b>Location:</b> Al Twar 2, Dubai, UAE
                         </p>
                         <p>
-                            <b>Date Completed:</b> August 2025
+                            <b>Date Started:</b> April 2026
                         </p>
                         <p>
-                            <b>Services Provided:</b> Soft Landscaping, Hard Landscaping, Irrigation, Outdoor Lighting, Pergola
+                            <b>Services Provided:</b> Hardscape, Softscape, Pergola, Irrigation, Outdoor Lighting, BOQ
                         </p>
                         <p>
-                            <b>Project Duration:</b> 3 months
+                            <b>Project Duration:</b> 4 Months
                         </p>
                     </div>
                 </div>
@@ -46,13 +49,12 @@ export default function Project01() {
                     <div className="text-content-wrapper">
                         <h2>About the Project</h2>
                         <p>
-                            The client wanted a complete transformation of their villa backyard into a modern outdoor retreat. Our team combined soft landscaping with lush lawns,
-                            palm trees, and seasonal plants, while adding hardscape elements such as stone pathways and tiled patios.
+                            The residential landscape project for Sulthan Shamshi focused on developing a well-balanced outdoor environment through a combination of softscape and
+                            hardscape elements. Customized planters and pergolas were constructed to enhance usability and provide shaded areas.
                         </p>
                         <p>
-                            To enhance comfort and usability, we built a wooden pergola for shaded seating and installed a modern irrigation system to ensure year-round greenery.
-                            Outdoor lighting fixtures were added to highlight pathways and garden features, creating a vibrant yet functional backyard for both relaxation and
-                            gatherings.
+                            A carefully selected mix of trees, shrubs, and groundcovers suitable for the local climate was installed along with proper soil preparation to ensure
+                            long-term sustainability. The overall design aimed to create an organized, visually appealing, and comfortable outdoor space.
                         </p>
                     </div>
                 </div>
@@ -76,15 +78,13 @@ export default function Project01() {
                 <section className="widget-wrapper  project-ltext-rimage warm-taupe">
                     <div className="text-content">
                         <div className="text-content-wrapper">
-                            <h2>Vertical Garden Villa</h2>
-                            <p className="overline-3">Jumeirah Village Circle, Dubai • May 2025</p>
-                            <p>WORKS DONE:</p>
+                            <h2>BMJ Industries</h2>
+                            <p className="overline-3">Ras Al Khaimah, UAE • Ongoing</p>
+                            <p>Work done:</p>
                             <ul>
-                                <li>Vertical Gardens (living wall systems, irrigation setup)</li>
-                                <li>Pebble Gardens (decorative stone areas, gravel borders)</li>
-                                <li>Pergola & Deck (outdoor shaded structure, flooring)</li>
-                                <li>Irrigation Systems (drip irrigation for vertical gardens)</li>
-                                <li>Lawn Restoration (re-turfing, soil preparation)</li>
+                                <li>Softscape Works (trees and shrubs plantation)</li>
+                                <li>Irrigation System Installation</li>
+                                <li>750m Linear Landscape Development</li>
                             </ul>
                             <Link className="btn btn-secondary" href="/projects/project01">
                                 View Details
@@ -114,15 +114,18 @@ export default function Project01() {
 
                     <div className="text-content">
                         <div className="text-content-wrapper">
-                            <h2>Luxury Poolside Landscape</h2>
-                            <p className="overline-3">Palm Jumeirah, Dubai • April 2025</p>
-                            <p>WORKS DONE:</p>
+                            <h2>Al Tawr Villa - Walid</h2>
+                            <p className="overline-3">Al Twar 2, Dubai, UAE • February 2026</p>
+                            <p>Work done:</p>
                             <ul>
-                                <li>Swimming Pool Installation (tiling & finishing)</li>
-                                <li>Hard Landscaping (paved walkways & pool deck)</li>
-                                <li>Soft Landscaping (lawns, palm trees, seasonal plants)</li>
-                                <li>Irrigation Systems (sprinklers & drip lines)</li>
-                                <li>Outdoor Lighting (poolside & garden fixtures)</li>
+                                <li>Hardscape Works (pathways, paved areas)</li>
+                                <li>Softscape Works (trees, shrubs, groundcovers)</li>
+                                <li>Pergola Installation</li>
+                                <li>Irrigation System</li>
+                                <li>Outdoor Lighting</li>
+                                <li>BOQ Preparation</li>
+                                <li>Pavement Works</li>
+                                <li>Lawn Area Development</li>
                             </ul>
                             <Link className="btn btn-secondary" href="/projects/project01">
                                 View Details

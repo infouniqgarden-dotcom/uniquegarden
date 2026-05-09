@@ -314,6 +314,10 @@ main .widget-wrapper.about-company {
                         padding: 20px;
                     }
 
+                    .second-column > * {
+                        text-align: right;
+                    }
+
                     * + :is(p, ul, ol, table) {
                         margin-top: 10px;
                     }

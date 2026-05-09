@@ -36,17 +36,18 @@ export default function ServicesPage() {
 
                 <div className="text-content">
                     <div className="text-content-wrapper">
-                        <h2>Al Tawr Villa</h2>
-                        <p className="overline-3">Dubai Hills, UAE • August 2025</p>
+                        <h2>Al Tawr Villa - Sulthan Shamshi</h2>
+                        <p className="overline-3">Al Twar 2, Dubai, UAE • April 2026</p>
                         <p>Work done:</p>
                         <ul>
-                            <li>Soft Landscaping (lawns, flower beds, palm trees, shrubs)</li>
-                            <li>Hard Landscaping (stone pathways, tiled patios, edging)</li>
-                            <li>Pergola Installation (wooden structure with seating)</li>
-                            <li>Outdoor Lighting (garden fixtures, pathway lights)</li>
-                            <li>Irrigation Systems (drip irrigation, sprinklers)</li>
+                            <li>Hardscape Works</li>
+                            <li>Softscape Works</li>
+                            <li>Pergola Construction</li>
+                            <li>Irrigation System Installation</li>
+                            <li>Outdoor Lighting</li>
+                            <li>BOQ Preparation</li>
                         </ul>
-                        <Link className="btn btn-secondary" href="/projects/project01">
+                        <Link className="btn btn-secondary" href="/projects/al-tawr-villa-sulthan-shamshi">
                             View Details
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <g opacity="0.8">
@@ -67,17 +68,20 @@ export default function ServicesPage() {
             <section className="widget-wrapper  project-ltext-rimage deep-teal-blue">
                 <div className="text-content">
                     <div className="text-content-wrapper">
-                        <h2>Luxury Pool Residence</h2>
-                        <p className="overline-3">Palm Jumeirah, Dubai • July 2025</p>
+                        <h2>Al Tawr Villa - Walid</h2>
+                        <p className="overline-3">Al Twar 2, Dubai, UAE • February 2026</p>
                         <p>Work done:</p>
                         <ul>
-                            <li>Swimming Pool Installation (tiling, finishing, filtration)</li>
-                            <li>Water Features (fountain wall, mini waterfall)</li>
-                            <li>Pool Lighting (underwater LEDs, deck lights)</li>
-                            <li>Hard Landscaping (poolside paving, deck flooring)</li>
-                            <li>Maintenance Setup (pump systems, chemical treatment)</li>
+                            <li>Hardscape Works (pathways, paved areas)</li>
+                            <li>Softscape Works (trees, shrubs, groundcovers)</li>
+                            <li>Pergola Installation</li>
+                            <li>Irrigation System</li>
+                            <li>Outdoor Lighting</li>
+                            <li>BOQ Preparation</li>
+                            <li>Pavement Works</li>
+                            <li>Lawn Area Development</li>
                         </ul>
-                        <Link className="btn btn-secondary" href="/projects/project01">
+                        <Link className="btn btn-secondary" href="/projects/al-tawr-villa-walid">
                             View Details
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <g opacity="0.8">
@@ -105,17 +109,15 @@ export default function ServicesPage() {
 
                 <div className="text-content">
                     <div className="text-content-wrapper">
-                        <h2>Corporate Landscape Plaza</h2>
-                        <p className="overline-3">Sharjah Business District • June 2025</p>
+                        <h2>BMJ Industries</h2>
+                        <p className="overline-3">Ras Al Khaimah, UAE • Ongoing</p>
                         <p>Work done:</p>
                         <ul>
-                            <li>Civil Paving (stone walkways, entrance plaza)</li>
-                            <li>Irrigation Systems (sprinklers, underground pipes)</li>
-                            <li>Soft Landscaping (palm trees, shrubs, lawn beds)</li>
-                            <li>MEP Works (wiring for lights, water supply)</li>
-                            <li>Outdoor Seating (benches, shaded structures)</li>
+                            <li>Softscape Works (trees and shrubs plantation)</li>
+                            <li>Irrigation System Installation</li>
+                            <li>750m Linear Landscape Development</li>
                         </ul>
-                        <Link className="btn btn-secondary" href="/projects/project01">
+                        <Link className="btn btn-secondary" href="/projects/bmj-industries">
                             View Details
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <g opacity="0.8">
@@ -136,17 +138,16 @@ export default function ServicesPage() {
             <section className="widget-wrapper  project-ltext-rimage warm-taupe">
                 <div className="text-content">
                     <div className="text-content-wrapper">
-                        <h2>Vertical Garden Villa</h2>
-                        <p className="overline-3">Jumeirah Village Circle, Dubai • May 2025</p>
+                        <h2>Abudhabi Private Villa</h2>
+                        <p className="overline-3">Abu Dhabi, UAE • Ongoing</p>
                         <p>Work done:</p>
                         <ul>
-                            <li>Vertical Gardens (living wall systems, irrigation setup)</li>
-                            <li>Pebble Gardens (decorative stone areas, gravel borders)</li>
-                            <li>Pergola & Deck (outdoor shaded structure, flooring)</li>
-                            <li>Irrigation Systems (drip irrigation for vertical gardens)</li>
-                            <li>Lawn Restoration (re-turfing, soil preparation)</li>
+                            <li>Softscape Works (tropical planting, palms, shrubs)</li>
+                            <li>Irrigation System Installation</li>
+                            <li>Soil Preparation and Planting Mix</li>
+                            <li>Resort-style Landscape Development</li>
                         </ul>
-                        <Link className="btn btn-secondary" href="/projects/project01">
+                        <Link className="btn btn-secondary" href="/projects/abudhabi-private-villa">
                             View Details
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <g opacity="0.8">
@@ -167,41 +168,7 @@ export default function ServicesPage() {
                     <Image src="/images/04-Projects-Page/Projects-Img-4.webp" alt="" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                 </div>
             </section>
-            <section className="widget-wrapper project-limage-rtext deep-teal-blue">
-                <div className="image-content-wrapper">
-                    <Image src="/images/04-Projects-Page/Projects-Img-5.webp" alt="" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
-                </div>
 
-                <div className="text-content">
-                    <div className="text-content-wrapper">
-                        <h2>Luxury Poolside Landscape</h2>
-                        <p className="overline-3">Palm Jumeirah, Dubai • April 2025</p>
-                        <p>Work done:</p>
-                        <ul>
-                            <li>Swimming Pool Installation (tiling & finishing)</li>
-                            <li>Hard Landscaping (paved walkways & pool deck)</li>
-                            <li>Soft Landscaping (lawns, palm trees, seasonal plants)</li>
-                            <li>Irrigation Systems (sprinklers & drip lines)</li>
-                            <li>Outdoor Lighting (poolside & garden fixtures)</li>
-                        </ul>
-                        <Link className="btn btn-secondary" href="/projects/project01">
-                            View Details
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <g opacity="0.8">
-                                    <path d="M16 10L4 10" stroke="#141414" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path
-                                        d="M11.834 15C11.834 15 16.834 11.3176 16.834 10C16.834 8.68233 11.834 5 11.834 5"
-                                        stroke="#141414"
-                                        strokeWidth="1.8"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                </g>
-                            </svg>
-                        </Link>
-                    </div>
-                </div>
-            </section>
             <section className="widget-wrapper bg our-services-multi-icon-text-slider">
                 <div className="widget-wrapper text-group">
                     <div className="text-content-wrapper">
