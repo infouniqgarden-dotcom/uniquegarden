@@ -117,6 +117,22 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=G-FP2RTP4Z99"
+                />
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'G-FP2RTP4Z99');
+                        `,
+                    }}
+                />
+            </head>
             <body className={`${garamond.variable} ${figtree.variable} antialiased `}>
                 <script
                     type="application/ld+json"
