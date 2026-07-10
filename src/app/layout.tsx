@@ -118,6 +118,50 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
+                <noscript>
+                    <style>{`
+                        .navbar .container,
+                        .hero-banner .text-content-wrapper > *,
+                        main .widget-wrapper.about-company .text-content,
+                        .about-us-ltxt-rimg .text-content .text-content-wrapper > *,
+                        .about-us-ltxt-rimg .image-content-wrapper,
+                        .text-group .text-content-wrapper > *,
+                        .our-services .image-text-card .text-content,
+                        .widget-wrapper.why-choose-us .cards-wrapper .card.text-content,
+                        .our-projects-text-slider .slider,
+                        .widget-wrapper.testimonials .review-cards,
+                        .request-a-quote .text-content-wrapper > *,
+                        #footer .row-one .column-one > *,
+                        #footer .row-one .column-two > div > *,
+                        #footer .row-one .column-three .quick-links .overline-3,
+                        #footer .row-one .column-three .quick-links ul li,
+                        #footer .row-one .column-three .our-services .overline-3,
+                        #footer .row-one .column-three .our-services ul li,
+                        .mission-vision .text-content,
+                        .our-core-values .text-content > .text-content-wrapper > *,
+                        .our-core-values .text-content .cards-container .card,
+                        .widget-wrapper.bg.our-trade-license > *,
+                        .meet-our-team .our-team-wrapper .text-content,
+                        .services-lslider-rtext .image-slider,
+                        .services-lslider-rtext .text-content-wrapper > *,
+                        .services-ltext-rslider .image-slider,
+                        .services-ltext-rslider .text-content-wrapper > *,
+                        .project-limage-rtext,
+                        .project-ltext-rimage,
+                        .project-detials .text-content-wrapper > *,
+                        .project-image-gallery .text-content-wrapper > *,
+                        .project-image-gallery .image-content-wrapper img,
+                        section.widget-wrapper.gallery-slider .sliders .swiper,
+                        .our-core-values .image-content-wrapper,
+                        .careers-job-openings .job-listing .text-content,
+                        .widget-wrapper.bg.our-services-multi-icon-text-slider .multi-icon-text-slider .swiper,
+                        .contact-form-section .contact-form .form-group {
+                            opacity: 1 !important;
+                            transform: none !important;
+                            animation: none !important;
+                        }
+                    `}</style>
+                </noscript>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FP2RTP4Z99" />
                 <script
                     dangerouslySetInnerHTML={{
