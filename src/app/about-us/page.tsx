@@ -52,8 +52,8 @@ export default function AboutPage() {
             <section className="widget-wrapper hero-banner">
                 <div className="image-content-wrapper">
                     <Image
-                        src="/images/01-home-page/hp-hero-img.webp"
-                        alt="Unique Garden Hero Banner"
+                        src="/images/02-About-Us/About-Us-(Hero-Image).webp"
+                        alt="Unique Garden About Us Hero Banner"
                         width={1920}
                         height={1080}
                         priority

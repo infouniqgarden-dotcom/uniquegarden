@@ -246,7 +246,7 @@ export default function ServicesPage() {
             </section>
             <section className="widget-wrapper services-lslider-rtext">
                 <div className="image-slider">
-                    <ServicesSlider images={pebbleGardensImages} />
+                    <ServicesSlider images={irrigationSystemsImages} />
                 </div>
                 <div className="text-content">
                     <div className="text-content-wrapper">

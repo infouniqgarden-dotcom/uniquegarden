@@ -8,7 +8,8 @@ const SITE_URL = "https://uniquegarden.ae/contact-us";
 
 export const metadata: Metadata = {
     title: "Contact Us | Get a Free Quote | Unique Garden Tech UAE",
-    description: "Contact Unique Garden Tech Cont LLC for landscaping, garden design, irrigation, and outdoor construction services across the UAE. Get a free project quote today.",
+    description:
+        "Contact Unique Garden Tech Cont LLC for landscaping, garden design, irrigation, and outdoor construction services across the UAE. Get a free project quote today.",
     keywords: [
         "contact landscaping company UAE",
         "landscaping quote UAE",
@@ -59,7 +60,7 @@ export default function ContactPage() {
                     </div>
                 </div>
             </section>
-            <section className="widget-wrapper contact-form-section">
+            <section className="widget-wrapper contact-form-section" id="contact-us-form">
                 <div className="widget-wrapper text-group">
                     <div className="text-content-wrapper">
                         <h2>Reach out to us!</h2>

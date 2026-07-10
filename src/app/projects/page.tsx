@@ -64,7 +64,7 @@ export default function ServicesPage() {
             </section>
             <section className="widget-wrapper project-limage-rtext muted-burgundy-brown">
                 <div className="image-content-wrapper">
-                    <Image src="/images/04-Projects-Page/Projects-Img-1.webp" alt="" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
+                    <Image src="/images/04-Projects-Page/Projects-Img-1.webp" alt="Al Tawr Villa Sulthan Shamshi landscaping project" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                 </div>
 
                 <div className="text-content">
@@ -132,12 +132,12 @@ export default function ServicesPage() {
                     </div>
                 </div>
                 <div className="image-content-wrapper">
-                    <Image src="/images/04-Projects-Page/Projects-Img-2.webp" alt="" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
+                    <Image src="/images/04-Projects-Page/Projects-Img-2.webp" alt="Al Tawr Villa Walid outdoor landscape transformation" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                 </div>
             </section>
             <section className="widget-wrapper project-limage-rtext olive-drab">
                 <div className="image-content-wrapper">
-                    <Image src="/images/04-Projects-Page/Projects-Img-3.webp" alt="" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
+                    <Image src="/images/04-Projects-Page/Projects-Img-3.webp" alt="BMJ Industries industrial landscape development Ras Al Khaimah" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                 </div>
 
                 <div className="text-content">
@@ -198,7 +198,7 @@ export default function ServicesPage() {
                     </div>
                 </div>
                 <div className="image-content-wrapper">
-                    <Image src="/images/04-Projects-Page/Projects-Img-4.webp" alt="" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
+                    <Image src="/images/04-Projects-Page/Projects-Img-4.webp" alt="Abu Dhabi private villa tropical landscape" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                 </div>
             </section>
 

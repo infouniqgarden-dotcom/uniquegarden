@@ -9,14 +9,7 @@ const SITE_URL = "https://uniquegarden.ae/careers";
 export const metadata: Metadata = {
     title: "Careers | Join Our Team | Unique Garden Tech UAE",
     description: "Join Unique Garden Tech Cont LLC — hiring landscape architects, site engineers & designers across the UAE. Build your career in premium outdoor construction.",
-    keywords: [
-        "landscaping jobs UAE",
-        "landscape architect jobs Dubai",
-        "site engineer jobs UAE",
-        "garden design jobs UAE",
-        "outdoor construction careers UAE",
-        "MEP jobs UAE",
-    ],
+    keywords: ["landscaping jobs UAE", "landscape architect jobs Dubai", "site engineer jobs UAE", "garden design jobs UAE", "outdoor construction careers UAE", "MEP jobs UAE"],
     alternates: { canonical: SITE_URL },
     openGraph: {
         type: "website",
@@ -74,7 +67,7 @@ export default function Careers() {
                                     <h3>Landscape Architect</h3>
                                     <p className="job-tag full-time">Full Time</p>
                                 </div>
-                                <Link target="_blank" href="#" className="btn">
+                                <Link href="/contact-us#contact-us-form" className="btn">
                                     Apply Now
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                         <path d="M15.416 10H4.16602" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
@@ -104,8 +97,8 @@ export default function Careers() {
                                     </span>
                                 </p>
                                 <p>
-                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across the UAE. You&apos;ll be
-                                    involved in concept planning, plant selection, and design execution that blend creativity with practicality.
+                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across the UAE. You&apos;ll be involved in
+                                    concept planning, plant selection, and design execution that blend creativity with practicality.
                                 </p>
                             </div>
                         </div>
@@ -118,7 +111,7 @@ export default function Careers() {
                                     <h3>Site Engineer – Civil & MEP</h3>
                                     <p className="job-tag full-time">Full Time</p>
                                 </div>
-                                <Link target="_blank" href="#" className="btn">
+                                <Link href="/contact-us#contact-us-form" className="btn">
                                     Apply Now
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                         <path d="M15.416 10H4.16602" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
@@ -148,8 +141,8 @@ export default function Careers() {
                                     </span>
                                 </p>
                                 <p>
-                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across the UAE. You&apos;ll be
-                                    involved in concept planning, plant selection, and design execution that blend creativity with practicality.
+                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across the UAE. You&apos;ll be involved in
+                                    concept planning, plant selection, and design execution that blend creativity with practicality.
                                 </p>
                             </div>
                         </div>
@@ -162,7 +155,7 @@ export default function Careers() {
                                     <h3>Landscape Designer</h3>
                                     <p className="job-tag internship">INTERNSHIP</p>
                                 </div>
-                                <Link target="_blank" href="#" className="btn">
+                                <Link href="/contact-us#contact-us-form" className="btn">
                                     Apply Now
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                         <path d="M15.416 10H4.16602" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
@@ -192,8 +185,8 @@ export default function Careers() {
                                     </span>
                                 </p>
                                 <p>
-                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across the UAE. You&apos;ll be
-                                    involved in concept planning, plant selection, and design execution that blend creativity with practicality.
+                                    Work with our design team to create stunning outdoor environments for villas and commercial spaces across the UAE. You&apos;ll be involved in
+                                    concept planning, plant selection, and design execution that blend creativity with practicality.
                                 </p>
                             </div>
                         </div>

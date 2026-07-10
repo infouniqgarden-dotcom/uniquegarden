@@ -39,7 +39,7 @@ export default function Gallery() {
             <section className="widget-wrapper gallery-slider">
                 <div className="widget-wrapper text-group">
                     <div className="text-content-wrapper">
-                        <h2>Wall of Works</h2>
+                        <h1>Wall of Works</h1>
                         <p>
                             Our gallery is a reflection of what we build and believe in. Each project displayed here demonstrates our expertise, style, and pursuit of excellence.
                             Take a look around and discover how we turn vision into reality.

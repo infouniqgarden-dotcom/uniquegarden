@@ -118,10 +118,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
-                <script
-                    async
-                    src="https://www.googletagmanager.com/gtag/js?id=G-FP2RTP4Z99"
-                />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-FP2RTP4Z99" />
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
@@ -132,19 +129,20 @@ export default function RootLayout({
                         `,
                     }}
                 />
-            </head>
-            <body className={`${garamond.variable} ${figtree.variable} antialiased `}>
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
-                            "@type": "LocalBusiness",
+                            "@type": "LandscapeArchitecture",
+                            "@id": "https://uniquegarden.ae/#business",
                             name: "Unique Garden Tech Cont LLC",
                             url: "https://uniquegarden.ae",
-                            telephone: "+971-6-5222391",
-                            description: "Premium landscaping, garden design, irrigation, HVAC and MEP services across the UAE.",
+                            logo: "https://uniquegarden.ae/images/brand-logo.jpg",
                             image: "https://uniquegarden.ae/images/brand-logo.jpg",
+                            telephone: ["+971-6-5222391", "+971-58-604-4013", "+971-55-524-0544"],
+                            email: "info@uniquegarden.ae",
+                            description: "Premium landscaping, garden design, irrigation, HVAC and MEP services across the UAE.",
                             address: {
                                 "@type": "PostalAddress",
                                 streetAddress: "No - 02, Building No: 3610, Muweilah",
@@ -152,26 +150,56 @@ export default function RootLayout({
                                 postalCode: "27960",
                                 addressCountry: "AE",
                             },
-                            areaServed: {
-                                "@type": "Country",
-                                name: "United Arab Emirates",
+                            geo: {
+                                "@type": "GeoCoordinates",
+                                latitude: 25.2889494,
+                                longitude: 55.4508824,
                             },
-                            priceRange: "$$",
-                            knowsAbout: [
-                                "Landscaping",
-                                "Garden Design",
-                                "Irrigation Systems",
-                                "HVAC",
-                                "MEP",
-                                "Hardscape",
-                                "Softscape",
-                                "Pergola Construction",
-                                "Outdoor Lighting",
-                                "Vertical Gardens",
+                            areaServed: [
+                                { "@type": "City", name: "Dubai" },
+                                { "@type": "City", name: "Sharjah" },
+                                { "@type": "City", name: "Abu Dhabi" },
+                                { "@type": "City", name: "Ras Al Khaimah" },
                             ],
+                            priceRange: "$$",
+                            openingHoursSpecification: [
+                                {
+                                    "@type": "OpeningHoursSpecification",
+                                    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                                    opens: "09:00",
+                                    closes: "17:00",
+                                },
+                            ],
+                            contactPoint: {
+                                "@type": "ContactPoint",
+                                telephone: "+971-6-5222391",
+                                contactType: "customer service",
+                                availableLanguage: ["English", "Arabic", "Tamil"],
+                            },
+                            sameAs: [
+                                "https://www.instagram.com/unique_garden_tech_cont/",
+                                "https://www.linkedin.com/company/unique-garden-tech-cont-llc/",
+                                "https://www.facebook.com/share/1BpbpvVrwk/",
+                            ],
+                            hasOfferCatalog: {
+                                "@type": "OfferCatalog",
+                                name: "Landscaping & Construction Services",
+                                itemListElement: [
+                                    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Softscape & Planting" } },
+                                    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Hardscape & Paving" } },
+                                    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Irrigation Systems" } },
+                                    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Pergolas & Gazebos" } },
+                                    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Outdoor Lighting" } },
+                                    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Vertical Gardens" } },
+                                    { "@type": "Offer", itemOffered: { "@type": "Service", name: "Swimming Pools" } },
+                                    { "@type": "Offer", itemOffered: { "@type": "Service", name: "MEP Works" } },
+                                ],
+                            },
                         }),
                     }}
                 />
+            </head>
+            <body className={`${garamond.variable} ${figtree.variable} antialiased `}>
                 <MobileClassHandler />
                 <Navbar />
                 {children}
