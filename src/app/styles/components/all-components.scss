@@ -75,6 +75,10 @@
     }
 }
 
+main:not(.homepage) .hero-banner {
+    margin-bottom: 0;
+}
+
 main .widget-wrapper.about-company {
     margin-top: 0;
     padding: var(--widget-spacing) var(--widget-vertical-spacing);

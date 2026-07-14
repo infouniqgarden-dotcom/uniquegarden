@@ -1,6 +1,7 @@
 import Image from "next/image";
 import RequestAQuote from "../components/RequestAQuote";
 import MeetOurTeam from "../components/MeetOurTeam";
+import Breadcrumb from "../components/Breadcrumb";
 import { Metadata } from "next";
 
 const SITE_URL = "https://uniquegarden.ae/about-us";
@@ -70,6 +71,9 @@ export default function AboutPage() {
                     </div>
                 </div>
             </section>
+
+            <Breadcrumb items={[{ label: "About Us" }]} />
+
             <section className="widget-wrapper about-us-ltxt-rimg" id="about-us">
                 <div className="text-content">
                     <div className="text-content-wrapper">

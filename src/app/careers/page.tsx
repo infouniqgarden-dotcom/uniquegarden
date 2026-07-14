@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import RequestAQuote from "../components/RequestAQuote";
 import MeetOurTeam from "../components/MeetOurTeam";
+import Breadcrumb from "../components/Breadcrumb";
 
 const SITE_URL = "https://uniquegarden.ae/careers";
 
@@ -52,6 +53,9 @@ export default function Careers() {
                     </div>
                 </div>
             </section>
+
+            <Breadcrumb items={[{ label: "Careers" }]} />
+
             <section className="widget-wrapper careers-job-openings">
                 <div className="widget-wrapper text-group">
                     <div className="text-content-wrapper">

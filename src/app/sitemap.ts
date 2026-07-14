@@ -19,6 +19,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { path: "/projects/al-tawr-villa-walid", priority: 0.7, changeFreq: "monthly" as const },
         { path: "/projects/bmj-industries", priority: 0.7, changeFreq: "monthly" as const },
         { path: "/projects/abudhabi-private-villa", priority: 0.7, changeFreq: "monthly" as const },
+
+        // Blog listing and posts
+        { path: "/blog", priority: 0.7, changeFreq: "monthly" as const },
+        { path: "/blog/landscaping-cost-uae", priority: 0.7, changeFreq: "monthly" as const },
+        { path: "/blog/best-plants-uae-gardens", priority: 0.7, changeFreq: "monthly" as const },
+        { path: "/blog/softscape-vs-hardscape", priority: 0.7, changeFreq: "monthly" as const },
+        { path: "/blog/garden-maintenance-dubai-summer", priority: 0.7, changeFreq: "monthly" as const },
+        { path: "/blog/irrigation-systems-uae", priority: 0.7, changeFreq: "monthly" as const },
+
+        // Legal pages
+        { path: "/terms-and-conditions", priority: 0.3, changeFreq: "monthly" as const },
+        { path: "/privacy-policy", priority: 0.3, changeFreq: "monthly" as const },
     ];
 
     return routes.map((route) => ({

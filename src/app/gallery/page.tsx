@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import GallerySlider from "../components/GallerySlider";
+import Breadcrumb from "../components/Breadcrumb";
 
 const SITE_URL = "https://uniquegarden.ae/gallery";
 
@@ -37,6 +38,7 @@ export default function Gallery() {
     return (
         <main className="gallery-page">
             <section className="widget-wrapper gallery-slider">
+                <Breadcrumb items={[{ label: "Gallery" }]} />
                 <div className="widget-wrapper text-group">
                     <div className="text-content-wrapper">
                         <h1>Wall of Works</h1>

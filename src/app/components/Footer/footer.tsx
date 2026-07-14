@@ -20,6 +20,10 @@ export default function Footer() {
         { name: "Projects", href: "/projects" },
         { name: "Gallery", href: "/gallery" },
         { name: "Careers", href: "/careers" },
+        { name: "Contact Us", href: "/contact-us" },
+        { name: "Blog", href: "/blog" },
+        { name: "Terms & Conditions", href: "/terms-and-conditions" },
+        { name: "Privacy Policy", href: "/privacy-policy" },
     ];
 
     const serviceLinks: ServicesLink[] = [

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import Breadcrumb from "../../components/Breadcrumb";
 
 const SITE_URL = "https://uniquegarden.ae/projects/al-tawr-villa-walid";
 
@@ -62,6 +63,9 @@ export default function AlTawrVillaWalid() {
                     </div>
                 </div>
             </section>
+
+            <Breadcrumb items={[{ label: "Projects", href: "/projects" }, { label: "Al Tawr Villa (Walid)" }]} />
+
             <section className="widget-wrapper project-detials">
                 <div className="text-content">
                     <div className="text-content-wrapper">

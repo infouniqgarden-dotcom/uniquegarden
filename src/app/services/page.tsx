@@ -3,6 +3,7 @@ import Image from "next/image";
 import OurProjects from "../components/OurProjects";
 import Testimonials from "../components/Testimonials";
 import ServicesSlider from "../components/ServicesSlider";
+import Breadcrumb from "../components/Breadcrumb";
 
 const SITE_URL = "https://uniquegarden.ae/services";
 
@@ -136,6 +137,9 @@ export default function ServicesPage() {
                     </div>
                 </div>
             </section>
+
+            <Breadcrumb items={[{ label: "Services" }]} />
+
             <section className="widget-wrapper services-lslider-rtext">
                 <div className="image-slider">
                     <ServicesSlider images={softscapeImages} />

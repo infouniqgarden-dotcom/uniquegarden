@@ -3,6 +3,7 @@ import Image from "next/image";
 import Testimonials from "../components/Testimonials";
 import RequestAQuote from "../components/RequestAQuote";
 import ContactForm from "../components/ContactForm";
+import Breadcrumb from "../components/Breadcrumb";
 
 const SITE_URL = "https://uniquegarden.ae/contact-us";
 
@@ -60,6 +61,9 @@ export default function ContactPage() {
                     </div>
                 </div>
             </section>
+
+            <Breadcrumb items={[{ label: "Contact Us" }]} />
+
             <section className="widget-wrapper contact-form-section" id="contact-us-form">
                 <div className="widget-wrapper text-group">
                     <div className="text-content-wrapper">

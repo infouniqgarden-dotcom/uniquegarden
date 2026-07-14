@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import OurSerivesIconTextMultiSlider from "../components/OurServicesIconTextMultiSlider";
 import RequestAQuote from "../components/RequestAQuote";
+import Breadcrumb from "../components/Breadcrumb";
 
 const SITE_URL = "https://uniquegarden.ae/projects";
 
@@ -62,6 +63,9 @@ export default function ServicesPage() {
                     </div>
                 </div>
             </section>
+
+            <Breadcrumb items={[{ label: "Projects" }]} />
+
             <section className="widget-wrapper project-limage-rtext muted-burgundy-brown">
                 <div className="image-content-wrapper">
                     <Image src="/images/04-Projects-Page/Projects-Img-1.webp" alt="Al Tawr Villa Sulthan Shamshi landscaping project" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
