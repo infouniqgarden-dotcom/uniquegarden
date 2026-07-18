@@ -630,6 +630,15 @@ export default function SoftscapeVsHardscape() {
                             </div>
                         </div>
                     </Link>
+                    <Link href="/blog/pergolas-outdoor-living-uae" className="blog-card">
+                        <div className="blog-card-content">
+                            <div className="blog-card-meta"><span className="category-tag">Garden Design</span></div>
+                            <div className="blog-card-title"><h3>Pergolas &amp; Outdoor Shade Structures in the UAE: Types, Costs &amp; Design Guide</h3></div>
+                            <div className="blog-card-footer">
+                                <span className="read-more-link">Read more <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
+                            </div>
+                        </div>
+                    </Link>
                 </div>
             </section>
 

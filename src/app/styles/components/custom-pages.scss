@@ -85,110 +85,110 @@ main.contact-us-page {
             grid-template-columns: 1fr;
         }
     }
+}
 
-    .blog-card {
-        background: #fff;
-        border: 1px solid rgba(20, 20, 20, 0.1);
-        border-radius: var(--border-radius);
-        overflow: hidden;
+.blog-card {
+    background: #fff;
+    border: 1px solid rgba(20, 20, 20, 0.1);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition:
+        box-shadow 300ms ease,
+        transform 300ms ease;
+
+    &:hover {
+        box-shadow: 0 8px 40px rgba(2, 120, 51, 0.12);
+        transform: translateY(-3px);
+    }
+
+    .blog-card-content {
         display: flex;
         flex-direction: column;
-        transition:
-            box-shadow 300ms ease,
-            transform 300ms ease;
+        flex: 1;
+        padding: clamp(20px, calc((28 / var(--viewport)) * 100vw), 28px);
+        gap: clamp(10px, calc((14 / var(--viewport)) * 100vw), 14px);
+    }
 
-        &:hover {
-            box-shadow: 0 8px 40px rgba(2, 120, 51, 0.12);
-            transform: translateY(-3px);
-        }
+    .blog-card-meta {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
 
-        .blog-card-content {
-            display: flex;
-            flex-direction: column;
-            flex: 1;
-            padding: clamp(20px, calc((28 / var(--viewport)) * 100vw), 28px);
-            gap: clamp(10px, calc((14 / var(--viewport)) * 100vw), 14px);
-        }
+    .category-tag {
+        background: var(--widget-bg);
+        color: var(--brand-primary-color);
+        padding: 4px 14px;
+        border-radius: 50px;
+        font-family: var(--font-figtree), sans-serif;
+        font-weight: 700;
+        font-size: clamp(11px, calc((13 / var(--viewport)) * 100vw), 13px);
+        line-height: 20px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+    }
 
-        .blog-card-meta {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
+    .read-time {
+        font-family: var(--font-figtree), sans-serif;
+        font-size: clamp(12px, calc((14 / var(--viewport)) * 100vw), 14px);
+        color: rgba(20, 20, 20, 0.45);
+        font-weight: 500;
+        white-space: nowrap;
+    }
 
-        .category-tag {
-            background: var(--widget-bg);
-            color: var(--brand-primary-color);
-            padding: 4px 14px;
-            border-radius: 50px;
-            font-family: var(--font-figtree), sans-serif;
-            font-weight: 700;
-            font-size: clamp(11px, calc((13 / var(--viewport)) * 100vw), 13px);
-            line-height: 20px;
-            letter-spacing: 0.07em;
-            text-transform: uppercase;
-        }
+    .blog-card-title {
+        flex: 1;
 
-        .read-time {
-            font-family: var(--font-figtree), sans-serif;
-            font-size: clamp(12px, calc((14 / var(--viewport)) * 100vw), 14px);
-            color: rgba(20, 20, 20, 0.45);
-            font-weight: 500;
-            white-space: nowrap;
-        }
-
-        .blog-card-title {
-            flex: 1;
-
-            h3 {
-                display: -webkit-box;
-                -webkit-line-clamp: 3;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
-            }
-        }
-
-        .blog-card-excerpt {
+        h3 {
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
-            color: rgba(20, 20, 20, 0.6) !important;
         }
+    }
 
-        .blog-card-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            padding-top: clamp(14px, calc((18 / var(--viewport)) * 100vw), 18px);
-            border-top: 1px solid rgba(20, 20, 20, 0.08);
-            margin-top: auto;
-        }
+    .blog-card-excerpt {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        color: rgba(20, 20, 20, 0.6) !important;
+    }
 
-        .post-date {
-            font-family: var(--font-figtree), sans-serif;
-            font-size: clamp(12px, calc((14 / var(--viewport)) * 100vw), 14px);
-            color: rgba(20, 20, 20, 0.45);
-            font-weight: 500;
-        }
+    .blog-card-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding-top: clamp(14px, calc((18 / var(--viewport)) * 100vw), 18px);
+        border-top: 1px solid rgba(20, 20, 20, 0.08);
+        margin-top: auto;
+    }
 
-        .read-more-link {
-            font-family: var(--font-figtree), sans-serif;
-            font-weight: 600;
-            font-size: clamp(13px, calc((15 / var(--viewport)) * 100vw), 15px);
-            color: var(--brand-primary-color);
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            transition: gap 200ms ease;
-            white-space: nowrap;
+    .post-date {
+        font-family: var(--font-figtree), sans-serif;
+        font-size: clamp(12px, calc((14 / var(--viewport)) * 100vw), 14px);
+        color: rgba(20, 20, 20, 0.45);
+        font-weight: 500;
+    }
 
-            &:hover {
-                gap: 9px;
-            }
+    .read-more-link {
+        font-family: var(--font-figtree), sans-serif;
+        font-weight: 600;
+        font-size: clamp(13px, calc((15 / var(--viewport)) * 100vw), 15px);
+        color: var(--brand-primary-color);
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: gap 200ms ease;
+        white-space: nowrap;
+
+        &:hover {
+            gap: 9px;
         }
     }
 }
@@ -364,7 +364,7 @@ main.contact-us-page {
     .related-posts-section {
         .related-posts-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: clamp(16px, calc((24 / var(--viewport)) * 100vw), 24px);
             width: 100%;
             margin-top: var(--widget-spacing);
@@ -474,7 +474,7 @@ main.contact-us-page {
 // Whitespace fix: related posts flush against request-a-quote
 .blog-inner-page {
     .related-posts-section {
-        margin-bottom: 0;
+        margin-bottom: calc(var(--widget-spacing) * -1);
     }
 }
 
