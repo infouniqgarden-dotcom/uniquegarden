@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import OurSerivesIconTextMultiSlider from "../components/OurServicesIconTextMultiSlider";
@@ -9,7 +9,7 @@ const SITE_URL = "https://uniquegarden.ae/projects";
 
 export const metadata: Metadata = {
     title: "Landscaping Projects UAE | Portfolio | Unique Garden Tech",
-    description: "Browse Unique Garden Tech's project portfolio — villa gardens, commercial landscapes, irrigation systems, and outdoor constructions across Dubai, Abu Dhabi, Ras Al Khaimah & UAE.",
+    description: "Browse Unique Garden Tech's project portfolio, villa gardens, commercial landscapes, irrigation systems, and outdoor constructions across Dubai, Abu Dhabi, Ras Al Khaimah & UAE.",
     keywords: [
         "landscaping projects UAE",
         "garden design portfolio Dubai",

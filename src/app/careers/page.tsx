@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import RequestAQuote from "../components/RequestAQuote";
@@ -9,7 +9,7 @@ const SITE_URL = "https://uniquegarden.ae/careers";
 
 export const metadata: Metadata = {
     title: "Careers | Join Our Team | Unique Garden Tech UAE",
-    description: "Join Unique Garden Tech Cont LLC — hiring landscape architects, site engineers & designers across the UAE. Build your career in premium outdoor construction.",
+    description: "Join Unique Garden Tech Cont LLC, hiring landscape architects, site engineers & designers across the UAE. Build your career in premium outdoor construction.",
     keywords: ["landscaping jobs UAE", "landscape architect jobs Dubai", "site engineer jobs UAE", "garden design jobs UAE", "outdoor construction careers UAE", "MEP jobs UAE"],
     alternates: { canonical: SITE_URL },
     openGraph: {

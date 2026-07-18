@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
@@ -7,7 +7,7 @@ const SITE_URL = "https://uniquegarden.ae/projects/abudhabi-private-villa";
 
 export const metadata: Metadata = {
     title: "Abu Dhabi Private Villa | Tropical Villa Landscaping | Unique Garden Tech",
-    description: "Resort-style tropical landscape for a private villa in Abu Dhabi — palms, tropical planting, soil preparation and irrigation system by Unique Garden Tech.",
+    description: "Resort-style tropical landscape for a private villa in Abu Dhabi, palms, tropical planting, soil preparation and irrigation system by Unique Garden Tech.",
     keywords: [
         "villa landscaping Abu Dhabi",
         "tropical garden design UAE",

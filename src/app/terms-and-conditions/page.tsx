@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Breadcrumb from "../components/Breadcrumb";
 import RequestAQuote from "../components/RequestAQuote";
@@ -8,7 +8,7 @@ const SITE_URL = "https://uniquegarden.ae/terms-and-conditions";
 export const metadata: Metadata = {
     title: "Terms & Conditions | Unique Garden Tech UAE",
     description:
-        "Read the Terms and Conditions governing your use of the Unique Garden Tech Cont. LLC website and services — landscaping, irrigation, HVAC, and MEP services in the UAE.",
+        "Read the Terms and Conditions governing your use of the Unique Garden Tech Cont. LLC website and services, landscaping, irrigation, HVAC, and MEP services in the UAE.",
     keywords: ["terms and conditions UAE", "Unique Garden Tech terms", "landscaping company terms UAE", "website terms of use UAE"],
     alternates: { canonical: SITE_URL },
     openGraph: {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
                 url: "https://uniquegarden.ae/images/brand-logo.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Unique Garden Tech Cont LLC — Terms & Conditions",
+                alt: "Unique Garden Tech Cont LLC, Terms & Conditions",
                 type: "image/jpeg",
             },
         ],
@@ -43,7 +43,7 @@ export default function TermsAndConditions() {
                 <div className="image-content-wrapper">
                     <Image
                         src="/images/02-About-Us/About-Us-(Hero-Image).webp"
-                        alt="Unique Garden Tech — Terms and Conditions"
+                        alt="Unique Garden Tech, Terms and Conditions"
                         width={1920}
                         height={1080}
                         priority
@@ -175,8 +175,8 @@ export default function TermsAndConditions() {
                     <div id="section-4" className="legal-section">
                         <h2>4. Intellectual Property</h2>
                         <p>
-                            All content published on this Website — including but not limited to text, graphics, logos, photographs, project imagery, videos, design concepts,
-                            layouts, and compiled code — is the exclusive property of Unique Garden Tech Cont. LLC or its respective licensors.
+                            All content published on this Website, including but not limited to text, graphics, logos, photographs, project imagery, videos, design concepts,
+                            layouts, and compiled code, is the exclusive property of Unique Garden Tech Cont. LLC or its respective licensors.
                         </p>
                         <p>
                             Such content is protected under UAE Federal Law No. 7 of 2002 on Copyrights and Neighbouring Rights, as amended by Federal Law No. 32 of 2021, as well

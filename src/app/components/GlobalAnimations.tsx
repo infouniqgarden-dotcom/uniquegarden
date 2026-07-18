@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
@@ -27,7 +27,7 @@ const groupElements = [
     ".contact-form-section .contact-form .form-group",
 ];
 
-// These animate SOLO — one element, one trigger
+// These animate SOLO, one element, one trigger
 const soloElements = [
     ".about-us-ltxt-rimg .image-content-wrapper",
     ".our-projects-text-slider .slider",
@@ -69,7 +69,7 @@ export default function GlobalAnimations() {
             ctx = gsap.context(() => {
                 ScrollTrigger.getAll().forEach((t) => t.kill());
 
-                // GROUP — all matched elements animate together with stagger
+                // GROUP, all matched elements animate together with stagger
                 groupElements.forEach((selector) => {
                     const els = gsap.utils.toArray<HTMLElement>(selector);
                     if (!els.length) return;
@@ -86,7 +86,7 @@ export default function GlobalAnimations() {
                     });
                 });
 
-                // SOLO — each element gets its own trigger
+                // SOLO, each element gets its own trigger
                 soloElements.forEach((selector) => {
                     gsap.utils.toArray<HTMLElement>(selector).forEach((el) => {
                         gsap.fromTo(el, FROM, {

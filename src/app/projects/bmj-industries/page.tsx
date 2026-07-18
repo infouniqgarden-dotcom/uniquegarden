@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
@@ -7,7 +7,7 @@ const SITE_URL = "https://uniquegarden.ae/projects/bmj-industries";
 
 export const metadata: Metadata = {
     title: "BMJ Industries | Industrial Landscaping Ras Al Khaimah | Unique Garden Tech",
-    description: "Industrial landscape development project in Ras Al Khaimah — 750m linear landscape, softscape plantation, and irrigation system installation by Unique Garden Tech.",
+    description: "Industrial landscape development project in Ras Al Khaimah, 750m linear landscape, softscape plantation, and irrigation system installation by Unique Garden Tech.",
     keywords: [
         "industrial landscaping UAE",
         "landscaping Ras Al Khaimah",

@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import RequestAQuote from "../components/RequestAQuote";
 import MeetOurTeam from "../components/MeetOurTeam";
 import Breadcrumb from "../components/Breadcrumb";
@@ -80,7 +80,7 @@ export default function AboutPage() {
                         <h2>Introduction</h2>
                         <p>
                             Unique Garden Tech. Cont. LLC is a UAE-based landscaping and construction company serving clients across the UAE. We specialize in
-                            creating outdoor spaces that combine functionality, sustainability, and elegance — from residential gardens and swimming pools to large-scale civil and
+                            creating outdoor spaces that combine functionality, sustainability, and elegance, from residential gardens and swimming pools to large-scale civil and
                             MEP works.
                         </p>
                         <p>
@@ -90,7 +90,7 @@ export default function AboutPage() {
                         <h2>Our Story</h2>
                         <p>
                             Founded to bridge creativity and construction, Unique Garden Tech. began with a small team passionate about transforming outdoor environments. Over the
-                            years, we’ve expanded our services to include not just landscaping, but also pools, irrigation, and technical works — giving our clients a single
+                            years, we’ve expanded our services to include not just landscaping, but also pools, irrigation, and technical works, giving our clients a single
                             partner for all outdoor needs.
                         </p>
                         <p>

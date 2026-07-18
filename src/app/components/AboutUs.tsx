@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 
 export default function AboutUs() {
@@ -10,7 +10,7 @@ export default function AboutUs() {
                     <h2>Unique Garden Tech. Cont. LLC</h2>
                     <p>
                         Unique Garden Tech. Cont. LLC is a UAE-based landscaping and construction company, providing premium outdoor solutions across the UAE. With a
-                        strong focus on quality, creativity, and sustainability, we deliver tailored designs that enhance the beauty and functionality of every space — from villas
+                        strong focus on quality, creativity, and sustainability, we deliver tailored designs that enhance the beauty and functionality of every space, from villas
                         to commercial properties.
                     </p>
                     <p>

@@ -1,4 +1,4 @@
-/* ============================================================
+﻿/* ============================================================
    GLOBAL CUSTOM SCROLLBAR STYLES
    ============================================================ */
 
@@ -13,7 +13,7 @@
     --sb-thumb-border: 2px solid #1e1e2e; /* creates padding effect */
 }
 
-/* Webkit — Chrome, Edge, Safari, Opera */
+/* Webkit, Chrome, Edge, Safari, Opera */
 ::-webkit-scrollbar {
     width: var(--sb-size);
     height: var(--sb-size);

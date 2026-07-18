@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
@@ -7,7 +7,7 @@ const SITE_URL = "https://uniquegarden.ae/projects/al-tawr-villa-sulthan-shamshi
 
 export const metadata: Metadata = {
     title: "Al Tawr Villa – Sulthan Shamshi | Villa Landscaping Dubai | Unique Garden Tech",
-    description: "Complete villa landscaping project in Al Twar 2, Dubai — hardscape, softscape, pergola, irrigation system, outdoor lighting & BOQ by Unique Garden Tech.",
+    description: "Complete villa landscaping project in Al Twar 2, Dubai, hardscape, softscape, pergola, irrigation system, outdoor lighting & BOQ by Unique Garden Tech.",
     keywords: [
         "villa landscaping Dubai",
         "Al Twar villa garden",

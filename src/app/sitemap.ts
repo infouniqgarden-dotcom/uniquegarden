@@ -22,6 +22,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
         // Blog listing and posts
         { path: "/blog", priority: 0.7, changeFreq: "monthly" as const },
+        { path: "/blog/artificial-grass-uae", priority: 0.7, changeFreq: "monthly" as const },
+        { path: "/blog/vertical-gardens-green-walls-uae", priority: 0.7, changeFreq: "monthly" as const },
+        { path: "/blog/pergolas-outdoor-living-uae", priority: 0.7, changeFreq: "monthly" as const },
+        { path: "/blog/outdoor-lighting-uae-gardens", priority: 0.7, changeFreq: "monthly" as const },
         { path: "/blog/landscaping-cost-uae", priority: 0.7, changeFreq: "monthly" as const },
         { path: "/blog/best-plants-uae-gardens", priority: 0.7, changeFreq: "monthly" as const },
         { path: "/blog/softscape-vs-hardscape", priority: 0.7, changeFreq: "monthly" as const },

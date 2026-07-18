@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Breadcrumb from "../components/Breadcrumb";
 import RequestAQuote from "../components/RequestAQuote";
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
                 url: "https://uniquegarden.ae/images/brand-logo.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Unique Garden Tech Cont LLC — Privacy Policy",
+                alt: "Unique Garden Tech Cont LLC, Privacy Policy",
                 type: "image/jpeg",
             },
         ],
@@ -51,7 +51,7 @@ export default function PrivacyPolicy() {
                 <div className="image-content-wrapper">
                     <Image
                         src="/images/02-About-Us/About-Us-(Hero-Image).webp"
-                        alt="Unique Garden Tech — Privacy Policy"
+                        alt="Unique Garden Tech, Privacy Policy"
                         width={1920}
                         height={1080}
                         priority
@@ -124,16 +124,16 @@ export default function PrivacyPolicy() {
                         </p>
                         <ul>
                             <li>
-                                <strong>Full name</strong> — to address your enquiry personally
+                                <strong>Full name</strong>, to address your enquiry personally
                             </li>
                             <li>
-                                <strong>Email address</strong> — to send you a response and project-related communications
+                                <strong>Email address</strong>, to send you a response and project-related communications
                             </li>
                             <li>
-                                <strong>Phone number</strong> — to facilitate direct consultation where requested
+                                <strong>Phone number</strong>, to facilitate direct consultation where requested
                             </li>
                             <li>
-                                <strong>Message content</strong> — the details of your service enquiry or request
+                                <strong>Message content</strong>, the details of your service enquiry or request
                             </li>
                         </ul>
                         <p>
@@ -209,7 +209,7 @@ export default function PrivacyPolicy() {
                     <div id="section-3" className="legal-section">
                         <h2>3. Cookies</h2>
                         <p>
-                            Our Website uses cookies — small text files placed on your device by your browser when you visit the site. Cookies
+                            Our Website uses cookies, small text files placed on your device by your browser when you visit the site. Cookies
                             allow us to recognise your device and remember certain information about your visit, which helps us provide a better
                             experience.
                         </p>
@@ -223,7 +223,7 @@ export default function PrivacyPolicy() {
                             </li>
                             <li>
                                 <strong>Analytics cookies:</strong> Placed by Google Analytics to collect anonymised data about how visitors
-                                interact with our Website — including which pages are visited most often and where visitors navigate from. This
+                                interact with our Website, including which pages are visited most often and where visitors navigate from. This
                                 helps us understand and improve user experience.
                             </li>
                             <li>
@@ -236,7 +236,7 @@ export default function PrivacyPolicy() {
                         <p>
                             You may disable or delete cookies at any time through your browser settings. Please refer to your browser&apos;s
                             help documentation for instructions on how to manage cookies. Please be aware that disabling certain cookies —
-                            particularly essential cookies — may affect the functionality and usability of the Website.
+                            particularly essential cookies, may affect the functionality and usability of the Website.
                         </p>
                     </div>
 
@@ -264,7 +264,7 @@ export default function PrivacyPolicy() {
                         <h3>Google reCAPTCHA v3</h3>
                         <p>
                             Our contact form is protected by Google reCAPTCHA v3 to detect and prevent automated spam submissions. reCAPTCHA
-                            v3 operates invisibly — it does not require you to solve a puzzle or tick a checkbox. Instead, it analyses
+                            v3 operates invisibly, it does not require you to solve a puzzle or tick a checkbox. Instead, it analyses
                             hardware and software information, browsing behaviour, and interaction patterns to generate a risk score. This data
                             is sent to Google for analysis and is subject to{" "}
                             <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">

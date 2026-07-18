@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import OurProjects from "../components/OurProjects";
 import Testimonials from "../components/Testimonials";
@@ -9,7 +9,7 @@ const SITE_URL = "https://uniquegarden.ae/services";
 
 export const metadata: Metadata = {
     title: "Landscaping Services UAE | Softscape, Hardscape, Irrigation & More | Unique Garden Tech",
-    description: "Expert landscaping services across the UAE — softscape, hardscape, pergolas, irrigation systems, outdoor lighting, vertical gardens, pools, HVAC & MEP works. Get a free quote.",
+    description: "Expert landscaping services across the UAE, softscape, hardscape, pergolas, irrigation systems, outdoor lighting, vertical gardens, pools, HVAC & MEP works. Get a free quote.",
     keywords: [
         "landscaping services UAE",
         "softscape services Dubai",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         locale: "en_AE",
         url: SITE_URL,
         title: "Landscaping Services UAE | Softscape, Hardscape, Irrigation & More",
-        description: "From softscape and hardscape to irrigation, pergolas, and MEP works — discover Unique Garden Tech's full range of outdoor services across the UAE.",
+        description: "From softscape and hardscape to irrigation, pergolas, and MEP works, discover Unique Garden Tech's full range of outdoor services across the UAE.",
         siteName: "Unique Garden Tech Cont LLC",
         images: [{ url: "https://uniquegarden.ae/images/brand-logo.jpg", width: 1200, height: 630, alt: "Unique Garden Tech Services UAE", type: "image/jpeg" }],
     },
