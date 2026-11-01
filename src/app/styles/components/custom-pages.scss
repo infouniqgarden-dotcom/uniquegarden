@@ -340,8 +340,11 @@ main.contact-us-page {
             padding-top: var(--widget-spacing);
             border-top: 2px solid rgba(20, 20, 20, 0.1);
 
-            h3 {
+            // The section already has its own divider, so drop the article h2 divider/spacing
+            :is(h2, h3) {
                 margin-top: 0;
+                padding-top: 0;
+                border-top: none;
                 margin-bottom: 16px;
             }
 

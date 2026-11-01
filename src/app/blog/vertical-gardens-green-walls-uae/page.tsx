@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
@@ -406,6 +406,7 @@ export default function VerticalGardensGreenWallsUAE() {
 
             <section className="widget-wrapper bg related-posts-section">
                 <div className="text-content-wrapper">
+                    <p className="overline-3">Read Next</p>
                     <h2>Related Articles</h2>
                 </div>
                 <div className="related-posts-grid">

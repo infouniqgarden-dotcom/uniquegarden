@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
@@ -387,68 +387,69 @@ export default function PergolasOutdoorLivingUAE() {
                         </section>
                     </div>
                 </article>
+            </section>
 
-                <section className="related-posts-section widget-wrapper">
-                    <div className="text-content-wrapper">
-                        <h2>Related Articles</h2>
-                    </div>
-                    <div className="related-posts-grid">
-                        <Link href="/blog/softscape-vs-hardscape" className="blog-card">
-                            <div className="blog-card-content">
-                                <div className="blog-card-meta">
-                                    <span className="category-tag">Garden Design</span>
-                                </div>
-                                <div className="blog-card-title">
-                                    <h3>Softscape vs Hardscape: What&apos;s the Difference?</h3>
-                                </div>
-                                <div className="blog-card-footer">
-                                    <span className="read-more-link">
-                                        Read more{" "}
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
-                                    </span>
-                                </div>
+            <section className="widget-wrapper bg related-posts-section">
+                <div className="text-content-wrapper">
+                    <p className="overline-3">Read Next</p>
+                    <h2>Related Articles</h2>
+                </div>
+                <div className="related-posts-grid">
+                    <Link href="/blog/softscape-vs-hardscape" className="blog-card">
+                        <div className="blog-card-content">
+                            <div className="blog-card-meta">
+                                <span className="category-tag">Garden Design</span>
                             </div>
-                        </Link>
-                        <Link href="/blog/outdoor-lighting-uae-gardens" className="blog-card">
-                            <div className="blog-card-content">
-                                <div className="blog-card-meta">
-                                    <span className="category-tag">Garden Design</span>
-                                </div>
-                                <div className="blog-card-title">
-                                    <h3>Outdoor Lighting for UAE Gardens: 2025 Design Guide</h3>
-                                </div>
-                                <div className="blog-card-footer">
-                                    <span className="read-more-link">
-                                        Read more{" "}
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
-                                    </span>
-                                </div>
+                            <div className="blog-card-title">
+                                <h3>Softscape vs Hardscape: What&apos;s the Difference?</h3>
                             </div>
-                        </Link>
-                        <Link href="/blog/landscaping-cost-uae" className="blog-card">
-                            <div className="blog-card-content">
-                                <div className="blog-card-meta">
-                                    <span className="category-tag">Costs &amp; Planning</span>
-                                </div>
-                                <div className="blog-card-title">
-                                    <h3>How Much Does Landscaping Cost in the UAE?</h3>
-                                </div>
-                                <div className="blog-card-footer">
-                                    <span className="read-more-link">
-                                        Read more{" "}
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
-                                    </span>
-                                </div>
+                            <div className="blog-card-footer">
+                                <span className="read-more-link">
+                                    Read more{" "}
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                </span>
                             </div>
-                        </Link>
-                    </div>
-                </section>
+                        </div>
+                    </Link>
+                    <Link href="/blog/outdoor-lighting-uae-gardens" className="blog-card">
+                        <div className="blog-card-content">
+                            <div className="blog-card-meta">
+                                <span className="category-tag">Garden Design</span>
+                            </div>
+                            <div className="blog-card-title">
+                                <h3>Outdoor Lighting for UAE Gardens: 2025 Design Guide</h3>
+                            </div>
+                            <div className="blog-card-footer">
+                                <span className="read-more-link">
+                                    Read more{" "}
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </Link>
+                    <Link href="/blog/landscaping-cost-uae" className="blog-card">
+                        <div className="blog-card-content">
+                            <div className="blog-card-meta">
+                                <span className="category-tag">Costs &amp; Planning</span>
+                            </div>
+                            <div className="blog-card-title">
+                                <h3>How Much Does Landscaping Cost in the UAE?</h3>
+                            </div>
+                            <div className="blog-card-footer">
+                                <span className="read-more-link">
+                                    Read more{" "}
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
             </section>
 
             <RequestAQuote />
