@@ -63,7 +63,7 @@ export default function MeetOurTeam() {
                         <Image src="/images/02-About-Us/Team-Image-2.webp" alt="company team" width={1920} height={1080} sizes="(max-width: 768px) 100vw, 1080px" />
                     </div>
                     <div className="text-content-wrapper">
-                        <p className="h6">Civil Deparment</p>
+                        <p className="h6">Civil Department</p>
                         <p className="overline-3">Team Members</p>
                     </div>
                 </div>

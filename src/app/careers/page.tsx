@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import RequestAQuote from "../components/RequestAQuote";
@@ -141,7 +141,7 @@ export default function Careers() {
                                     </span>{" "}
                                     •{" "}
                                     <span>
-                                        <b>Skills:</b> Skills: Site supervision, AutoCAD, project scheduling, safety compliance
+                                        <b>Skills:</b> Site supervision, AutoCAD, project scheduling, safety compliance
                                     </span>
                                 </p>
                                 <p>

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
                 type: "image/jpeg",
             },
         ],
-        publishedTime: "2025-03-05T00:00:00.000Z",
+        publishedTime: "2026-07-14T00:00:00.000Z",
         authors: ["Gowtham A V"],
     },
 };
@@ -122,7 +122,7 @@ export default function GardenMaintenanceDubaiSummer() {
                         </a>
                         <span className="meta-dot">·</span>
                         <span className="meta-item">
-                            Last updated on March 5, 2025
+                            Last updated on July 14, 2026
                         </span>
                         <span className="meta-dot">·</span>
                         <span className="meta-item">7 min read</span>

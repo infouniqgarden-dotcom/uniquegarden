@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
@@ -37,8 +37,8 @@ export const metadata: Metadata = {
         type: "image/jpeg",
       },
     ],
-    publishedTime: "2025-02-08T00:00:00.000Z",
-    modifiedTime: "2025-02-08T00:00:00.000Z",
+    publishedTime: "2026-07-14T00:00:00.000Z",
+    modifiedTime: "2026-07-14T00:00:00.000Z",
     authors: ["Gowtham A V"],
   },
   twitter: {
@@ -129,7 +129,7 @@ export default function IrrigationSystemsUAE() {
               </span>
             </a>
             <span className="meta-dot">·</span>
-            <span className="meta-item">Last updated on February 8, 2025</span>
+            <span className="meta-item">Last updated on July 14, 2026</span>
             <span className="meta-dot">·</span>
             <span className="meta-item">7 min read</span>
           </div>

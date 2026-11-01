@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     alternates: { canonical: SITE_URL },
     openGraph: {
         type: "article",
+        publishedTime: "2026-07-18T00:00:00.000Z",
         locale: "en_AE",
         url: SITE_URL,
         title: "Vertical Gardens & Green Walls in UAE: Design, Cost & Maintenance Guide 2025",
@@ -71,7 +72,7 @@ export default function VerticalGardensGreenWallsUAE() {
                     <div className="blog-post-meta">
                         <span className="category-tag">Garden Design</span>
                         <span className="read-time">6 min read</span>
-                        <span className="post-date">July 12, 2025</span>
+                        <span className="post-date">July 18, 2026</span>
                     </div>
 
                     <div className="blog-author" style={{ display: "flex", alignItems: "center", gap: "12px", margin: "24px 0" }}>

@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     alternates: { canonical: SITE_URL },
     openGraph: {
         type: "article",
+        publishedTime: "2026-07-18T00:00:00.000Z",
         locale: "en_AE",
         url: SITE_URL,
         title: "Pergolas & Outdoor Shade Structures UAE: Types, Costs & Design Guide 2025",
@@ -71,7 +72,7 @@ export default function PergolasOutdoorLivingUAE() {
                     <div className="blog-post-meta">
                         <span className="category-tag">Garden Design</span>
                         <span className="read-time">7 min read</span>
-                        <span className="post-date">July 10, 2025</span>
+                        <span className="post-date">July 18, 2026</span>
                     </div>
 
                     <div

@@ -15,7 +15,7 @@ export const posts: BlogPost[] = [
         excerpt:
             "Artificial grass accounts for 40% of residential lawn installations in Dubai. But quality varies enormously and the wrong product turns your garden into a 75°C heat trap. Here is what to specify and what to avoid.",
         category: "Garden Design",
-        date: "July 15, 2025",
+        date: "July 18, 2026",
         readTime: 7,
     },
     {
@@ -24,7 +24,7 @@ export const posts: BlogPost[] = [
         excerpt:
             "Green walls reduce wall surface temperatures by up to 20°C, improve air quality, and solve the UAE's horizontal space problem. Here is how to design one that actually survives the Gulf climate.",
         category: "Garden Design",
-        date: "July 12, 2025",
+        date: "July 18, 2026",
         readTime: 6,
     },
     {
@@ -33,7 +33,7 @@ export const posts: BlogPost[] = [
         excerpt:
             "In a country where summer temperatures exceed 45°C, shade is not a luxury. Here is everything UAE homeowners need to know about pergola materials, costs, municipality approvals, and what actually works in the Gulf climate.",
         category: "Garden Design",
-        date: "July 10, 2025",
+        date: "July 18, 2026",
         readTime: 7,
     },
     {
@@ -42,7 +42,7 @@ export const posts: BlogPost[] = [
         excerpt:
             "A well-lit garden extends usable hours, improves security, and transforms how a property reads after dark. Here is how to specify outdoor lighting correctly for the UAE, with real cost data and DEWA wiring rules.",
         category: "Garden Design",
-        date: "July 1, 2025",
+        date: "July 18, 2026",
         readTime: 6,
     },
     {
@@ -51,7 +51,7 @@ export const posts: BlogPost[] = [
         excerpt:
             "Softscape, hardscape, irrigation, pools, costs vary widely across UAE. Here's a data-driven breakdown of what residential and commercial landscaping actually costs in Dubai and Sharjah.",
         category: "Costs & Planning",
-        date: "June 15, 2025",
+        date: "July 14, 2026",
         readTime: 7,
     },
     {
@@ -60,7 +60,7 @@ export const posts: BlogPost[] = [
         excerpt:
             "With summer temperatures hitting 48°C and soil that's mostly sand, plant selection makes or breaks a UAE garden. Here are the trees, shrubs, and groundcovers that genuinely survive.",
         category: "Plant Guide",
-        date: "May 10, 2025",
+        date: "July 14, 2026",
         readTime: 6,
     },
     {
@@ -69,7 +69,7 @@ export const posts: BlogPost[] = [
         excerpt:
             "Two terms every UAE homeowner hears when planning a garden. Understanding both helps you design smarter, budget accurately, and get a garden that works in the Gulf climate.",
         category: "Garden Design",
-        date: "April 20, 2025",
+        date: "July 14, 2026",
         readTime: 5,
     },
     {
@@ -78,7 +78,7 @@ export const posts: BlogPost[] = [
         excerpt:
             "From May to September, ground temperatures exceed 60°C. Without the right care strategy, even tough plants fail. Here's exactly what professional landscapers do to keep UAE gardens alive.",
         category: "Maintenance",
-        date: "March 5, 2025",
+        date: "July 14, 2026",
         readTime: 6,
     },
     {
@@ -87,7 +87,7 @@ export const posts: BlogPost[] = [
         excerpt:
             "The right irrigation system can cut water bills by 40–60% in UAE gardens. Here's how drip and sprinkler systems compare, with real cost data, smart controller options, and DEWA regulations.",
         category: "Irrigation",
-        date: "February 8, 2025",
+        date: "July 14, 2026",
         readTime: 7,
     },
 ];
