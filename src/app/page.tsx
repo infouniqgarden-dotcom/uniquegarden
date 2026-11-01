@@ -6,6 +6,7 @@ import Testimonials from "./components/Testimonials";
 import WhyChooseUs from "./components/WhyChooseUs";
 import RequestAQuote from "./components/RequestAQuote";
 import AboutCompany from "./components/AboutCompany";
+import LatestArticles from "./components/LatestArticles";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <OurServices />
             <WhyChooseUs />
             <OurProjects />
+            <LatestArticles />
             <Testimonials />
             <RequestAQuote />
         </main>
