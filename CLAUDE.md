@@ -6,7 +6,7 @@
 
 - **Framework:** Next.js 15.5 with App Router
 - **Language:** TypeScript (strict mode)
-- **Deployment:** Vercel (https://uniquegarden.vercel.app)
+- **Deployment:** Vercel — live at https://uniquegarden.ae (Vercel URL: https://uniquegarden-phi.vercel.app)
 
 ---
 

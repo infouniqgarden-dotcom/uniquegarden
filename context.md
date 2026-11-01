@@ -3,7 +3,7 @@
 ## Business Overview
 
 **Client:** Unique Garden Tech Cont. LLC
-**Website:** https://uniquegarden-phi.vercel.app
+**Website:** https://uniquegarden.ae
 **Region:** Dubai & Sharjah, United Arab Emirates
 
 Unique Garden is a professional contracting company specializing in outdoor and indoor environment services. The business targets residential and commercial clients across the UAE who need high-quality landscaping, garden design, or MEP (Mechanical, Electrical, Plumbing) solutions.
@@ -136,4 +136,4 @@ The Vercel deployment auto-deploys on push to `main`. Environment variables must
 ## Contact
 
 - **Admin Email:** info@uniquegarden.ae
-- **Deployment URL:** https://uniquegarden-phi.vercel.app
+- **Deployment URL:** https://uniquegarden.ae (Vercel URL: https://uniquegarden-phi.vercel.app)
